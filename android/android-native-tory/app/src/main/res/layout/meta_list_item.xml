@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="223dp"
+    android:layout_height="180dp"
+    android:layout_margin="5dp"
+    android:paddingVertical="@dimen/my_page_write_item_padding_vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/meta_image"
+        android:layout_width="223dp"
+        android:layout_height="140dp"
+        android:background="@drawable/meta_cau"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/meta_link"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/img_link"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/meta_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_font_16"
+        android:textColor="@color/tory_black"
+        android:fontFamily="@font/noto_sans_semi_bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/meta_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="중앙대학교"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/campus_enter"
+        android:layout_width="68dp"
+        android:layout_height="32dp"
+        android:text="@string/enter_comment"
+        android:textSize="@dimen/common_text_font_14"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:textColor="@color/tory_white"
+        android:fontFamily="@font/noto_sans_regular"
+        android:background="@drawable/compus_enter_bg"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

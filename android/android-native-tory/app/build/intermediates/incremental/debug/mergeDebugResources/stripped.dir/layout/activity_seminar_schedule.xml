@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tory_white"
+    android:paddingHorizontal="@dimen/common_padding_horizontal"
+    tools:context=".seminar.activity.SeminarScheduleActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_page_top_bar_height"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:scaleType="center"
+            android:src="@drawable/icon_back"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="일정"
+            android:textSize="@dimen/common_top_bar_title_font_size"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:layout_constraintLeft_toRightOf="@id/ivBack"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topLayout">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtToday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:text="23.05.30"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/tory_purple"
+            android:fontFamily="@font/noto_sans_regular"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtToday"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:text="오늘"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/img_before_day"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginRight="42dp"
+            android:background="@drawable/img_before_day"
+            app:layout_constraintRight_toLeftOf="@id/txtToday"
+            app:layout_constraintTop_toTopOf="@id/txtToday"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/img_next_day"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="42dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/img_next_day"
+            app:layout_constraintLeft_toRightOf="@id/txtToday"
+            app:layout_constraintTop_toTopOf="@id/txtToday"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/mileage_layout_top_margin"
+        app:layout_constraintTop_toBottomOf="@id/date_layout"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tory_white"
+            tools:listitem="@layout/today_serminar_list_item"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/emptyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="등록된 세미나가 없습니다."
+            android:textSize="@dimen/my_page_write_item_font_size"
+            android:textColor="@color/tory_gray_03"
+            android:fontFamily="@font/noto_sans_regular"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

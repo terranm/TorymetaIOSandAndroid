@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">913142324444-4kkpk3nf2jrt77t0v7dnhgapktunnuo1.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">913142324444</string>
+    <string name="google_api_key" translatable="false">AIzaSyC49TJ_ihjD03w3_-Re3ag8hLvp8dwFe6U</string>
+    <string name="google_app_id" translatable="false">1:913142324444:android:411ce44a47f32e102be819</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC49TJ_ihjD03w3_-Re3ag8hLvp8dwFe6U</string>
+    <string name="google_storage_bucket" translatable="false">torymeta.appspot.com</string>
+    <string name="project_id" translatable="false">torymeta</string>
+</resources>

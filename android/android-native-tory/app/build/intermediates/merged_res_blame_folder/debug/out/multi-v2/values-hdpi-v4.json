@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tnmeta.torymeta.app-mergeDebugResources-102:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/tnmeta_yjk/.gradle/caches/transforms-3/a3dd00172b97c6d171801c966248cad1/transformed/appcompat-1.5.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

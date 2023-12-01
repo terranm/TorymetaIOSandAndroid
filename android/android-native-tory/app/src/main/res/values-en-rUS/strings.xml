@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Torymeta</string>
+
+    <!-- fcm -->
+    <string name="notification_default_channel_id">fcm_default_channel</string>
+    <string name="notification_default_channel_name">General</string>
+
+    <string name="main_tab_nft">NFT</string>
+    <string name="main_tab_campus">Campus</string>
+    <string name="main_tab_game">Game</string>
+    <string name="main_tab_mymenu">My Menu</string>
+
+    <!-- system -->
+    <string name="system_alert_exit_app">press the back button again to exit.</string>
+    <string name="system_alert_permission_denied">permission denied. \nPlease enable the required permissions in Settings>\nApplication Info>Torymeta>Permissions and try again.</string>
+    <string name="location_permission_denied">Location permission is required.\nPlease enable location permission</string>
+
+    <string name="system_alert_btn_ok">OK</string>
+    <string name="system_alert_btn_cancel">Cancel</string>
+    <string name="system_alert_btn_close">Close</string>
+
+    <string name="system_alert_update">Please update to the latest version\nfor stable service</string>
+    <string name="system_alert_update_btn_cancel">Next</string>
+    <string name="system_alert_update_btn_update">Update</string>
+
+    <string name="system_alert_network_error_restart">Network connection is unstable.\nPlease check your network and restart the app</string>
+    <string name="system_alert_network_warning">Network connection is unstable and data\ncould not be loaded.</string>
+
+    <string name="system_alert_seminar_not_started">The seminar has not started yet.</string>
+    <string name="system_alert_seminar_finished">The seminar has already ended.</string>
+
+    <!-- 온보딩 -->
+    <string name="onboarding_header_01">What\'s happening\non campus today?</string>
+    <string name="onboarding_header_02">Collect mileage to enjoy\nvarious activities</string>
+    <string name="onboarding_header_03">Experience a campus life that transcends\nreality and the metaverse!</string>
+
+    <string name="onboarding_desc_01">share your status and location with friends,\ncreate and join gatherings, and collect points based on your activities</string>
+    <string name="onboarding_desc_02">collect mileage through\ncampus activities and use them in NFTS!.</string>
+    <string name="onboarding_desc_03">explore both the real and metaverse campuses,\nenjoy various content with friends,\nand don\'t miss out on various events!</string>
+
+    <string name="onboarding_btn_start">Start</string>
+    <string name="onboarding_btn_login">Log in</string>
+    <string name="onboarding_account_info">Already have an account?</string>
+
+    <!-- 학교 선택 -->
+    <string name="university_select_title">select school</string>
+    <string name="university_select_desc_01">please select your university</string>
+    <string name="university_select_desc_02">select university</string>
+    <string name="university_select_btn_complete">complete</string>
+
+    <!-- 캠퍼스 -->
+    <string name="campus_title_torytalk">ToryTalk</string>
+    <string name="campus_title_together">Together</string>
+    <string name="campus_title_schoolmeal">Today\'s school meal</string>
+    <string name="campus_title_school">campus events</string>
+
+    <string name="campus_visit_select_title">select your school</string>
+
+    <string name="marker_detail_location_off">Turn Off\nLocation Sharing</string>
+
+    <string name="campus_board_title_market">Tory Market</string>
+    <string name="campus_board_title_gather">Gather</string>
+    <string name="campus_board_title_talk">Talk</string>
+    <string name="campus_board_title_help">Help</string>
+
+    <!-- 마이 페이지 -->
+    <string name="my_page_title">My account</string>
+    <string name="my_page_point_format">%d tory</string>
+    <string name="my_page_point_format_01">%1$s tory</string>
+    <string name="my_page_mileage_format">%d M</string>
+    <string name="my_page_mileage_format_01">%1$s M</string>
+    <string name="my_page_tory_point_info_title">what is Tory?</string>
+    <string name="my_page_tory_point_info_desc">A cash amount deposited in advance that can be used\nfor purchasing products on Torymeta\n(valid for 5 years after charging)</string>
+    <string name="my_page_mileage_info_title">what is mileage?</string>
+    <string name="my_page_mileage_info_desc">the amount given for free by participating\nin events and missions on Torymeta\n(non-refudable/ valid for 1 year from the data of issuance)</string>
+
+    <string name="my_page_write_title">my posts</string>
+    <string name="my_page_comment_title">my comments</string>
+
+
+    <!-- 마이 페이지 - 토리 충전 -->
+    <string name="shop_title">Recharge Tory</string>
+    <string name="shop_my_point_title">My Tory assets</string>
+    <string name="shop_item_name_title">cash balance</string>
+    <string name="shop_item_price_title">payment amount</string>
+    <string name="shop_point_info_title">user guide</string>
+    <string name="shop_point_info_desc">· Tory Is valid for 5 years after charging.\nFor refund inquiries,\nplease contact Torymeta customer center.</string>
+
+    <!-- 마이 페이지 - 프로필 -->
+    <string name="profile_title">profile settings</string>
+    <string name="profile_change_title">change profile</string>
+    <string name="profile_change_sheet_btn_camera">camera</string>
+    <string name="profile_change_sheet_btn_album">album photo</string>
+    <string name="profile_change_sheet_btn_nft">nft collection photo</string>
+    <string name="profile_change_sheet_btn_default">default profile</string>
+    <string name="profile_change_sheet_btn_cancel">cancel</string>
+    <string name="my_page_image_collection_empty">no photo to choose from</string>
+
+    <!-- 마이 페이지 - 내가 쓴 글 -->
+    <string name="my_page_write_emtpy">no posts yet</string>
+    <string name="my_page_comment_emtpy">no comments yet</string>
+
+    <!-- 마이 페이지 - 설정 - 로그인/알림설정 -->
+    <string name="notification_setting_title">Login / notification settings</string>
+    <string name="notification_setting_login_title">login settings</string>
+    <string name="notification_setting_auto_login">auto login</string>
+    <string name="notification_setting_noti_title">events and benefit notification settings</string>
+    <string name="notification_setting_event_push">APP PUSH</string>
+    <string name="notification_setting_event_email">E-mail / SMS</string>
+    <string name="notification_setting_event_sms">SMS</string>
+
+    <!-- 토리톡 -->
+    <string name="friend_alert_send_request">sent a friend request to %s</string>
+    <string name="friend_alert_accept">%s has been added as a friend</string>
+
+    <string name="friend_alert_delete_title">delete friend</string>
+    <string name="friend_alert_delete_msg">\If you delete friend %s,\nyour information will also be deleted\nfrom their friend list</string>
+    <string name="friend_alert_delete_btn">delete</string>
+
+    <string name="friend_alert_block_title">Block Friend</string>
+    <string name="friend_alert_block_msg">\If you block "%s," you won\'t be able \nto send messages or share your location with them.\nAre you sure you want to block them?</string>
+    <string name="friend_alert_block_btn">Block</string>
+    <string name="friend_alert_unblock_btn">Unblock</string>
+
+    <string name="tory_talk_title">Tory Talk</string>
+    <string name="tory_talk_friend_list_title">Friend List</string>
+    <string name="tory_talk_chat_list_title">Chat List</string>
+
+    <string name="friend_list_title_new">New Friends</string>
+    <string name="friend_list_title_request">Friend Requests</string>
+    <string name="friend_list_title_campus">Campus Friends</string>
+    <string name="friend_list_title_unknown_location">Friends with Unknown Location</string>
+    <string name="friend_list_title_block">Blocked Friends</string>
+    <string name="friend_list_block">Blocked Friends List</string>
+
+    <string name="friend_cell_send_request">Send Request</string>
+    <string name="friend_cell_send_request_complete">Request Sent</string>
+    <string name="friend_cell_accept">Accept</string>
+    <string name="friend_cell_unblock">Unblock</string>
+
+    <string name="friend_detail_nft_list_title">Recently Added NFTs</string>
+    <string name="friend_detail_nft_list_empty">No NFT collection list available</string>
+    <string name="friend_detail_btn_call">Call</string>
+    <string name="friend_detail_btn_chat">Chat</string>
+
+    <string name="friend_search_title">Friend Search</string>
+    <string name="friend_search_hint">Enter friend profile name or phone number</string>
+
+    <string name="attendance_check">Go to Attendance Check</string>
+    <string name="not_seen_for_a_week">Not Seen in a Week</string>
+    <string name="close">Close</string>
+    <string name="tutorial_close">Don\'t Show Again</string>
+
+    <string name="auto_login_on">Auto Login Enabled</string>
+    <string name="auto_login_off">Auto Login Disabled</string>
+    <string name="push_receive_on">Opted in for Push Notifications</string>
+    <string name="push_receive_off">Opted out of Push Notifications</string>
+    <string name="email_receive_on">Opted in for Email/SMS</string>
+    <string name="email_receive_off">Opted out of Email/SMS</string>
+
+    <string name="tory_point_title_history">Tory History</string>
+    <string name="tory_my_point">My Tory Points</string>
+
+    <string name="mileage_point_title_history">Mileage History</string>
+    <string name="mileage_my_point">My Mileage Points</string>
+    <string name="mileage_point_transaction_empty">No transaction history available</string>
+    <string name="charge_point_empty">No Tory charging history available</string>
+    <string name="charge_history">Charging History</string>
+    <string name="transaction_history">Transaction History</string>
+
+    <string name="period_one_week">1 Week</string>
+    <string name="period_one_month">1 Month</string>
+    <string name="period_six_month">6 Months</string>
+    <string name="period_one_year">1 Year</string>
+    <string name="period_total">All</string>
+
+    <string name="query_period_one_week">1w</string>
+    <string name="query_period_one_month">1m</string>
+    <string name="query_period_six_month">6m</string>
+    <string name="query_period_one_year">1y</string>
+    <string name="query_period_all">all</string>
+
+    <string name="date">Date</string>
+    <string name="history">History</string>
+    <string name="add">Add</string>
+    <string name="subtract">Subtract</string>
+    <string name="validity_date">Validity Date</string>
+
+    <string name="point_add_format">Earned %1$s</string>
+    <string name="point_subtract_format">Deducted %1$s</string>
+    <string name="expire_time_format">Expires on %1$s</string>
+    <string name="tory_charge_format">++Tory Charge %1$s</string>
+    <string name="tory_refund_format">-Refund %1$s</string>
+
+    <string name="event_on_title">EVENT ON</string>
+    <string name="game_title">Game</string>
+    <string name="next">Next</string>
+
+    <string name="network_error_message">Please check your network connection.</string>
+    <string name="str_comfirm">Confirm</string>
+    <string name="str_cancel">Cancel</string>
+
+    <string name="permission_title">App Access Permissions</string>
+    <string name="permission_desc">To use Tory Meta services,\nthe following permissions are required:</string>
+    <string name="permission_location_title">Location (Required)</string>
+    <string name="permission_location_desc">Confirming access to the service (university) area and checking my location.</string>
+    <string name="permission_record_title">Microphone (Optional)</string>
+    <string name="permission_record_desc">Access when shooting and uploading videos.</string>
+    <string name="permission_body_sensor_title">Physical Activity (Optional)</string>
+    <string name="permission_body_sensor_desc">Measure the user\'s movement.</string>
+    <string name="permission_camera_title">Camera (Optional)</string>
+    <string name="permission_camera_desc">Take photos and videos.</string>
+    <string name="permission_photo_album_title">Photos (Optional)</string>
+    <string name="permission_photo_album_desc">Upload photos and videos.</string>
+    <string name="permission_phonebook_title">Contacts (Optional)</string>
+    <string name="permission_phonebook_desc">Access to retrieve Tory Talk\'s friend list.</string>
+
+    <string name="permission_notice_title">Notification (Optional)</string>
+    <string name="permission_notice_desc">Permission for notifications such as announcements and chat features</string>
+
+
+    <string name="permission_comment_01">· You can still use the app even if you do not grant permission,\nbut there may be restrictions on some services.</string>
+    <string name="permission_comment_02">· You can change each permission in\n‘Settings > Applications > Tory Meta > Permissions’.</string>
+
+    <string name="str_permission_message">Please allow the required permissions for app execution.</string>
+
+    <string name="pedometer_title">Pedometer</string>
+    <string name="pedometer_step_title">Campus Pedometer</string>
+    <string name="campus_inner_title">Campus Interior</string>
+    <string name="campus_out_title">Campus Exterior</string>
+    <string name="now_step_title">Current Step Count</string>
+    <string name="steps_per_total">/ %1$s steps</string>
+    <string name="steps_per_max">%1$s steps</string>
+    <string name="steps_per_reward">Receive %1$sM</string>
+    <string name="steps_receive_reward">Received %1$sM</string>
+    <string name="milage_alert_title">Mileage Reward</string>
+    <string name="steps_not_fill_message">You have not reached(filled)\nthe step count yet.</string>
+    <string name="steps_step_reward_message">You have obtained %1$sM\nin the reward area for step count.</string>
+
+    <string name="notification_channel_name">Info</string>
+    <string name="notification_channel_description">Regular Updates</string>
+    <string name="notification_title">@string/app_name</string>
+    <string name="notification_content">Tory Meta is retrieving the latest step count.</string>
+    <string name="app_setting_open">Open Settings</string>
+
+
+    <!--chatting -->
+    <string name="chatting_room_accuse">Report</string>
+    <string name="chatting_room_exit">Exit Chat Room</string>
+    <string name="friend_invite">Invite Friends</string>
+    <string name="unblock_friend_title_msg">If you unblock the friend "%s",\nyou will be taken to the friend list.\nUnblock?</string>
+    <string name="chatting_input_hint">Enter a message.</string>
+
+    <!--외부 SDK key -->
+    <string name="naver_map_client">94b7drz84s</string>
+
+    <string name="map_title_event">Event</string>
+    <string name="campus_select">Select University</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="avatar_title">Avatar</string>
+    <string name="avatar_select_message">Please select an avatar.</string>
+    <string name="avatar_select_detail_message">You can change it in the character settings.</string>
+    <string name="welcome_message">Welcome to Tory Meta.</string>
+    <string name="welcome_detail">Touch the + icon below to create your own avatar.</string>
+    <string name="main_menu_campus">Campus</string>
+    <string name="main_menu_seminar">Seminar</string>
+    <string name="notice_title">Notices</string>
+    <string name="notice_more">More</string>
+    <string name="empty_notice">No notices available.</string>
+
+    <!--
+    <string name="seminar_title">세미나 정보</string>
+    -->
+
+    <string name="avatar_select_comfirm_message">Do you want to use the current avatar?</string>
+    <string name="chatting_lounge">Chat Lounge</string>
+    <string name="more_detail">More</string>
+    <string name="live_seminar">LIVE Seminar</string>
+    <string name="seminar_create">Create Seminar</string>
+    <string name="seminar_comment">Build knowledge through various seminars!</string>
+    <string name="room_create">Create</string>
+    <string name="recommend_meta">Recommended Meta</string>
+    <string name="event">Event</string>
+    <string name="campus_net_title">2D Campus &amp; NFT</string>
+    <string name="enter_comment">Enter</string>
+    <string name="visit_comment">Visit</string>
+    <string name="nft_detail_comment">Sell your artwork and\nbuy artwork.</string>
+    <string name="campus_detail_comment">Enjoy with friends\nin location-based campus.</string>
+    <string name="tory_lounge">TORY LOUNGE</string>
+    <string name="seminiar_detail_view">View Details</string>
+
+    <string name="seminar_create_message">Would you like to apply for participation\nin this seminar?</string>
+
+    <string name="seminar_open_seminar_empty">No related seminars found.\nTry creating your own seminar.</string>
+    <string name="seminar_search_seminar_empty">No related seminars found.\nTry creating your own seminar.</string>
+    <string name="chatting_lounge_empty">No registered chat lists.</string>
+    <string name="certification_message">You need to be certified by\nthe university to enter.</string>
+
+    <string name="seminar_cancel_message">Do you want to cancel seminar registration??</string>
+    <string name="seminar_cancel_detail_message">※ Additional registration is\nnot possible after the seminar starts.</string>
+    <string name="seminar_apply_cancel">No</string>
+    <string name="seminar_cancel_yes">Yes</string>
+
+    <string name="seminar_apply_success_message">Seminar participation application completed.</string>
+    <string name="seminar_apply_success_detail_message">※ Notification will be sent 10 minutes\nbefore the seminar starts.</string>
+
+    <string name="secret_seminar_apply_success_message">Secret seminar participation\napplication completed.</string>
+    <string name="secret_seminar_apply_success_message_detail">※ The password will be revealed 10 minutes before the seminar starts.\nYou can check it on the [Seminar Room Schedule] > [Participate] page.</string>
+    <string name="seminar_apply">Apply</string>
+    <string name="seminar_participate">Participate</string>
+    <string name="seminar_text_title">Seminar Name</string>
+    <string name="seminar_desc">Seminar Description</string>
+    <string name="seminar_teacher">Seminar Instructor</string>
+    <string name="seminar_schedule">Seminar Schedule</string>
+    <string name="seminar_participation">Participants</string>
+    <string name="seminar_participation_desc">(applicant / Capacity)</string>
+
+    <string name="avatar_profile_name_empty">Profile name not entered.\nPlease enter a name.</string>
+    <string name="profile_name_change_success">Profile name changed successfully</string>
+    <string name="seminar_end_message">The seminar has ended \nand entry is not possible.</string>
+
+    <string name="seminar_delete_message">Are you sure you want to delete\nthe created seminar?</string>
+    <string name="seminar_delete_complete_message">Successfully deleted</string>
+
+    <string name="seminar_center_title">Seminar Center</string>
+    <string name="search_hint_message">Type to search</string>
+    <string name="seminar_tutorial_title">Seminar User Manual</string>
+
+    <string name="status_now">In Progress</string>
+    <string name="status_end">Ended</string>
+    <string name="status_before">waiting</string>
+
+    <string name="seminar_empty_message">There are no ongoing seminars.</string>
+    <string name="seminar_create_cancel">Do you want to cancel the seminar\ncreation request?</string>
+    <string name="seminar_create_success_message">Seminar creation request has been\ncompleted.</string>
+    <string name="seminar_create_success_detail_message">※ The decision to approve the seminar will be made after reviewing the materials.\n※ You can check the registration information in [Seminar Room].</string>
+
+    <string name="avatar_profile_title">Change Profile Name</string>
+    <string name="avatar_profile_message">Please enter a profile name within 8 characters\nusing Korean, numbers, and English.</string>
+    <string name="avatar_profile_change">Change</string>
+
+    <string name="seminar_enter">Enter Seminar</string>
+
+    <string name="seminar_approve">Approve</string>
+    <string name="seminar_reject">Reject</string>
+    <string name="seminar_before">waiting</string>
+    <string name="seminar_now">In Progress</string>
+    <string name="seminar_end">Ended</string>
+    <string name="modify_information">Modify Information</string>
+    <string name="start_seminar">Start Seminar</string>
+
+    <string name="seminar_create_title">Create Seminar Room</string>
+    <string name="seminar_title">Seminar Title</string>
+    <string name="seminar_title_hint">Enter the seminar title.</string>
+    <string name="require_value">(Required)</string>
+    <string name="seminar_desc_title">Seminar Description</string>
+    <string name="seminar_desc_hint">Enter the seminar description.</string>
+    <string name="select_value">(Optional)</string>
+    <string name="seminar_teacher_title">Instructor Name</string>
+    <string name="seminar_teacher_title_hint">Enter the name</string>
+    <string name="seminar_url_title">Video URL</string>
+    <string name="seminar_url_title_hint">Enter the URL path.</string>
+    <string name="seminar_etc_title">Other Settings</string>
+    <string name="seminar_start_title">Seminar Start</string>
+    <string name="seminar_end_title">Seminar End</string>
+    <string name="seminar_date_comment">※ Set as Day 1</string>
+    <string name="seminar_open_title">Seminar Public On/Off</string>
+    <string name="seminar_room_select_title">Select Seminar Room</string>
+    <string name="seminar_rootm_select_comment">(Small 15 people / Medium 50 people / Large 100 people)</string>
+    <string name="seminar_room_total">Total</string>
+    <string name="seminar_room_small_title">Small</string>
+    <string name="seminar_room_middle_title">Medium</string>
+    <string name="seminar_room_large_title">Large</string>
+    <string name="modify_title">Modify</string>
+
+    <string name="regist_seminar_empty">No registered seminars.</string>
+
+    <string name="secret_seminar_participation_message">private seminar participation request\nhas been completed</string>
+    <string name="seminar_password_open_comment">The password will be revealed 10 minutes before the seminar starts</string>
+    <string name="today_seminar_empty_message">There is no seminar scheduled for today.</string>
+
+    <string name="my_page_history_check">Check History</string>
+    <string name="total_tory">Total Tory</string>
+    <string name="total_mileage">Total Mileage</string>
+
+    <string name="my_position_share_message">Your location has been shared</string>
+    <string name="my_position_not_share_message">Your location has been removed</string>
+
+    <string name="search_title">Search</string>
+    <string name="search_input_hint">type to search</string>
+    <string name="search_result">Search Results</string>
+    <string name="search_result_count">Results Found: %d</string>
+
+    <!-- 2023.07.20 -->
+    <string name="seminar_today">today\'s seminar</string>
+    <string name="seminar_next">next scheduled seminar</string>
+    <string name="my_seminar_title">MY seminar</string>
+    <string name="schedule_title">schedule</string>
+
+    <string name="password_dialog_title">[private seminar] enter password</string>
+    <string name="password_title">password</string>
+    <string name="password_input_hint">please enter the password.</string>
+    <string name="password_title_comfirm">password confirmation</string>
+    <string name="password_re_enter">re-enter password</string>
+    <string name="seminar_status_end">end seminar</string>
+    <string name="seminar_already_participate">this is the seminar you applied for</string>
+    <string name="seminar_modify_cancel_message">if you leave the page now,\nyour changes will not be saved</string>
+    <string name="seminar_modify_update_message">do you want to proceed with\nthe modifications?</string>
+    <string name="seminar_modify_success_message">modification\nis completed</string>
+    <string name="seminar_enter_ask_message">do you wish to enter to\nselected seminar room?</string>
+
+    <string name="seminar_room_small_count">(18 people)</string>
+    <string name="seminar_room_middle_count">(32 people)</string>
+    <string name="seminar_room_large_count">(50 people)</string>
+    <string name="seminar_room_count_title">number of seminar rooms</string>
+    <string name="seminar_room_notice_messsage">※ this is a required input value</string>
+    <string name="seminar_room_capacity_count">capacity of one seminar room</string>
+    <string name="seminar_total_room_capacity_count">total capacity</string>
+    <string name="seminar_create_info_message_01">*maximum capacity: 200 people</string>
+    <string name="seminar_create_info_message_02">*if you need to modify seminar information,\nplease proceed individually in [MY Seminars]>[Create Seminars}</string>
+    <string name="seminar_room_select_message">please select a seminar room</string>
+    <string name="seminar_live_not_allow">private seminars are only accessible to\npre-registered participants</string>
+    <string name="seminar_participate_message">do you wish to apply for\nthe seminar?</string>
+    <string name="seminar_secret_before_message">you can enter the seminar room\nfrom the start time of the lecture</string>
+
+    <string name="chatting_join_request_message">%s wants to participate</string>
+    <string name="chatting_join_accept">accept</string>
+    <string name="chatting_join_reject">reject</string>
+
+    <string name="chatting_room_title_hint">please enter the title of the chat room you want to create</string>
+    <string name="chatting_room_desc_hint">please enter an introduction for the chat room</string>
+
+    <string name="total_count_text">all %1$s</string>
+
+    <string name="room_count_text">%1$s</string>
+    <string name="people_total_count_text">%1$s people</string>
+    <string name="modeify">edit</string>
+    <string name="my">MY</string>
+    <string name="text_password_title">password:</string>
+    <string name="input_password_error_message">the entered password is incorrect.\nPlease try again</string>
+    <string name="university_uncertified">uncertified university</string>
+    <string name="seminar_search_init_message">please search for seminars</string>
+    <string name="seminar_search_empty_message">no search results found</string>
+
+    <string name="seminar_apply_title">applied seminars</string>
+    <string name="seminar_participation_title">create seminar room</string>
+    <string name="seminar_date_format">date: %s~%s</string>
+    <string name="chatting_introduce">room introduction</string>
+    <string name="open_is_private">public status</string>
+    <string name="chatting_open">public</string>
+    <string name="chatting_private">private</string>
+    <string name="chatting_room_make">create room</string>
+    <string name="chatting_room_make_title">open chat room</string>
+    <string name="chatting_room_title">Title</string>
+    <string name="chatting_room_password">Password</string>
+    <string name="chatting_room_password_hint">within 6 digits</string>
+    <string name="chatting_room_password_comfirm">password confirmation</string>
+    <string name="chatting_room_password_comfirm_message">check your password.</string>
+    <string name="chatting_room_password_message">※ password matches.</string>
+    <string name="chatting_room_password_error_message">※ Passwords do not match.</string>
+
+
+    <string name="seminar_subScription_empty">there are no scheduled seminars you applied for</string>
+    <string name="seminar_end_message_01">the seminar has ended</string>
+    <string name="live_seminar_empty_message">there are no ongoing seminars at the moment</string>
+    <string name="seminar_modify_title">modify seminar title</string>
+    <string name="password_open_comment">the password is immediately exposed after you created it</string>
+
+    <string name="select_date_error">The selected date is earlier than\nthe current date.\nPlease choose again.</string>
+    <string name="select_time_error">The selected time is earlier than\nthe current time.\nPlease choose again.</string>
+    <string name="select_end_time_error">The selected time is earlier than\nthe start time.\nPlease choose again.</string>
+
+    <string name="avatar_category_hair">Hair</string>
+    <string name="avatar_category_face">Decorate</string>
+    <string name="avatar_category_top">Top</string>
+    <string name="avatar_category_bottom">Bottom</string>
+    <string name="avatar_category_shoes">Shoes</string>
+    <string name="save">Save</string>
+
+    <string name="avatar_reset_message">Unlocks all currently equipped items.\nDo you want to  reset?</string>
+    <string name="avatar_select_category_change">Your avatar will be changed with\nthe currently worn items.\n\nWould you like to save the avatar outfit?</string>
+    <string name="category_buy_success">Purchase completed.</string>
+    <string name="category_chage_save_success">Saved successfully.</string>
+
+    <string name="participantMenu_kick">Eject</string>
+    <string name="participantMenu_mandate">Transfer Host</string>
+    <string name="participantMenu_silence">Mute</string>
+    <string name="participantMenu_friend_request">Friend Request</string>
+    <string name="participantMenu_warning">Warn</string>
+    <string name="participantMenu_report">Report</string>
+
+    <string name="chatring_room_enter">Enter</string>
+    <string name="chatting_open_list">List of open chat rooms</string>
+    <string name="chatting_total">All</string>
+    <string name="chatting_available">Available to attend</string>
+
+    <string name="chatting_room_empty_message">There are no open chat rooms.</string>
+    <string name="avatar_make_message">Make your own avatar.</string>
+
+    <string name="chatting_participants">Participants</string>
+    <string name="torytalk_friend">Tory Talk friend</string>
+    <string name="empty_friends_message">There is no friend list.</string>
+    <string name="chattingroom_empty_message">There are no open chat rooms.</string>
+    <string name="chatting_invite">invitation </string>
+
+    <string name="seminar_url_tooltip">※ Only URLs converted from mp4 files can be registered.</string>
+    <string name="hide_for_the_day">Stop viewing today</string>
+
+    <string name="lecture_login_title">Sign in to campus language course</string>
+
+    <string name="my_lecture_room_title">My classroom</string>
+    <string name="id">ID</string>
+    <string name="password_hint">8 or more english, digits, special characters</string>
+    <string name="certification">Authentication</string>
+    <string name="certification_notice_message">※ You will need to verify your identity for the first time and use your on-campus language course account.</string>
+
+    <string name="video_play_list_title">Lesson List</string>
+    <string name="video_notice_message">※※ The above video is prohibited from unauthorized capture, recording, and distribution under copyright law, and violations may result in legal sanctions.</string>
+
+    <string name="subject_title">Lesson name:</string>
+    <string name="video_play_error">Video not playing</string>
+    <string name="video_play_error_detail">There was an unknown error.</string>
+    <string name="attendance_rate">Progress rate</string>
+    <string name="progress_rate">attendance rate</string>
+
+    <string name="chatting_room_list_title">List of open chat rooms</string>
+    <string name="chatting_room_filter_all">All</string>
+    <string name="chatting_room_filter_open">Open</string>
+    <string name="chatting_room_filter_private">Private</string>
+
+    <string name="avatar_sort_filter">Filter</string>
+    <string name="avatar_sort_done">done</string>
+    <string name="avatar_sort">Sort</string>
+    <string name="avatar_sort_default">Default sorting</string>
+    <string name="avatar_sort_popular">Popularity</string>
+    <string name="avatar_sort_price_desc">Descending price</string>
+    <string name="avatar_sort_price_asc">Ascending price</string>
+
+</resources>

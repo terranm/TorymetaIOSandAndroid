@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/tory_white">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/topLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_top_bar_margin_top"
+                android:paddingHorizontal="@dimen/common_padding_horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:background="@drawable/torymeta_logo"
+                    android:includeFontPadding="false"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imgTalk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:background="@drawable/torymeta_talk"
+                    app:layout_constraintHorizontal_chainStyle="spread"
+                    app:layout_constraintDimensionRatio="1:1.1129"
+                    app:layout_constraintRight_toLeftOf="@id/imgAlarm"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imgAlarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/my_page_btn_notice"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintRight_toLeftOf="@id/imgMymenu"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imgMymenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_my_menu"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:fillViewport="true"
+                android:layout_marginTop="4dp"
+                app:layout_constraintTop_toBottomOf="@id/topLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/layout_coordinator"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/main_top_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="284dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/welcome_layout"
+                            android:visibility="visible"
+                            android:paddingHorizontal="@dimen/common_padding_horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/welcome_message"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/welcome_message"
+                                android:textSize="@dimen/common_text_font_24"
+                                android:textColor="@color/tory_black"
+                                android:fontFamily="@font/noto_sans_semi_bold"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/welcome_detail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/welcome_detail"
+                                android:textSize="@dimen/common_text_font_12"
+                                android:textColor="@color/tory_black"
+                                android:fontFamily="@font/noto_sans_regular"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/welcome_message" />
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/add_avatar"
+                                android:layout_width="match_parent"
+                                android:layout_height="160dp"
+                                android:clickable="true"
+                                android:background="@drawable/common_corner_small_stroke_purple"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent">
+
+                                <androidx.appcompat.widget.AppCompatImageView
+                                    android:id="@+id/imgAdd"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp"
+                                    android:gravity="left|center_vertical"
+                                    android:background="@drawable/icon_add"
+                                    android:includeFontPadding="false"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    app:layout_constraintBottom_toBottomOf="parent"/>
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/avatar_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/unity_layout"
+                                android:visibility="invisible"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <com.tnmeta.torymeta.control.unity.UnityContainer
+                                    android:id="@+id/unity"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:background="@color/tory_white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHeight_percent="1.0"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"/>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:minWidth="45dp"
+                                    android:maxWidth="120dp"
+                                    android:layout_height="24dp"
+                                    android:background="@drawable/common_corner_circle_stroke_gray_d9"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginLeft="19dp"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent">
+                                    <androidx.appcompat.widget.AppCompatImageView
+                                        android:id="@+id/icon_tory_point"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/icon_torypoint"
+                                        android:layout_margin="4dp"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:layout_constraintLeft_toLeftOf="parent"
+                                        app:layout_constraintBottom_toBottomOf="parent"/>
+                                    <androidx.appcompat.widget.AppCompatTextView
+                                        android:id="@+id/my_tory_point"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:textColor="@color/gray6"
+                                        android:textSize="@dimen/common_text_font_12"
+                                        android:maxLength="11"
+                                        android:layout_marginLeft="4dp"
+                                        android:layout_marginRight="8dp"
+                                        android:paddingBottom="2dp"
+                                        android:maxLines="1"
+                                        android:fontFamily="@font/noto_sans_regular"
+                                        android:gravity="right|center_vertical"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:layout_constraintLeft_toRightOf="@id/icon_tory_point"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintRight_toRightOf="parent"
+                                        tools:text="000"/>
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                                <androidx.appcompat.widget.AppCompatImageView
+                                    android:id="@+id/avatarSelect"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/avatar_select"
+                                    android:layout_marginBottom="20dp"
+                                    android:layout_marginLeft="19dp"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintBottom_toBottomOf="parent"/>
+                                <androidx.appcompat.widget.AppCompatImageView
+                                    android:id="@+id/avatar_nickname"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:background="@drawable/icon_avataor_edit"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/nickname"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/tory_white"
+                                    android:textSize="@dimen/seminar_join_font_size"
+                                    android:layout_marginRight="14dp"
+                                    android:fontFamily="@font/noto_sans_semi_bold"
+                                    app:layout_constraintTop_toTopOf="@id/avatar_nickname"
+                                    app:layout_constraintBottom_toBottomOf="@id/avatar_nickname"
+                                    app:layout_constraintRight_toLeftOf="@id/avatar_nickname"
+                                    />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/main_chatting_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/main_top_layout">
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/chatting_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/chatting_lounge"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="@dimen/common_padding_horizontal"
+                            android:textColor="@color/tory_black"
+                            android:fontFamily="@font/noto_sans_semi_bold"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/chatting_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/more_detail"
+                            android:textSize="@dimen/common_text_font_12"
+                            android:textColor="@color/line5"
+                            android:layout_marginRight="@dimen/common_padding_horizontal"
+                            android:fontFamily="@font/noto_sans_regular"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/my_page_center_divider_margin_top"
+                            android:descendantFocusability="blocksDescendants"
+                            app:layout_constraintTop_toBottomOf="@id/chatting_title"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/chatting_recyclerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:listitem="@layout/chatting_lounge_list_item" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/empty_chatting"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/chattingroom_empty_message"
+                                android:textSize="@dimen/my_page_write_item_font_size"
+                                android:textColor="@color/tory_gray_03"
+                                android:fontFamily="@font/noto_sans_regular"
+                                android:layout_centerInParent="true" />
+                        </RelativeLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/main_seminar_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:paddingHorizontal="@dimen/common_padding_horizontal"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/main_chatting_layout">
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/seminar_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/live_seminar"
+                            android:textSize="@dimen/common_text_font_16"
+                            android:textColor="@color/tory_black"
+                            android:fontFamily="@font/noto_sans_semi_bold"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/seminar_more"
+                            android:layout_width="44dp"
+                            android:layout_height="0dp"
+                            android:text="@string/more_detail"
+                            android:gravity="center|right"
+                            android:textSize="@dimen/common_text_font_12"
+                            android:textColor="@color/line5"
+                            android:background="@null"
+                            android:fontFamily="@font/noto_sans_regular"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="@id/seminar_title"
+                            app:layout_constraintBottom_toBottomOf="@id/seminar_title"/>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/my_page_center_divider_margin_top"
+                            android:descendantFocusability="blocksDescendants"
+                            app:layout_constraintTop_toBottomOf="@id/seminar_title"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent">
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/seminarListView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                tools:listitem="@layout/main_live_seminar_list_item"
+                                />
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/emptyView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/live_seminar_empty_message"
+                                android:textSize="@dimen/my_page_write_item_font_size"
+                                android:textColor="@color/tory_gray_03"
+                                android:fontFamily="@font/noto_sans_regular"
+                                android:gravity="center"
+                                android:layout_centerInParent="true"
+                                android:visibility="invisible" />
+                        </RelativeLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/main_seminar_create_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/main_event_height"
+                        android:layout_marginTop="20dp"
+                        android:paddingHorizontal="@dimen/common_padding_horizontal"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/main_seminar_layout">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/seminar_background"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent">
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/seminar_create_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/seminar_create"
+                                android:textSize="@dimen/common_text_font_20"
+                                android:textColor="@color/sub_indigo_1"
+                                android:layout_marginTop="@dimen/seminar_create_text_margin_top"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/noto_sans_semi_bold"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/seminar_create_sub_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/seminar_comment"
+                                android:textSize="@dimen/common_text_font_12"
+                                android:textColor="@color/sub_indigo_1"
+                                android:fontFamily="@font/noto_sans_regular"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintStart_toStartOf="@id/seminar_create_title"
+                                app:layout_constraintTop_toBottomOf="@id/seminar_create_title"/>
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/seminar_create"
+                                android:layout_width="68dp"
+                                android:layout_height="32dp"
+                                android:text="@string/room_create"
+                                android:textSize="@dimen/common_text_font_14"
+                                android:textColor="@color/tory_white"
+                                android:background="@drawable/common_corner_round_indigo"
+                                android:gravity="center"
+                                android:fontFamily="@font/noto_sans_regular"
+                                android:layout_marginRight="15dp"
+                                android:paddingBottom="2dp"
+                                style="?android:attr/borderlessButtonStyle"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/main_mata_lounge"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:layout_marginTop="34dp"
+                        android:clickable="true"
+                        android:paddingHorizontal="@dimen/common_padding_horizontal"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/main_seminar_create_layout">
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/mata_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/recommend_meta"
+                            android:textSize="@dimen/common_text_font_16"
+                            android:textColor="@color/tory_black"
+                            android:fontFamily="@font/noto_sans_semi_bold"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <com.tnmeta.torymeta.ui.NestedScrollableHost
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="12dp"
+                            app:layout_constraintTop_toBottomOf="@id/mata_title"
+                            app:layout_constraintBottom_toBottomOf="parent">
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/metaListView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                tools:listitem="@layout/meta_list_item"
+                                android:orientation="horizontal"
+                                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                />
+                        </com.tnmeta.torymeta.ui.NestedScrollableHost>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/online_lecture"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/main_event_height"
+                        android:layout_marginTop="40dp"
+                        android:clickable="true"
+                        android:paddingHorizontal="@dimen/common_padding_horizontal"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/main_mata_lounge">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/lecture_background"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+                            <!--
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/online_desc_01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="6dp"
+                                android:textSize="@dimen/common_text_font_16"
+                                android:text="온라인 강의실\n학교별 강의도 토리메타에서"
+                                android:textColor="@color/tory_white"
+                                android:fontFamily="@font/noto_sans_bold"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintLeft_toLeftOf="parent"/>
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="85dp"
+                                android:layout_height="26dp"
+                                android:layout_marginTop="4dp"
+                                android:background="@drawable/lecture_enter_background"
+                                app:layout_constraintLeft_toLeftOf="@id/online_desc_01"
+                                app:layout_constraintTop_toBottomOf="@id/online_desc_01">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/online_desc_03"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="입장하기"
+                                    android:textColor="@color/tory_white"
+                                    android:textSize="@dimen/common_text_font_12"
+                                    android:layout_marginRight="10dp"
+                                    android:paddingBottom="4dp"
+                                    android:fontFamily="@font/noto_sans_semi_bold"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:layout_constraintRight_toLeftOf="@id/img_lecture_detail"
+                                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                                <androidx.appcompat.widget.AppCompatImageView
+                                    android:id="@+id/img_lecture_detail"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/img_lecture_next"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    app:layout_constraintTop_toTopOf="@id/online_desc_03"
+                                    app:layout_constraintBottom_toBottomOf="@id/online_desc_03"
+                                    />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                            -->
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:background="@drawable/ttc_banner"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/main_event_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="36dp"
+                        android:paddingHorizontal="@dimen/common_padding_horizontal"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/online_lecture">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/event_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/noto_sans_semi_bold"
+                            android:text="@string/event"
+                            android:textColor="@color/tory_black"
+                            android:textSize="@dimen/common_text_font_16"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/viewPager"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/main_event_height"
+                            android:layout_marginTop="12dp"
+                            android:orientation="horizontal"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/event_title" />
+
+                        <me.relex.circleindicator.CircleIndicator3
+                            android:id="@+id/indicator"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginBottom="2dp"
+                            app:ci_drawable="@drawable/main_indicator_selected"
+                            app:ci_drawable_unselected="@drawable/main_indicator_unselected"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/main_2d_campus_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="34dp"
+                        android:layout_marginBottom="28dp"
+                        android:paddingHorizontal="@dimen/common_padding_horizontal"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/main_event_layout">
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/campus_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/campus_net_title"
+                            android:textSize="@dimen/common_text_font_16"
+                            android:textColor="@color/tory_black"
+                            android:fontFamily="@font/noto_sans_semi_bold"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:orientation="vertical"
+                            app:layout_constraintGuide_percent="0.5" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/main_event_height"
+                            android:layout_marginRight="@dimen/main_campus_button_guide_margin"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginBottom="24dp"
+                            android:background="@drawable/main_campus_map"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toLeftOf="@id/guideline"
+                            app:layout_constraintTop_toBottomOf="@id/campus_title"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/main_campus_text_font_size"
+                                android:gravity="center"
+                                android:textColor="@color/tory_black"
+                                android:layout_marginTop="@dimen/main_campus_text_margin_top"
+                                android:fontFamily="@font/noto_sans_semi_bold"
+                                android:text="@string/campus_detail_comment"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent" />
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/campus_layout"
+                                android:layout_width="64dp"
+                                android:layout_height="24dp"
+                                android:text="@string/visit_comment"
+                                android:textSize="@dimen/common_text_font_12"
+                                android:textColor="@color/tory_white"
+                                android:gravity="center_vertical|center_horizontal"
+                                android:background="@drawable/common_corner_round_indigo_01"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:paddingBottom="2dp"
+                                android:layout_marginBottom="@dimen/main_campus_button_margin_bottom"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/main_event_height"
+                            android:layout_marginLeft="@dimen/main_campus_button_guide_margin"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginBottom="24dp"
+                            android:background="@drawable/main_nft_bg"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintLeft_toRightOf="@id/guideline"
+                            app:layout_constraintTop_toBottomOf="@id/campus_title"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/main_campus_text_font_size"
+                                android:gravity="center"
+                                android:textColor="@color/tory_white"
+                                android:layout_marginTop="@dimen/main_campus_text_margin_top"
+                                android:text="@string/nft_detail_comment"
+                                android:fontFamily="@font/noto_sans_semi_bold"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent" />
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/nft_layout"
+                                android:layout_width="64dp"
+                                android:layout_height="24dp"
+                                android:text="@string/enter_comment"
+                                android:textSize="@dimen/common_text_font_12"
+                                android:gravity="center"
+                                android:textColor="@color/tory_black"
+                                android:layout_marginBottom="@dimen/main_campus_button_margin_bottom"
+                                android:paddingBottom="2dp"
+                                android:background="@drawable/nft_enter_bg"
+                                app:layout_constraintLeft_toLeftOf="parent"
+                                app:layout_constraintRight_toRightOf="parent"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/layout_coordinator"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:background="@color/tory_white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <com.tnmeta.torymeta.control.ToryLoungeButton
+                    android:id="@+id/tory_lounge"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    app:back_ground="@drawable/tory_lounge_button"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/loadingProgress"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        app:matProg_barColor="@color/tory_purple"
+        app:matProg_progressIndeterminate="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

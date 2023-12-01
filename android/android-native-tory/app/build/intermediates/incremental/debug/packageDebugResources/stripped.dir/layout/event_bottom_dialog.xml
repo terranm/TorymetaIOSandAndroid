@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_bottom_sheet_bg"
+    android:paddingTop="@dimen/campus_visit_select_padding_top"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_top_bar_height"
+        android:paddingHorizontal="@dimen/campus_visit_select_padding_horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/event_on_title"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/campus_visit_select_title_font_size"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:includeFontPadding="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/shop_item_padding_horizontal"
+            android:background="@drawable/close"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:paddingTop="@dimen/campus_visit_select_padding_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_layout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/event_list_item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

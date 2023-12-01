@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/common_padding_horizontal"
+    android:paddingVertical="@dimen/common_padding_vertical"
+    android:background="@drawable/common_bottom_sheet_bg"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
+    <!-- 프로필 -->
+    <!--
+    <ImageView
+        android:id="@+id/profileImg"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/marker_detail_profile_height"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImg"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/marker_detail_profile_height"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:civ_border_color="@color/gray240"
+        app:civ_border_width="1dp"
+        tools:src="@drawable/default_profile"/>
+
+    <!-- 내 프로필 인디케이터 -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/myIndicator"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/marker_detail_my_indicator_height"
+        android:background="@drawable/marker_detail_my_indicator"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintRight_toRightOf="@id/profileImg"
+        app:layout_constraintBottom_toBottomOf="@id/profileImg"
+        />
+
+    <!-- 닉네임 -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홍길동"
+        android:textSize="@dimen/marker_detail_nickname_font_size"
+        android:textColor="@color/tory_black"
+        android:fontFamily="@font/noto_sans_regular"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        app:layout_constraintLeft_toRightOf="@id/profileImg"
+        app:layout_constraintTop_toTopOf="@id/profileImg"
+        app:layout_constraintBottom_toBottomOf="@id/profileImg"
+        android:layout_marginLeft="@dimen/marker_detail_nickname_margin_left"
+        />
+    <!-- 위치 공유 토글 버튼 -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/locationToggleBtn"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/marker_detail_location_toggle_height"
+        android:background="@drawable/campus_map_btn_location_on"
+        app:layout_constraintDimensionRatio="1:1.333"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/profileImg"
+        app:layout_constraintBottom_toBottomOf="@id/profileImg"
+        />
+    <!-- 라인 -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/tory_gray_03"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profileImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/marker_detail_line_margin_top"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

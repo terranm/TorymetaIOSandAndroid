@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FabBottomNavigationView">
+        <attr name="fab_cradle_margin" format="dimension"/>
+        <attr name="fab_cradle_rounded_corner_radius" format="dimension"/>
+        <attr name="cradle_vertical_offset" format="dimension"/>
+        <attr name="fab_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomUnityContainer">
+        <attr name="bg" format="reference|color"/>
+        <attr name="showLoading" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ToryLoungeButtonAttr">
+        <attr name="back_ground" format="integer"/>
+        <attr name="logo_img" format="integer"/>
+        <attr name="button_label" format="integer"/>
+    </declare-styleable>
+
+</resources>

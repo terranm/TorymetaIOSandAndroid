@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tnmeta.torymeta.app-mergeDebugResources-102:/values-en-rIE/values-en-rIE.xml",
+            "map": [
+                {
+                    "source": "/Users/tnmeta_yjk/.gradle/caches/transforms-3/62f58ab7499f597d2227b7baa6620292/transformed/jetified-android.joda-2.12.1/res/values-en-rIE/values-en-rIE.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

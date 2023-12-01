@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/tory_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:background="@drawable/icon_back"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/my_seminar_title"
+            android:textSize="@dimen/common_top_bar_title_font_size"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:layout_constraintLeft_toRightOf="@id/ivBack"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingHorizontal="@dimen/common_padding_horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topLayout"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/layout_coordinator">
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/serminarTabs"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_page_write_tab_height"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="28dp"
+                app:tabMode="fixed"
+                app:tabGravity="fill"
+                app:tabTextColor="@color/tory_black"
+                app:tabSelectedTextColor="@color/tory_purple"
+                app:tabIndicatorColor="@color/tory_purple"
+                app:tabRippleColor="@null"
+                app:tabTextAppearance="@style/my_page_write_tab_text"
+                />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/serminarPager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintTop_toBottomOf="@id/serminarTabs"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="@dimen/my_page_write_pager_margin_top"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/layout_coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/white"
+            android:layout_marginBottom="21dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <!--
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/tory_lounge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tory_lounge_button"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/image_planet" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txt_tory_lounge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/tory_lounge"
+                        android:layout_marginLeft="16dp"
+                        android:textSize="@dimen/common_text_font_24"
+                        android:layout_gravity="center"
+                        android:textColor="@color/tory_white"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:fontFamily="@font/noto_sans_semi_bold" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            -->
+
+
+            <com.tnmeta.torymeta.control.ToryLoungeButton
+                android:id="@+id/tory_lounge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                app:back_ground="@drawable/tory_lounge_button"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chattinglounge.ParticipantsListActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:background="@drawable/chatting_setting_bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/report"
+                android:onClick="onClick"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/img_report"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chatting_participants"
+                android:textSize="@dimen/common_text_font_14"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_semi_bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/title_guidelin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/title_guidelin"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textSize="@dimen/common_text_font_12"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_regular"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/title_guidelin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:text="(4/6)"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/close"
+                android:onClick="onClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chatting_close"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <!--
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_marginTop="14dp"
+            app:layout_constraintTop_toBottomOf="@id/title_layout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+            <com.tnmeta.torymeta.ui.NestedScrollableHost
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/participants_recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:listitem="@layout/participants_list_item"
+                    />
+            </com.tnmeta.torymeta.ui.NestedScrollableHost>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        -->
+        <com.tnmeta.torymeta.ui.NestedScrollableHost
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/title_layout"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/participants_recyclerView"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:listitem="@layout/invite_list_item" />
+        </com.tnmeta.torymeta.ui.NestedScrollableHost>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

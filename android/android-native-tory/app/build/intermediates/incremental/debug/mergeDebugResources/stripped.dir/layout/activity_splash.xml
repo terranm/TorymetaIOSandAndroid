@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/tory_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/splash_logo"
+        app:layout_constraintWidth_percent="0.3"
+        app:layout_constraintDimensionRatio="1:0.971"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:lottie_rawRes="@raw/common_loading_anim"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:visibility="invisible"
+        android:layout_marginTop="30dp"
+        app:layout_constraintWidth_percent="0.2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgLogo"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <com.tnmeta.torymeta.control.unity.UnityContainer
+        android:id="@+id/unity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:background="@color/tory_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

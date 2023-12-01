@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tnmeta.torymeta.app-mergeDebugResources-102:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/tnmeta_yjk/.gradle/caches/transforms-3/3b6db30ef73b06b42b1e24000c5a22cf/transformed/leanback-1.0.0/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "642"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "104",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "691"
+                    }
+                },
+                {
+                    "source": "/Users/tnmeta_yjk/.gradle/caches/transforms-3/a3dd00172b97c6d171801c966248cad1/transformed/appcompat-1.5.1/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

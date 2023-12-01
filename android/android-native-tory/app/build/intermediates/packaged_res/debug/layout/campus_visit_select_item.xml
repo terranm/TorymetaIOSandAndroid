@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="108dp"
+    android:layout_height="80dp"
+    android:background="@drawable/common_corner_small_stroke_gray_03"
+    >
+    <!--
+    android:layout_width="108dp"
+    android:layout_height="80dp"
+    app:layout_constraintWidth_percent="0.288"
+    app:layout_constraintDimensionRatio="1:0.74"
+    -->
+
+    <!-- 아이콘 -->
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.296"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/name"
+        />
+    <!-- 타이틀 -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="중앙대학교"
+        android:textSize="@dimen/campus_visit_select_campus_name_font_size"
+        android:textColor="@color/tory_black"
+        android:fontFamily="@font/noto_sans_regular"
+        android:gravity="center_horizontal|top"
+        android:includeFontPadding="false"
+        app:layout_constraintWidth_percent="0.85"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

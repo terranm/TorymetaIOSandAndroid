@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="@dimen/my_page_write_item_padding_vertical"
+    android:background="@drawable/common_corner_rect_stroke_gray">
+
+    <!-- 게시판 카테고리 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/boardCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/tory_talk_friend_list_cell_right_btn_height"
+        android:background="@drawable/common_corner_circle_stroke_purple"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <!-- 아이콘 -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/boardIcon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/icon_campus_board_help"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+        <!-- 타이틀 -->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/boardName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/common_text_font_14"
+            android:layout_marginRight="13dp"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_regular"
+            android:gravity="left|center"
+            android:paddingBottom="3dp"
+            app:layout_constraintLeft_toRightOf="@id/boardIcon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="도와주세요"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!-- 날짜 -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_font_14"
+        android:textColor="@color/tory_gray_04"
+        android:fontFamily="@font/noto_sans_regular"
+        android:gravity="right|center_vertical"
+        android:includeFontPadding="false"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/boardCategory"
+        app:layout_constraintBottom_toBottomOf="@id/boardCategory"
+        tools:text="2022.12.28"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/boardCategory"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/common_text_font_14"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_regular"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:text="1223"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- 내용 -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

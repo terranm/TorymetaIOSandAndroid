@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".intro.UniversitySelectActivity">
+
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/common_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_top_bar_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/close"
+        android:background="@drawable/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/topBar"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+    </androidx.appcompat.widget.AppCompatImageView>
+    <!-- 상단 제외한 content -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingHorizontal="@dimen/common_padding_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/desc01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/university_select_desc_01"
+            android:textSize="@dimen/university_select_desc_01_font_size"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:layout_marginTop="@dimen/university_select_desc_01_margin_top"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/desc02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/university_select_desc_02"
+            android:textSize="@dimen/university_select_desc_02_font_size"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_regular"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/desc01"
+            android:layout_marginTop="@dimen/university_select_desc_02_margin_top"
+            />
+
+        <!-- 드랍다운 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dropdownBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/university_select_btn_dropdown_height"
+            app:layout_constraintTop_toBottomOf="@id/desc02"
+            >
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/univName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/university_select_title"
+                android:textSize="@dimen/common_font_size_large"
+                android:textColor="@color/tory_gray_04"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/university_select_dropdown_icon"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_line_border"
+                android:background="@color/tory_gray_04"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- 완료 버튼 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/completeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/university_select_btn_complete_height"
+            android:background="@drawable/common_corner_circle_gray_03"
+            android:layout_marginBottom="@dimen/common_bottom_btn_margin_bottom"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/completeText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/university_select_btn_complete"
+                android:textColor="@color/tory_white"
+                android:textSize="@dimen/common_font_size_large"
+                android:fontFamily="@font/noto_sans_semi_bold"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout><!-- 상단 제외한 content -->
+</androidx.constraintlayout.widget.ConstraintLayout>

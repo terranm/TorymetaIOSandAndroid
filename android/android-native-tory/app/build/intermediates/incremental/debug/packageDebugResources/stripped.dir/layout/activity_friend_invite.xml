@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".talk.FriendInviteActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topBar_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_top_bar_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <include
+            android:id="@+id/topBar"
+            layout="@layout/common_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/comfirm"
+            android:text="@string/str_comfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/color_d9d9d9d"
+            android:fontFamily="@font/noto_sans_regular"
+            android:layout_marginRight="16dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/centerDivider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/tory_gray_03"
+        app:layout_constraintTop_toBottomOf="@id/topBar_Layout"
+        android:layout_marginTop="@dimen/my_page_center_divider_margin_top" />
+
+    <com.tnmeta.torymeta.ui.NestedScrollableHost
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="@dimen/my_page_center_divider_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/centerDivider"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/invite_friends_list_item"
+            />
+    </com.tnmeta.torymeta.ui.NestedScrollableHost>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

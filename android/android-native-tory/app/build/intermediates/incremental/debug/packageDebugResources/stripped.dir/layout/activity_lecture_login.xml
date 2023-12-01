@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".videoplayer.LectureLoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/ivBack"
+            android:onClick="onClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_back"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lecture_login_title"
+            android:textSize="@dimen/common_text_font_20"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:layout_constraintLeft_toRightOf="@id/ivBack"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:background="@color/color_f8f8fa"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_layout">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_univerty_logo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginRight="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintTop_toTopOf="@id/txt_school"
+            app:layout_constraintBottom_toBottomOf="@id/txt_lecture_info"
+            app:layout_constraintRight_toLeftOf="@id/txt_school"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_line_01"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tory_black"
+            android:textSize="@dimen/common_text_font_14"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/guide_line_01"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:text="조선대학교" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_lecture_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tory_black"
+            android:textSize="@dimen/common_text_font_10"
+            android:fontFamily="@font/noto_sans_regular"
+            app:layout_constraintStart_toStartOf="@id/txt_school"
+            app:layout_constraintTop_toBottomOf="@id/guide_line_01"
+            tools:text="언어교육원/어학특강정보지원" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo_layout"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/common_padding_horizontal"
+            android:layout_marginTop="50dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/logo_layout">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/desc_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id"
+                android:textSize="@dimen/common_text_font_14"
+                android:textColor="@color/tory_gray_01"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="left"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/tory_gray_04"
+                android:hint="@string/id"
+                android:textColorHint="@color/tory_gray_04"
+                android:textSize="16sp"
+                android:inputType="text"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/desc_id" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/desc_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password_title"
+                android:textSize="@dimen/common_text_font_14"
+                android:textColor="@color/tory_gray_01"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="left"
+                android:layout_marginTop="26dp"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edit_id" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edit_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/tory_gray_04"
+                android:textSize="16sp"
+                android:hint="@string/password_hint"
+                android:inputType="textPassword"
+                android:textColorHint="@color/tory_gray_04"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/desc_password" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/university_select_btn_complete_height"
+                android:background="@drawable/common_round_enter"
+                android:layout_marginTop="60dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edit_password">
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/certification"
+                    android:textColor="@color/tory_white"
+                    android:textSize="@dimen/common_font_size_large"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/login_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/common_text_font_14"
+                android:paddingHorizontal="@dimen/common_padding_horizontal"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="left"
+                android:layout_marginTop="20dp"
+                android:text="@string/certification_notice_message"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/login"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

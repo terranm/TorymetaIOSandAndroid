@@ -1,0 +1,135 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="splashscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="my_page_write_tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/noto_sans_regular</item>
+        <item name="android:textSize">@dimen/my_page_write_tab_font_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="tory_talk_tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/noto_sans_semi_bold</item>
+        <item name="android:textSize">@dimen/common_top_bar_title_font_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">#B3000000</item>
+        <item name="android:statusBarColor">@color/tory_white</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="NetworkErrorDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/tory_purple</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Custom">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/tory_white</item>
+        <item name="android:background">@color/tory_white</item>
+    </style>
+
+    <style name="Custom.Toolbar" parent="@style/Custom">
+        <item name="android:layout_height">@dimen/common_top_bar_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingTop">@dimen/custom_tool_bar_top_padding</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottomsheetdialog</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+
+    <style name="BottomSheetDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/bottom_sheet_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_sheet_slide_out</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:textColor">@color/tory_black</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:translationZ">1dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Button.Bottom" parent="@style/Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/noto_sans_semi_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/bg_btn_bottom_default</item>
+        <item name="android:enabled">@color/white</item>
+        <item name="android:disabledAlpha">@color/gray8</item>
+        <item name="android:minHeight">60dp</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="NestedScrollBarStyle">
+        <item name="android:scrollbarFadeDuration">2</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Date_Dialog_Theme" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="colorAccent">@color/tory_purple</item>                   <!--header background-->
+        <item name="android:windowBackground">@color/tory_white</item>     <!--calendar background-->
+        <item name="android:colorControlActivated">@color/tory_purple</item> <!--selected day-->
+        <item name="android:textColorPrimary">@color/tory_gray_01</item> <!--days of the month-->
+        <item name="android:textColorSecondary">@color/tory_white</item>    <!--days of the week-->
+    </style>
+
+
+    <style name="TimePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+
+    <style name="Transparent" parent="@style/Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="TransParentBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/TransParentModalStyle</item>
+    </style>
+
+    <style name="TransParentModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

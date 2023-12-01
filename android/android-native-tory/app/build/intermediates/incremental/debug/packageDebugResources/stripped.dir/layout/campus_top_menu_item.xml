@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
+    <!-- 배경 -->
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/common_corner_circle_stroke_purple"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/campus_top_list_item_padding_horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <!-- 아이콘 -->
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/campus_icon_torytalk"
+            app:layout_constraintHeight_percent="0.45"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+        <!-- 타이틀 -->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/campus_title_torytalk"
+            android:textSize="@dimen/campus_top_list_item_title_font_size"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_regular"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:layout_marginLeft="@dimen/campus_top_list_item_title_margin_left"
+            app:layout_constraintLeft_toRightOf="@id/icon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

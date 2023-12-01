@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Seminar_create_cnt_up.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Seminar_create_cnt_up@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Seminar_create_cnt_up@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

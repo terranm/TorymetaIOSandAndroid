@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tnmeta.torymeta.app-mergeDebugResources-102:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/tnmeta_yjk/.gradle/caches/transforms-3/a3dd00172b97c6d171801c966248cad1/transformed/appcompat-1.5.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

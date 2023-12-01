@@ -1,0 +1,2330 @@
+[
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_player_setting.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_player_setting.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_participants_list.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_participants_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_camera_icon.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/camera_icon.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_charge_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/charge_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_vertical_exit.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/vertical_exit.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_corner_circle.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/corner_circle.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_main_tab_nft_unselected.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/main_tab_nft_unselected.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_seminar_popup_img.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/seminar_popup_img.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_common_top_bar_btn_question_mark.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/common_top_bar_btn_question_mark.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_indicator_selected.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_indicator_selected.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_my_custom_marker.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_custom_marker.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_friend_list_category_detail_icon.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/friend_list_category_detail_icon.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_select_round_stroke_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/select_round_stroke_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_ic_exo_icon_pause.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/ic_exo_icon_pause.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_photo_album_icon.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/photo_album_icon.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_chatting_lounge.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_chatting_lounge.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_round.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_round.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_mylocation_off.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_mylocation_off.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_today_serminar_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/today_serminar_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_schedule_state_03.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/schedule_state_03.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_lecture_video_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/lecture_video_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_menu_drop_up.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_menu_drop_up.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_map_btn_location_on.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_map_btn_location_on.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_record_icon.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/record_icon.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_yellow.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_yellow.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_add.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_add.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_tutorial.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_tutorial.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_anim_splash_imageview.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/anim_splash_imageview.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_schedule.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_schedule.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_lecture_enter_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/lecture_enter_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_volume_up_24.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/volume_up_24.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_title_gray_stroke_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/title_gray_stroke_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_board_icon_gather.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_board_icon_gather.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_mileage_small.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_mileage_small.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_btn_question_mark.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_btn_question_mark.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_kick.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_kick.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_anim_splash_textview.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/anim_splash_textview.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_build_off.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_build_off.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_background_lecture_red.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/background_lecture_red.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_chatting_password_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/chatting_password_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_alert_dialog_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_alert_dialog_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_check_inactive.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/check_inactive.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_bottom_sheet_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_bottom_sheet_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_medium_white.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_medium_white.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_torypoint.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_torypoint.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_chatting_people_board_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_people_board_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_step_out_img.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/step_out_img.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_gray_02.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_gray_02.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_img_seminar_room.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/img_seminar_room.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_top_in.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/top_in.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_white.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_white.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_my_page_bottom_sheet_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/my_page_bottom_sheet_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_shop_point_bg.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/shop_point_bg.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_shop_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/shop_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_mypage_tutorial.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/mypage_tutorial.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_zoom_in.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/zoom_in.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_avatar_select_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/avatar_select_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/color_bottom_nav_color.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/color/bottom_nav_color.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_marker_detail_my_indicator.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/marker_detail_my_indicator.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_university_select_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/university_select_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_base.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_base.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_tory_market.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_tory_market.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_profile.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_round_enter_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_round_enter_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_icon_school_event.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_icon_school_event.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_menu.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_menu.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_dialog_close.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_dialog_close.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_push_info.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_push_info.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_tory_lounge_button.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/tory_lounge_button.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_status_now.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_status_now.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_marker_detail_building_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/marker_detail_building_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_check_radio_off.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/check_radio_off.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_phonebook_icon.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/phonebook_icon.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_setting_switch_track_on.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/setting_switch_track_on.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_exoplayer_controller.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/exoplayer_controller.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_seminar_popup_bg.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/seminar_popup_bg.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_bottomsheetdialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/bottomsheetdialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_unselect_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_unselect_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_notice.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_notice.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_personnel.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_personnel.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_campus_board_select_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_board_select_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_map_btn_building_toggle.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_map_btn_building_toggle.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_background_transpernet.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/background_transpernet.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_event.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_event.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_charge_point_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/charge_point_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_avatar_zoom_out.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/avatar_zoom_out.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/menu_main_bottom_nav_menu.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/menu/main_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_friend_position_marker_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/friend_position_marker_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_seminar_info_detail.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_info_detail.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_icon_torytalk.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_icon_torytalk.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_my_subscript_item_list.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_subscript_item_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/font_noto_sans_bold.ttf.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/font/noto_sans_bold.ttf"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_bottom_sheet_slide_out.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_stroke_gray.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_stroke_gray.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_splash.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_close_next.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/close_next.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_tab_campus.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_tab_campus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_none.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/none.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_body_sensor_icon.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/body_sensor_icon.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_meal.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_meal.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_seminar_title.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_seminar_title.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_stroke_purple_02.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_stroke_purple_02.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_status_end.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_status_end.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_friend_list_friend_cell.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/friend_list_friend_cell.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_purple_indicator_unselected.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/purple_indicator_unselected.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_my_open_seminar_item_list.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_open_seminar_item_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_step_select_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/step_select_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_tory_talk_page.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tory_talk_page.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_university_select_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/university_select_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_unselect_round_stroke_white.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/unselect_round_stroke_white.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_color_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/color_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_torymeta_map_title.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/torymeta_map_title.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_onboarding_title_01.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/onboarding_title_01.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_campus.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_campus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_chatting_password_edit.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/chatting_password_edit.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_select_male.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/select_male.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_friend_list.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_friend_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_onboarding_page_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/onboarding_page_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_arrow_back_24.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/arrow_back_24.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_ic_exo_icon_rewind.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/ic_exo_icon_rewind.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_avatar_zoom_in.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/avatar_zoom_in.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_map_btn_school.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_map_btn_school.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_lecture_login.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_lecture_login.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_together_dialgo_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/together_dialgo_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_modify_seminar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_modify_seminar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_gray_02.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_gray_02.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_setting_switch_thumb.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/setting_switch_thumb.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_left.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_left.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_torymeta_map_title_.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/torymeta_map_title_.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_point_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/point_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_white_lock.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_white_lock.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_bottom_navigation_view_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/bottom_navigation_view_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_avatar_select.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/avatar_select.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/raw_common_loading_anim.json.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/raw/common_loading_anim.json"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_campus_marker.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_campus_marker.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_mandate.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_mandate.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_common_alert_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_step_main_out_image.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/step_main_out_image.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_event_indicator_unselected.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/event_indicator_unselected.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_campus.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_campus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_pedback.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_pedback.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_mylocation_on.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_mylocation_on.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_nft.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_nft.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_explanation.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_explanation.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_bottom_sheet_slide_in.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_torymeta_talk.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/torymeta_talk.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_slide_up_out.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/slide_up_out.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_chatting.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_layout_parent.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/layout_parent.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_opened_button.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/opened_button.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_stroke_gray_04.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_stroke_gray_04.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_next_black.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_next_black.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_university_select_dropdown_icon.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/university_select_dropdown_icon.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_sound_off.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_sound_off.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_event.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_event.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_small_stroke_gray_03.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_small_stroke_gray_03.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_chatting_close.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/chatting_close.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_cursor_drawable.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/cursor_drawable.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_common_top_bar_btn_more.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/common_top_bar_btn_more.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_permission_info.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_permission_info.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_onboarding_title_01_.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/onboarding_title_01_.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_notification_setting.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_notification_setting.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_outline_hd_24.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/outline_hd_24.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_step_inner_img.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/step_inner_img.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_mic.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_mic.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_btn_question_mark_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_btn_question_mark_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_build_on.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_build_on.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_close_white.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/close_white.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_female.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_female.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_menu_gray_9e_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_menu_gray_9e_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_mileage_big.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_mileage_big.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_participants_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/participants_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_right.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_right.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_tory_talk_friend_list_search_cell.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tory_talk_friend_list_search_cell.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_menu_drop_down.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_menu_drop_down.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_unity_character.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_unity_character.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_dropdown.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_dropdown.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_tab_nft.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_tab_nft.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_seminar_main.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_main.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_slide_up_in.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/slide_up_in.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_crop_5_4.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/crop_5_4.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_create_seminar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_create_seminar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_ic_down_arrow.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/ic_down_arrow.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_ic_icon_info.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/ic_icon_info.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_search_corner_circle_stroke_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/search_corner_circle_stroke_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_report_round_gray.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_report_round_gray.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_my_page_comment_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_page_comment_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_lecture_next.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_lecture_next.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_tory_help.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_tory_help.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_grey_01.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_grey_01.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_video_play.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_video_play.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_seminar_alert_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_teacher.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_teacher.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_avatar_rotation.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/avatar_rotation.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_rect_stroke_gray.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_rect_stroke_gray.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_main_tab_my_selected.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/main_tab_my_selected.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_tory_charge_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_charge_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_image_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/image_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_background_f8f8fa.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_background_f8f8fa.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_step_main_inner_image.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/step_main_inner_image.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_university_select.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_university_select.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_round_enter_grey.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_round_enter_grey.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_game_01.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/game_01.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_welcome_detail.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/welcome_detail.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_roominfo_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/roominfo_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_seminar_popup.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_popup.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_setting_switch_track_off.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/setting_switch_track_off.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_screen_rotation_24.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/screen_rotation_24.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_map_zoom_out.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_map_zoom_out.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_main_tab_nft_selected.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/main_tab_nft_selected.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_visit_campus.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_visit_campus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_shop.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_shop.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_friend_search.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_friend_search.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_campus_top_menu_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_top_menu_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_purple_02.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_purple_02.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_fit_screen.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/fit_screen.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_title_white_stroke_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/title_white_stroke_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_select_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_select_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_event_ad_bottom_dialog_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_ad_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_tory_charge.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_charge.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_tory_talk.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_tory_talk.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_check_active.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/check_active.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_back.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_back.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_network_error_fragment_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/network_error_fragment_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_select_point_filter.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/select_point_filter.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_reset.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_reset.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_map_btn_location.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_map_btn_location.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_rect_radius_all_d9d9d9.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/rect_radius_all_d9d9d9.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_report.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_report.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_seminar_room_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_seminar_room_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_schedule_state_01.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/schedule_state_01.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_friend_detail_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/friend_detail_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_my_page_write_page.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_page_write_page.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_common_bottom_button_list_sheet.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_bottom_button_list_sheet.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_purple_01.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_purple_01.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_slide_out_left.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_torymeta_logo.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/torymeta_logo.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_buy_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/buy_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_white_close.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_white_close.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_ic_exo_icon_fastforward.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/ic_exo_icon_fastforward.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_map_location_off.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_map_location_off.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_tory_together.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_tory_together.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/xml_network_security_config.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_campus_board_select_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_board_select_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_notice.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_notice.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_white_people.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_white_people.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_common_top_bar_btn_back.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/common_top_bar_btn_back.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_male.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_male.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_event_page_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_page_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_send.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_send.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/xml_data_extraction_rules.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_schedule_state_02.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/schedule_state_02.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_x_close.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/x_close.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_compus_enter_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/compus_enter_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_event_bottom_sheet_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/event_bottom_sheet_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_event_ad_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_ad_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_ic_exo_icon_play.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/ic_exo_icon_play.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_empty_person.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/empty_person.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_round_yellow_ffd053.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/round_yellow_ffd053.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_appy_approve.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_appy_approve.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_chatting_people.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/chatting_people.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_main_base.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_main_base.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_my_page_btn_charge.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/my_page_btn_charge.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_avatar_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/avatar_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_campus_board_help.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_campus_board_help.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_menu_gray_d9_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_menu_gray_d9_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_indigo_01.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_indigo_01.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_stroke_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_stroke_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_board_icon_help.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_board_icon_help.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_check_radio_on.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/check_radio_on.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_wait_message_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/wait_message_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_gray_01.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_gray_01.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_map_btn_location_off.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_map_btn_location_off.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_radio_selector_button.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/radio_selector_button.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_school.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_school.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_tutorial_dialog_info_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tutorial_dialog_info_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_report_round_button.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_report_round_button.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_seminar_apply.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_apply.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_friend_detail_nft_cell.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/friend_detail_nft_cell.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_image_top_tap_back.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/image_top_tap_back.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_event_bottom_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_bottom_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_chatting_channel_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_channel_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_round_apply_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/round_apply_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_m2e.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_m2e.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_left_up.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_left_up.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_caret_down_circle.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/caret_down_circle.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_event_indicator_selected.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/event_indicator_selected.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_start_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/start_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_left_down.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_left_down.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_mileage_point_alert_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/mileage_point_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_fade_out.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_main_tab_my_unselected.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/main_tab_my_unselected.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_dissolve_out.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/dissolve_out.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_board_icon_market.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_board_icon_market.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_open_next.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/open_next.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_next_page.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/next_page.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_mileage_point_transaction_history.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_mileage_point_transaction_history.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_dissolve_in.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/dissolve_in.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_purple_03.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_purple_03.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_delete.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_delete.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_campus_map_btn_step.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/campus_map_btn_step.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_my_opened.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_my_opened.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_campus_board_talk.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_campus_board_talk.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_seminar_popup_btn_close.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/seminar_popup_btn_close.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_chatting_edit_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/chatting_edit_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_link.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_link.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_lock_gray.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_lock_gray.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_ped_info.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_ped_info.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_splash.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_common_bottom_button_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_bottom_button_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_game.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_game.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_add.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_add.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_color_select.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_color_select.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_bg_red_round.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_bg_red_round.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_button_back.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/button_back.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_event_ad_page_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_ad_page_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_rect_gray02.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_rect_gray02.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_seminar_detail.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_seminar_detail.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_participantmenudialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/participantmenudialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_meta_cau.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/meta_cau.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_tory_lounge_button.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tory_lounge_button.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_location_icon.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/location_icon.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_gray_03.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_gray_03.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_date_divide.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_date_divide.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_mymenu.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_mymenu.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_game_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/game_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_step_reward_gray.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/step_reward_gray.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_campus_map.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_campus_map.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_chatting_invite.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_invite.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_my_menu.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_my_menu.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_upload.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_upload.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_grey_people.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_grey_people.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_welcom_message.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/welcom_message.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_date.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_date.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_custom_progressbar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/custom_progressbar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_round_apply.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/round_apply.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_seminar_create.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_seminar_create.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_common_bottom_sheet.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_build_visible.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_build_visible.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_background_gray.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_background_gray.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_select.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_select.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_image_collection.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_image_collection.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_seminar_search_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_search_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_replay_10_24.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/replay_10_24.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_invite_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/invite_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_button_up.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_button_up.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_background_lecture_blue.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/background_lecture_blue.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_my_page_tory_point_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/my_page_tory_point_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_chatting_headcount.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_chatting_headcount.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/xml_backup_rules.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_chatting_louge_create.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_louge_create.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_selector_radio_button.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/selector_radio_button.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_chatting_lounge_report.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_lounge_report.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_bbs_notice_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/bbs_notice_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_campus_schedule.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_campus_schedule.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_board_icon_talk.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_board_icon_talk.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_together.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_together.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_color_select_bottom.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_color_select_bottom.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_mypage_tutorial_411.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/mypage_tutorial_411.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_participantsmenu_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/participantsmenu_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_onboarding_indicator_unselected.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/onboarding_indicator_unselected.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_custom_checkbox.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/custom_checkbox.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_seminar_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_plus.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_plus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_slide_in_right.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_avataor_edit.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_avataor_edit.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_people_invite.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_people_invite.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_round_pupple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/round_pupple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_common_top_bar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_top_bar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_bg_btn_bottom_default.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/bg_btn_bottom_default.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_lock.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_lock.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_ic_cross_white.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/ic_cross_white.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_round_yellow.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/round_yellow.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_nft_enter_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/nft_enter_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_chatting_lounge_room_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_lounge_room_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_slide_in_left.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_invite_friends_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/invite_friends_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_calendar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_calendar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_rect_gray.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_rect_gray.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_abc_slide_out_top.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_talk.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_talk.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_chatting_lounge_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_lounge_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_nft_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_nft_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_silence.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_silence.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_round_enter.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_round_enter.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_step_disable_button.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/step_disable_button.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_my_sub_scription.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_my_sub_scription.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_profile_img_default.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/profile_img_default.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_left_layout_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/left_layout_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_arrow_down.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_arrow_down.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_indicator_unselected.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_indicator_unselected.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_my_seminar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_my_seminar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_tory_avatar_profile.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_tory_avatar_profile.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_campus_visit_select_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_visit_select_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_next.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_next.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_image_planet.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/image_planet.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_seminar_schedule.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_schedule.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_marker_icon_my_default.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/marker_icon_my_default.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_game_bottom_dialog_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/game_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_profile_edit_alert_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/profile_edit_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_school.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_school.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_friend_search_dropdown_icon.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/friend_search_dropdown_icon.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_tory_web_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_web_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_torymeta_map_title_.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/torymeta_map_title_.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_onboarding_title_02.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/onboarding_title_02.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_menu_purpple_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_menu_purpple_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_temp_avatar.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/temp_avatar.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_buy_items_bottom_dialog_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/buy_items_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_friend_invite.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_friend_invite.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_apply_reject.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_apply_reject.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_abc_slide_out_bottom.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_left_current_location.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_left_current_location.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_metaverse.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/metaverse.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_video_player.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_video_player.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_onboarding_page_03.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/onboarding_page_03.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_next_day.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_next_day.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_top_out.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/top_out.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_round_purple_cancel.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/round_purple_cancel.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_sort_filter_bottom_dialog_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/sort_filter_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_yellow_white.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_yellow_white.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_bottom_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/bottom_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_main.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_meta_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/meta_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_campus_visit_select_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_visit_select_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_web.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_web.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_tory_talk.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_talk.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_seminar_room_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_room_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_crop_free.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/crop_free.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_slide_out_right.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_vertical_enter.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/vertical_enter.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_color_select_top.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_color_select_top.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_tutorial_dialog_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tutorial_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_fast_rewind.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/fast_rewind.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_minus.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_minus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_my_lecture_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_lecture_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_close.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/close.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_my_page_pupple_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/my_page_pupple_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_sound_on.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_sound_on.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_fab.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/fab.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_my_page_btn_notice.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/my_page_btn_notice.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_my_create.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_my_create.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_background_lecture_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/background_lecture_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_radio_check_on.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/radio_check_on.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_icon_school_meal.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_icon_school_meal.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_chatting_setting_gray_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/chatting_setting_gray_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_fast_forward.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/fast_forward.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_mypage_tutorial_normal.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/mypage_tutorial_normal.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_network_error.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/network_error.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_lecture_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/lecture_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_common_top_bar_btn_search.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/common_top_bar_btn_search.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_avatar_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/avatar_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_mypage_tutorial_small.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/mypage_tutorial_small.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_tory_lounge.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_tory_lounge.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_abc_slide_in_top.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_friend_list_title_cell.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/friend_list_title_cell.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_notice_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/notice_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_marker_detail_person_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/marker_detail_person_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_campus.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_campus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_onboarding_page_02.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/onboarding_page_02.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_onboarding_indicator_selected.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/onboarding_indicator_selected.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_stroke_gray_02.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_stroke_gray_02.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_white_02.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_white_02.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_white_link.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_white_link.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_onboarding_title_03.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/onboarding_title_03.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_seminar_create_select_item_list.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_create_select_item_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_background_lecture_yellow.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/background_lecture_yellow.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_medium_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_medium_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_invite_link.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_invite_link.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_common_buy_alert_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_buy_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/font_noto_sans_regular.ttf.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/font/noto_sans_regular.ttf"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_common_loading_view.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_loading_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_select_female.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/select_female.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_setting_switch_track.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/setting_switch_track.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_indigo.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_indigo.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_menu_view_divider.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/menu_view_divider.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_detail_top.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_detail_top.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_opened_chatting_lounge_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/opened_chatting_lounge_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_forward_10_24.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/forward_10_24.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_campus_step.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_campus_step.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_round_box_e6e6e6.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/round_box_e6e6e6.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_main_live_seminar_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/main_live_seminar_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_lock_gray_16.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_lock_gray_16.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_tab_my.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_tab_my.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_my_friend_custom_marker.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_friend_custom_marker.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_chatting_setting_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/chatting_setting_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_map_btn_step_.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_map_btn_step_.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_button_torylounge.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/button_torylounge.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_bg_gray_rect.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_bg_gray_rect.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/navigation_nav_main.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/navigation/nav_main.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_purple_indicator_selected.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/purple_indicator_selected.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_before_day.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_before_day.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_horizon_enter.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/horizon_enter.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_round_corner.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/round_corner.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_my_page.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_my_page.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_sort.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_sort.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_stroke_gray_d9.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_stroke_gray_d9.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_recycler_view_divider.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/recycler_view_divider.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_default_profile.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/default_profile.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_tory_transaction_history_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_transaction_history_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_shop_item_bg.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/shop_item_bg.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_seminar_status_before.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/seminar_status_before.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_seminar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_seminar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_friend_request.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_friend_request.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_custom_unity_container.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/custom_unity_container.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_my_page_btn_setting.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/my_page_btn_setting.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_campus_icon_together.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/campus_icon_together.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_close.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_close.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_main_tab_campus_unselected.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/main_tab_campus_unselected.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_avatar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_avatar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/font_noto_sans_semi_bold.ttf.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/font/noto_sans_semi_bold.ttf"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_small_stroke_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_small_stroke_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_friend_search_edit_box_btn_delete.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/friend_search_edit_box_btn_delete.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_bottom_bg_purple.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_bottom_bg_purple.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_event_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_tory_avatar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_avatar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_bottom_metaverse_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/bottom_metaverse_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_fade_in.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_bg_round_rect_white_50.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/bg_round_rect_white_50.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_gray_04.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_gray_04.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_round_white_01.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_round_white_01.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_main_menu_yellow_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/main_menu_yellow_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_tory_meta_world.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_tory_meta_world.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_onboarding_page_01.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/onboarding_page_01.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/anim_abc_slide_in_bottom.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_chatting_louge_list.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_louge_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_map_zoom_in.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_map_zoom_in.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_common_btn_back.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/common_btn_back.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_main_tab_campus_selected.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/main_tab_campus_selected.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_map_title_campus_visit.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/map_title_campus_visit.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_chatting_password.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_password.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_seminar_search.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_search.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_onboarding.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_my_page_write_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_page_write_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_radio_check_off.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/radio_check_off.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_custom_button_layout.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/custom_button_layout.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_report_round_red.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_report_round_red.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_unselect_point_filter.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/unselect_point_filter.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_brightness_6_24.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/brightness_6_24.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_common_corner_circle_gray_05.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/common_corner_circle_gray_05.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_my_position_marker_background.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/my_position_marker_background.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_my_page_profile_plus.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/my_page_profile_plus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_chatting_password_dialog.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_password_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_my_lecture_room.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_my_lecture_room.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_password_open.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_password_open.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_common_right_arrow.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/common_right_arrow.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_period_list_item.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/period_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/color_main_bottom_tabl_color.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/color/main_bottom_tabl_color.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_list_up_move.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_list_up_move.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_search.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_search.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_web.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_web.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_my_page_bottom_sheet.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_page_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_zoom.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_zoom.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_img_warning.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/img_warning.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_round_apply_grey.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/round_apply_grey.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_campus_board_gather.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_campus_board_gather.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable-xxxhdpi_splash_logo.png.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable-xxxhdpi/splash_logo.png"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_seminar_password_bottom_dialog_fragment.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_password_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_fragment_my_seminar.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_my_seminar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/drawable_icon_campus_board_market.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/drawable/icon_campus_board_market.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-merged_res-104:/layout_activity_seminar_schedule.xml.flat",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_seminar_schedule.xml"
+    }
+]

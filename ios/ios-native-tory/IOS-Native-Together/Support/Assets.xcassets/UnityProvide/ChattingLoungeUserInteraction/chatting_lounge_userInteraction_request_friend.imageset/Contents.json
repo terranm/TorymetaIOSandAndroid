@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "chatting_lounge_userInteraction_request_friend.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "chatting_lounge_userInteraction_request_friend@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "chatting_lounge_userInteraction_request_friend@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

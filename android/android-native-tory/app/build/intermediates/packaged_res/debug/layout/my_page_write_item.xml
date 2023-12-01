@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/my_page_write_item_height"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="@dimen/my_page_write_item_padding_vertical"
+    android:background="@drawable/common_corner_rect_stroke_gray"
+    >
+
+    <!-- 타이틀 -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_font_14"
+        android:textColor="@color/tory_black"
+        android:fontFamily="@font/noto_sans_semi_bold"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:ellipsize="end"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/date"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/content"
+        android:layout_marginRight="@dimen/my_page_write_item_title_margin_right"
+        tools:text="타이틀"
+        />
+
+    <!-- 내용 -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_font_14"
+        android:textColor="@color/tory_gray_01"
+        android:fontFamily="@font/noto_sans_regular"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:ellipsize="end"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="내용"
+        />
+
+    <!-- 날짜 -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_font_14"
+        android:textColor="@color/tory_gray_04"
+        android:fontFamily="@font/noto_sans_regular"
+        android:gravity="right|center_vertical"
+        android:includeFontPadding="false"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/title"
+        app:layout_constraintBottom_toBottomOf="@id/title"
+        tools:text="2022.12.28"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

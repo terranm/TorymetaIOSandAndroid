@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Seminar_Calendar_item_right.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Seminar_Calendar_item_right@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Seminar_Calendar_item_right@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

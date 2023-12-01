@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:paddingVertical="@dimen/my_page_write_item_padding_vertical">
+
+    <View
+        android:id="@+id/img_start"
+        android:layout_width="6dp"
+        android:layout_height="0dp"
+        android:background="@drawable/schedule_state_01"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/seminar_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_font_14"
+        android:textColor="@color/tory_black"
+        android:layout_marginLeft="9dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/noto_sans_semi_bold"
+        app:layout_constraintStart_toEndOf="@id/img_start"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img_detail"
+        tools:text="대학의 평생교육체 제지원사업 (LiFE)adfafafasdfafaadfsa"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/img_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_next"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/seminar_title"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/seminar_teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_font_14"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/tory_black"
+        android:fontFamily="@font/noto_sans_semi_bold"
+        android:layout_marginLeft="9dp"
+        app:layout_constraintStart_toEndOf="@id/img_start"
+        app:layout_constraintTop_toBottomOf="@id/seminar_title"
+        tools:text="강사명"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/seminar_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_font_12"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/noto_sans_regular"
+        android:textColor="@color/color_9e9e9e"
+        android:layout_marginLeft="9dp"
+        app:layout_constraintStart_toEndOf="@id/img_start"
+        app:layout_constraintTop_toBottomOf="@id/seminar_teacher"
+        tools:text="오전 08:00 - 오후 09:30"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

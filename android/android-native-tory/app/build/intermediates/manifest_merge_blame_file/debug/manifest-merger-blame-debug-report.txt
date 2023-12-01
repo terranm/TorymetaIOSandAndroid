@@ -1,0 +1,1348 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tnmeta.torymeta"
+4    android:versionCode="260011"
+5    android:versionName="2.6.011" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+11-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:5:5-7:47
+11-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:6:9-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:8:5-67
+12-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:9:5-79
+13-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:10:5-79
+14-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:11:5-81
+15-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:11:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:12:5-65
+16-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:12:22-62
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:13:5-71
+17-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:13:22-68
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:14:5-80
+18-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:14:22-77
+19    <uses-permission
+19-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:15:5-17:38
+20        android:name="android.permission.READ_EXTERNAL_STORAGE"
+20-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:16:9-64
+21        android:maxSdkVersion="32" />
+21-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:17:9-35
+22    <uses-permission
+22-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:18:5-20:38
+23        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+23-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:19:9-65
+24        android:maxSdkVersion="32" />
+24-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:20:9-35
+25    <uses-permission android:name="android.permission.READ_CONTACTS" />
+25-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:21:5-72
+25-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:21:22-69
+26    <uses-permission android:name="android.permission.BODY_SENSORS" />
+26-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:22:5-71
+26-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:22:22-68
+27    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+27-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:23:5-81
+27-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:23:22-78
+28    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+28-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:24:5-79
+28-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:24:22-76
+29    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+29-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:25:5-77
+29-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:25:22-74
+30    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+30-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:26:5-76
+30-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:26:22-73
+31
+32    <uses-feature android:name="android.hardware.sensor.stepcounter" />
+32-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:28:5-72
+32-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:28:19-69
+33    <uses-feature
+33-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:29:5-31:36
+34        android:name="android.hardware.camera"
+34-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:30:9-47
+35        android:required="false" />
+35-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:31:9-33
+36
+37    <uses-permission android:name="com.android.vending.BILLING" />
+37-->[com.android.billingclient:billing-ktx:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/a806620543f2e6ff98fec719663778e1/transformed/jetified-billing-ktx-5.1.0/AndroidManifest.xml:9:5-67
+37-->[com.android.billingclient:billing-ktx:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/a806620543f2e6ff98fec719663778e1/transformed/jetified-billing-ktx-5.1.0/AndroidManifest.xml:9:22-64
+38
+39    <uses-feature
+39-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:12:5-14:36
+40        android:name="android.hardware.wifi"
+40-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:13:9-45
+41        android:required="false" />
+41-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:14:9-33
+42
+43    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+43-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:18:5-76
+43-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:18:22-73
+44    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+44-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:26:5-68
+44-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:26:22-65
+45    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+45-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:28:5-82
+45-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:28:22-79
+46    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+46-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/54d9ac624bdb9c55d52e97218f82f6bc/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+46-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/54d9ac624bdb9c55d52e97218f82f6bc/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+47    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+47-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+47-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+48    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+48-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+48-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+49
+50    <uses-feature android:glEsVersion="0x00030000" />
+50-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-54
+50-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:19-51
+51    <uses-feature
+51-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:36
+52        android:name="android.hardware.type.pc"
+52-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-48
+53        android:required="false" />
+53-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-33
+54    <uses-feature
+54-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-21:36
+55        android:name="android.hardware.camera.autofocus"
+55-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-57
+56        android:required="false" />
+56-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-33
+57    <uses-feature
+57-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:5-24:36
+58        android:name="android.hardware.camera.front"
+58-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-53
+59        android:required="false" />
+59-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-33
+60    <uses-feature
+60-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-27:36
+61        android:name="android.hardware.touchscreen"
+61-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-52
+62        android:required="false" />
+62-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-33
+63    <uses-feature
+63-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-30:36
+64        android:name="android.hardware.touchscreen.multitouch"
+64-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-63
+65        android:required="false" />
+65-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-33
+66    <uses-feature
+66-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:5-33:36
+67        android:name="android.hardware.touchscreen.multitouch.distinct"
+67-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-72
+68        android:required="false" />
+68-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-33
+69    <!--
+70    This has been added to conform with requirement from Android 11 (API level 30) onwards
+71    (http://screen/9iGdBMRWDmVbRJ6), after getting confirmation in http://yaqs/995038231927980032#a1
+72    -->
+73    <queries>
+73-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:16:5-20:15
+74        <intent>
+74-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:17:9-19:18
+75            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+75-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:18:13-91
+75-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:18:21-88
+76        </intent>
+77    </queries>
+78
+79    <uses-permission android:name="android.permission.BLUETOOTH" />
+79-->[:unityLibrary:AgoraRtcEngineKit.plugin] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/AgoraRtcEngineKit.plugin/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-68
+79-->[:unityLibrary:AgoraRtcEngineKit.plugin] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/AgoraRtcEngineKit.plugin/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-65
+80    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+81
+82    <application
+82-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:33:5-292:19
+83        android:name="com.tnmeta.torymeta.ToryApplication"
+83-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:34:9-40
+84        android:allowBackup="false"
+84-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:35:9-36
+85        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+85-->[androidx.core:core:1.8.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/6b2b149cfd58060899edf7ae427575fe/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+86        android:debuggable="true"
+87        android:extractNativeLibs="true"
+87-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:18-50
+88        android:fullBackupContent="false"
+88-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:36:9-42
+89        android:icon="@mipmap/ic_launcher"
+89-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:37:9-43
+90        android:label="@string/app_name"
+90-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:38:9-41
+91        android:largeHeap="true"
+91-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:39:9-33
+92        android:requestLegacyExternalStorage="true"
+92-->[:unityLibrary:AgoraRtcEngineKit.plugin] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/AgoraRtcEngineKit.plugin/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:18-61
+93        android:roundIcon="@mipmap/ic_launcher_round"
+93-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:40:9-54
+94        android:supportsRtl="true"
+94-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:41:9-35
+95        android:theme="@style/splashscreen"
+95-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:42:9-44
+96        android:usesCleartextTraffic="true" >
+96-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:43:9-44
+97        <activity
+97-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:45:9-47:40
+98            android:name="com.tnmeta.torymeta.seminar.SeminarRoomViewActivity"
+98-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:46:13-60
+99            android:exported="false" />
+99-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:47:13-37
+100
+101        <meta-data
+101-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:49:9-51:56
+102            android:name="com.naver.maps.map.CLIENT_ID"
+102-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:50:13-56
+103            android:value="@string/naver_map_client" />
+103-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:51:13-53
+104
+105        <activity
+105-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:53:9-68:20
+106            android:name="com.tnmeta.torymeta.intro.SplashActivity"
+106-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:54:13-49
+107            android:configChanges="orientation|keyboardHidden|screenSize"
+107-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:55:13-74
+108            android:exported="true"
+108-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:56:13-36
+109            android:screenOrientation="portrait"
+109-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:57:13-49
+110            android:theme="@style/AppTheme.Tory.White" >
+110-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:58:13-55
+111            <intent-filter>
+111-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:59:13-63:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:60:17-69
+112-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:60:25-66
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:62:17-77
+114-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:62:27-74
+115            </intent-filter>
+116
+117            <meta-data
+117-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:65:13-67:36
+118                android:name="android.app.lib_name"
+118-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:66:17-52
+119                android:value="" />
+119-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:67:17-33
+120        </activity>
+121        <activity
+121-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:69:9-74:58
+122            android:name="com.tnmeta.torymeta.MainBaseActivity"
+122-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:70:13-45
+123            android:configChanges="orientation|keyboardHidden|screenSize"
+123-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:71:13-74
+124            android:exported="true"
+124-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:72:13-36
+125            android:screenOrientation="portrait"
+125-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:73:13-49
+126            android:theme="@style/AppTheme.Tory.White" />
+126-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:74:13-55
+127        <activity
+127-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:75:9-80:58
+128            android:name="com.tnmeta.torymeta.intro.PermissionInfoActivity"
+128-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:76:13-57
+129            android:configChanges="orientation|keyboardHidden|screenSize"
+129-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:77:13-74
+130            android:exported="false"
+130-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:78:13-37
+131            android:screenOrientation="portrait"
+131-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:79:13-49
+132            android:theme="@style/AppTheme.Tory.White" />
+132-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:80:13-55
+133        <activity
+133-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:81:9-85:51
+134            android:name="com.tnmeta.torymeta.web.ToryWebActivity"
+134-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:82:13-48
+135            android:configChanges="orientation|keyboardHidden|screenSize"
+135-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:83:13-74
+136            android:screenOrientation="portrait"
+136-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:84:13-49
+137            android:theme="@style/AppTheme.Web" />
+137-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:85:13-48
+138        <activity
+138-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:86:9-90:51
+139            android:name="com.tnmeta.torymeta.web.ToryWebViewActivity"
+139-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:87:13-52
+140            android:configChanges="orientation|keyboardHidden|screenSize"
+140-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:88:13-74
+141            android:screenOrientation="portrait"
+141-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:89:13-49
+142            android:theme="@style/AppTheme.Web" />
+142-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:90:13-48
+143        <activity
+143-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:91:9-95:58
+144            android:name="com.tnmeta.torymeta.intro.OnboardingActivity"
+144-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:92:13-53
+145            android:configChanges="orientation|keyboardHidden|screenSize"
+145-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:93:13-74
+146            android:screenOrientation="portrait"
+146-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:94:13-49
+147            android:theme="@style/AppTheme.Tory.White" />
+147-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:95:13-55
+148        <activity
+148-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:96:9-100:58
+149            android:name="com.tnmeta.torymeta.intro.UniversitySelectActivity"
+149-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:97:13-59
+150            android:configChanges="orientation|keyboardHidden|screenSize"
+150-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:98:13-74
+151            android:screenOrientation="portrait"
+151-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:99:13-49
+152            android:theme="@style/AppTheme.Tory.White" />
+152-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:100:13-55
+153        <activity
+153-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:101:9-105:58
+154            android:name="com.tnmeta.torymeta.talk.ToryTalkActivity"
+154-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:102:13-50
+155            android:configChanges="orientation|keyboardHidden|screenSize"
+155-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:103:13-74
+156            android:screenOrientation="portrait"
+156-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:104:13-49
+157            android:theme="@style/AppTheme.Tory.White" />
+157-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:105:13-55
+158        <activity
+158-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:106:9-110:58
+159            android:name="com.tnmeta.torymeta.talk.FriendListActivity"
+159-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:107:13-52
+160            android:configChanges="orientation|keyboardHidden|screenSize"
+160-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:108:13-74
+161            android:screenOrientation="portrait"
+161-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:109:13-49
+162            android:theme="@style/AppTheme.Tory.White" />
+162-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:110:13-55
+163        <activity
+163-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:111:9-116:58
+164            android:name="com.tnmeta.torymeta.campus.PedometerActivity"
+164-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:112:13-53
+165            android:configChanges="orientation|keyboardHidden|screenSize"
+165-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:113:13-74
+166            android:exported="false"
+166-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:114:13-37
+167            android:screenOrientation="portrait"
+167-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:115:13-49
+168            android:theme="@style/AppTheme.Tory.White" />
+168-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:116:13-55
+169        <activity
+169-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:117:9-122:59
+170            android:name="com.tnmeta.torymeta.campus.CampusActivity"
+170-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:118:13-50
+171            android:configChanges="orientation|keyboardHidden|screenSize"
+171-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:119:13-74
+172            android:exported="false"
+172-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:120:13-37
+173            android:screenOrientation="portrait"
+173-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:121:13-49
+174            android:theme="@style/AppTheme.Tory.Purple" />
+174-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:122:13-56
+175        <activity
+175-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:123:9-127:58
+176            android:name="com.tnmeta.torymeta.unity.UnityCharacterActivity"
+176-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:124:13-57
+177            android:exported="false"
+177-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:125:13-37
+178            android:screenOrientation="portrait"
+178-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:126:13-49
+179            android:theme="@style/AppTheme.Tory.White" />
+179-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:127:13-55
+180        <activity
+180-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:128:9-132:58
+181            android:name="com.tnmeta.torymeta.campus.ToryAvatarActivity"
+181-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:129:13-54
+182            android:exported="false"
+182-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:130:13-37
+183            android:screenOrientation="portrait"
+183-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:131:13-49
+184            android:theme="@style/AppTheme.Tory.White" />
+184-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:132:13-55
+185        <activity
+185-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:133:9-137:58
+186            android:name="com.tnmeta.torymeta.talk.FriendSearchActivity"
+186-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:134:13-54
+187            android:configChanges="orientation|keyboardHidden|screenSize"
+187-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:135:13-74
+188            android:screenOrientation="portrait"
+188-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:136:13-49
+189            android:theme="@style/AppTheme.Tory.White" />
+189-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:137:13-55
+190        <activity
+190-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:138:9-143:58
+191            android:name="com.tnmeta.torymeta.talk.ChattingActivity"
+191-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:139:13-50
+192            android:configChanges="orientation|keyboardHidden|screenSize"
+192-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:140:13-74
+193            android:exported="false"
+193-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:141:13-37
+194            android:screenOrientation="portrait"
+194-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:142:13-49
+195            android:theme="@style/AppTheme.Tory.White" />
+195-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:143:13-55
+196        <activity
+196-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:144:9-149:58
+197            android:name="com.tnmeta.torymeta.talk.FriendInviteActivity"
+197-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:145:13-54
+198            android:configChanges="orientation|keyboardHidden|screenSize"
+198-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:146:13-74
+199            android:exported="false"
+199-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:147:13-37
+200            android:screenOrientation="portrait"
+200-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:148:13-49
+201            android:theme="@style/AppTheme.Tory.White" />
+201-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:149:13-55
+202        <activity
+202-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:150:9-154:58
+203            android:name="com.tnmeta.torymeta.my_page.ShopActivity"
+203-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:151:13-49
+204            android:configChanges="orientation|keyboardHidden|screenSize"
+204-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:152:13-74
+205            android:screenOrientation="portrait"
+205-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:153:13-49
+206            android:theme="@style/AppTheme.Tory.White" />
+206-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:154:13-55
+207        <activity
+207-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:155:9-159:58
+208            android:name="com.tnmeta.torymeta.my_page.profile.ProfileActivity"
+208-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:156:13-60
+209            android:configChanges="orientation|keyboardHidden|screenSize"
+209-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:157:13-74
+210            android:screenOrientation="portrait"
+210-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:158:13-49
+211            android:theme="@style/AppTheme.Tory.White" />
+211-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:159:13-55
+212        <activity
+212-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:160:9-164:58
+213            android:name="com.tnmeta.torymeta.my_page.profile.NFTCollectionActivity"
+213-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:161:13-66
+214            android:configChanges="orientation|keyboardHidden|screenSize"
+214-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:162:13-74
+215            android:screenOrientation="portrait"
+215-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:163:13-49
+216            android:theme="@style/AppTheme.Tory.White" />
+216-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:164:13-55
+217        <activity
+217-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:165:9-169:58
+218            android:name="com.tnmeta.torymeta.my_page.profile.DefaultCollectionActivity"
+218-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:166:13-70
+219            android:configChanges="orientation|keyboardHidden|screenSize"
+219-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:167:13-74
+220            android:screenOrientation="portrait"
+220-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:168:13-49
+221            android:theme="@style/AppTheme.Tory.White" />
+221-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:169:13-55
+222        <activity
+222-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:170:9-174:58
+223            android:name="com.tnmeta.torymeta.my_page.NotificationSettingActivity"
+223-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:171:13-64
+224            android:configChanges="orientation|keyboardHidden|screenSize"
+224-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:172:13-74
+225            android:screenOrientation="portrait"
+225-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:173:13-49
+226            android:theme="@style/AppTheme.Tory.White" />
+226-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:174:13-55
+227        <activity
+227-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:175:9-180:58
+228            android:name="com.tnmeta.torymeta.my_page.tory.ToryChargeActivity"
+228-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:176:13-60
+229            android:configChanges="orientation|keyboardHidden|screenSize"
+229-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:177:13-74
+230            android:exported="false"
+230-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:178:13-37
+231            android:screenOrientation="portrait"
+231-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:179:13-49
+232            android:theme="@style/AppTheme.Tory.White" />
+232-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:180:13-55
+233        <activity
+233-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:181:9-186:58
+234            android:name="com.tnmeta.torymeta.my_page.mileage.MileagePointTransactionHistoryActivity"
+234-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:182:13-83
+235            android:configChanges="orientation|keyboardHidden|screenSize"
+235-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:183:13-74
+236            android:exported="false"
+236-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:184:13-37
+237            android:screenOrientation="portrait"
+237-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:185:13-49
+238            android:theme="@style/AppTheme.Tory.White" />
+238-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:186:13-55
+239        <activity
+239-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:187:9-192:58
+240            android:name="com.tnmeta.torymeta.my_page.MyPageActivity"
+240-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:188:13-51
+241            android:configChanges="orientation|keyboardHidden|screenSize"
+241-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:189:13-74
+242            android:exported="false"
+242-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:190:13-37
+243            android:screenOrientation="portrait"
+243-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:191:13-49
+244            android:theme="@style/AppTheme.Tory.White" />
+244-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:192:13-55
+245        <activity
+245-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:193:9-198:58
+246            android:name="com.tnmeta.torymeta.seminar.CreateSeminarActivity"
+246-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:194:13-58
+247            android:configChanges="orientation|keyboardHidden|screenSize"
+247-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:195:13-74
+248            android:exported="false"
+248-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:196:13-37
+249            android:screenOrientation="portrait"
+249-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:197:13-49
+250            android:theme="@style/AppTheme.Tory.White" />
+250-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:198:13-55
+251        <activity
+251-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:199:9-204:58
+252            android:name="com.tnmeta.torymeta.seminar.ModifySeminarActivity"
+252-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:200:13-58
+253            android:configChanges="orientation|keyboardHidden|screenSize"
+253-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:201:13-74
+254            android:exported="false"
+254-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:202:13-37
+255            android:screenOrientation="portrait"
+255-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:203:13-49
+256            android:theme="@style/AppTheme.Tory.White" />
+256-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:204:13-55
+257        <activity
+257-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:205:9-210:58
+258            android:name="com.tnmeta.torymeta.seminar.activity.SeminarDetailActivity"
+258-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:206:13-67
+259            android:configChanges="orientation|keyboardHidden|screenSize"
+259-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:207:13-74
+260            android:exported="false"
+260-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:208:13-37
+261            android:screenOrientation="portrait"
+261-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:209:13-49
+262            android:theme="@style/AppTheme.Tory.White" />
+262-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:210:13-55
+263        <activity
+263-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:211:9-216:58
+264            android:name="com.tnmeta.torymeta.seminar.activity.SeminarScheduleActivity"
+264-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:212:13-69
+265            android:configChanges="orientation|keyboardHidden|screenSize"
+265-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:213:13-74
+266            android:exported="false"
+266-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:214:13-37
+267            android:screenOrientation="portrait"
+267-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:215:13-49
+268            android:theme="@style/AppTheme.Tory.White" />
+268-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:216:13-55
+269        <activity
+269-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:217:9-226:20
+270            android:name="com.tnmeta.torymeta.push.PushInfoActivity"
+270-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:218:13-50
+271            android:exported="false"
+271-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:219:13-37
+272            android:theme="@style/Theme.Transparent" >
+272-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:220:13-53
+273            <intent-filter>
+273-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:221:13-225:29
+274                <action android:name="FCM_PLUGIN_ACTIVITY" />
+274-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:222:17-62
+274-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:222:25-59
+275
+276                <category android:name="android.intent.category.DEFAULT" />
+276-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:224:17-76
+276-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:224:27-73
+277            </intent-filter>
+278        </activity>
+279        <activity
+279-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:227:9-231:50
+280            android:name="com.tnmeta.torymeta.chattinglounge.ChattingLoungeCreateActivity"
+280-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:228:13-72
+281            android:exported="false"
+281-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:229:13-37
+282            android:screenOrientation="landscape"
+282-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:230:13-50
+283            android:theme="@style/Transparent" />
+283-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:231:13-47
+284        <activity
+284-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:232:9-236:50
+285            android:name="com.tnmeta.torymeta.chattinglounge.ChattingLoungeReportActivity"
+285-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:233:13-72
+286            android:exported="false"
+286-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:234:13-37
+287            android:screenOrientation="landscape"
+287-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:235:13-50
+288            android:theme="@style/Transparent" />
+288-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:236:13-47
+289        <activity
+289-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:237:9-241:50
+290            android:name="com.tnmeta.torymeta.chattinglounge.ChattingPasswordActivity"
+290-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:238:13-68
+291            android:exported="false"
+291-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:239:13-37
+292            android:screenOrientation="landscape"
+292-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:240:13-50
+293            android:theme="@style/Transparent" />
+293-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:241:13-47
+294        <activity
+294-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:242:9-246:50
+295            android:name="com.tnmeta.torymeta.chattinglounge.ChattingLougeListActivity"
+295-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:243:13-69
+296            android:exported="false"
+296-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:244:13-37
+297            android:screenOrientation="landscape"
+297-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:245:13-50
+298            android:theme="@style/Transparent" />
+298-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:246:13-47
+299        <activity
+299-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:247:9-251:50
+300            android:name="com.tnmeta.torymeta.chattinglounge.ParticipantsListActivity"
+300-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:248:13-68
+301            android:exported="false"
+301-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:249:13-37
+302            android:screenOrientation="landscape"
+302-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:250:13-50
+303            android:theme="@style/Transparent" />
+303-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:251:13-47
+304        <activity
+304-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:252:9-256:50
+305            android:name="com.tnmeta.torymeta.chattinglounge.ChattingInviteActivity"
+305-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:253:13-66
+306            android:exported="false"
+306-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:254:13-37
+307            android:screenOrientation="landscape"
+307-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:255:13-50
+308            android:theme="@style/Transparent" />
+308-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:256:13-47
+309        <activity
+309-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:257:9-262:58
+310            android:name="com.tnmeta.torymeta.videoplayer.VideoPlayerActivity"
+310-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:258:13-60
+311            android:configChanges="orientation|keyboardHidden|screenSize"
+311-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:259:13-74
+312            android:exported="false"
+312-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:260:13-37
+313            android:hardwareAccelerated="true"
+313-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:261:13-47
+314            android:theme="@style/AppTheme.Tory.White" />
+314-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:262:13-55
+315        <activity
+315-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:263:9-268:58
+316            android:name="com.tnmeta.torymeta.videoplayer.LectureLoginActivity"
+316-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:264:13-61
+317            android:configChanges="orientation|keyboardHidden|screenSize"
+317-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:265:13-74
+318            android:exported="false"
+318-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:266:13-37
+319            android:screenOrientation="portrait"
+319-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:267:13-49
+320            android:theme="@style/AppTheme.Tory.White" />
+320-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:268:13-55
+321        <activity
+321-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:269:9-274:58
+322            android:name="com.tnmeta.torymeta.videoplayer.MyLectureRoomActivity"
+322-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:270:13-62
+323            android:configChanges="orientation|keyboardHidden|screenSize"
+323-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:271:13-74
+324            android:exported="false"
+324-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:272:13-37
+325            android:screenOrientation="portrait"
+325-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:273:13-49
+326            android:theme="@style/AppTheme.Tory.White" />
+326-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:274:13-55
+327
+328        <receiver
+328-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:276:9-282:20
+329            android:name="com.tnmeta.torymeta.campus.receiver.BootReceiver"
+329-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:277:13-57
+330            android:exported="true" >
+330-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:278:13-36
+331            <intent-filter>
+331-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:279:13-281:29
+332                <action android:name="android.intent.action.BOOT_COMPLETED" />
+332-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:280:17-79
+332-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:280:25-76
+333            </intent-filter>
+334        </receiver>
+335
+336        <service
+336-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:284:9-291:19
+337            android:name="com.tnmeta.torymeta.messaging.SBFirebaseMessagingService"
+337-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:285:13-65
+338            android:enabled="true"
+338-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:286:13-35
+339            android:exported="true" >
+339-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:287:13-36
+340            <intent-filter>
+340-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:288:13-290:29
+341                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+341-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:289:17-78
+341-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:289:25-75
+342            </intent-filter>
+343        </service>
+344
+345        <meta-data
+345-->[androidx.media3:media3-exoplayer-ima:1.0.0-rc01] /Users/tnmeta_yjk/.gradle/caches/transforms-3/6acf8f7c898d437b8e6afd76d83383e7/transformed/jetified-media3-exoplayer-ima-1.0.0-rc01/AndroidManifest.xml:25:9-27:36
+346            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+346-->[androidx.media3:media3-exoplayer-ima:1.0.0-rc01] /Users/tnmeta_yjk/.gradle/caches/transforms-3/6acf8f7c898d437b8e6afd76d83383e7/transformed/jetified-media3-exoplayer-ima-1.0.0-rc01/AndroidManifest.xml:26:13-69
+347            android:value="true" />
+347-->[androidx.media3:media3-exoplayer-ima:1.0.0-rc01] /Users/tnmeta_yjk/.gradle/caches/transforms-3/6acf8f7c898d437b8e6afd76d83383e7/transformed/jetified-media3-exoplayer-ima-1.0.0-rc01/AndroidManifest.xml:27:13-33
+348        <meta-data
+348-->[androidx.media3:media3-exoplayer-ima:1.0.0-rc01] /Users/tnmeta_yjk/.gradle/caches/transforms-3/6acf8f7c898d437b8e6afd76d83383e7/transformed/jetified-media3-exoplayer-ima-1.0.0-rc01/AndroidManifest.xml:28:9-30:69
+349            android:name="com.google.android.gms.version"
+349-->[androidx.media3:media3-exoplayer-ima:1.0.0-rc01] /Users/tnmeta_yjk/.gradle/caches/transforms-3/6acf8f7c898d437b8e6afd76d83383e7/transformed/jetified-media3-exoplayer-ima-1.0.0-rc01/AndroidManifest.xml:29:13-58
+350            android:value="@integer/google_play_services_version" />
+350-->[androidx.media3:media3-exoplayer-ima:1.0.0-rc01] /Users/tnmeta_yjk/.gradle/caches/transforms-3/6acf8f7c898d437b8e6afd76d83383e7/transformed/jetified-media3-exoplayer-ima-1.0.0-rc01/AndroidManifest.xml:30:13-66
+351
+352        <service
+352-->[com.google.firebase:firebase-crashlytics-ktx:18.4.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cdcb4eb8a741db212560d6d9c205c1df/transformed/jetified-firebase-crashlytics-ktx-18.4.0/AndroidManifest.xml:23:9-29:19
+353            android:name="com.google.firebase.components.ComponentDiscoveryService"
+353-->[com.google.firebase:firebase-crashlytics-ktx:18.4.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cdcb4eb8a741db212560d6d9c205c1df/transformed/jetified-firebase-crashlytics-ktx-18.4.0/AndroidManifest.xml:24:13-84
+354            android:directBootAware="true"
+354-->[com.google.firebase:firebase-common:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/9182a2df0aaf751dddcbc016f1ed5e3a/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+355            android:exported="false" >
+355-->[com.google.firebase:firebase-crashlytics-ktx:18.4.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cdcb4eb8a741db212560d6d9c205c1df/transformed/jetified-firebase-crashlytics-ktx-18.4.0/AndroidManifest.xml:25:13-37
+356            <meta-data
+356-->[com.google.firebase:firebase-crashlytics-ktx:18.4.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cdcb4eb8a741db212560d6d9c205c1df/transformed/jetified-firebase-crashlytics-ktx-18.4.0/AndroidManifest.xml:26:13-28:85
+357                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+357-->[com.google.firebase:firebase-crashlytics-ktx:18.4.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cdcb4eb8a741db212560d6d9c205c1df/transformed/jetified-firebase-crashlytics-ktx-18.4.0/AndroidManifest.xml:27:17-130
+358                android:value="com.google.firebase.components.ComponentRegistrar" />
+358-->[com.google.firebase:firebase-crashlytics-ktx:18.4.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cdcb4eb8a741db212560d6d9c205c1df/transformed/jetified-firebase-crashlytics-ktx-18.4.0/AndroidManifest.xml:28:17-82
+359            <meta-data
+359-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/c53b98a79ec50cd84f1babec56c9aaa3/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:11:13-13:85
+360                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+360-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/c53b98a79ec50cd84f1babec56c9aaa3/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:12:17-126
+361                android:value="com.google.firebase.components.ComponentRegistrar" />
+361-->[com.google.firebase:firebase-analytics-ktx:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/c53b98a79ec50cd84f1babec56c9aaa3/transformed/jetified-firebase-analytics-ktx-21.3.0/AndroidManifest.xml:13:17-82
+362            <meta-data
+362-->[com.google.firebase:firebase-messaging-ktx:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/69c04a2b60b1e7cee380301c8f7251e9/transformed/jetified-firebase-messaging-ktx-23.2.0/AndroidManifest.xml:28:13-30:85
+363                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+363-->[com.google.firebase:firebase-messaging-ktx:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/69c04a2b60b1e7cee380301c8f7251e9/transformed/jetified-firebase-messaging-ktx-23.2.0/AndroidManifest.xml:29:17-126
+364                android:value="com.google.firebase.components.ComponentRegistrar" />
+364-->[com.google.firebase:firebase-messaging-ktx:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/69c04a2b60b1e7cee380301c8f7251e9/transformed/jetified-firebase-messaging-ktx-23.2.0/AndroidManifest.xml:30:17-82
+365            <meta-data
+365-->[com.google.firebase:firebase-crashlytics:18.4.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/140f21f9d0177408b4e9cbbbb42897e2/transformed/jetified-firebase-crashlytics-18.4.0/AndroidManifest.xml:17:13-19:85
+366                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+366-->[com.google.firebase:firebase-crashlytics:18.4.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/140f21f9d0177408b4e9cbbbb42897e2/transformed/jetified-firebase-crashlytics-18.4.0/AndroidManifest.xml:18:17-115
+367                android:value="com.google.firebase.components.ComponentRegistrar" />
+367-->[com.google.firebase:firebase-crashlytics:18.4.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/140f21f9d0177408b4e9cbbbb42897e2/transformed/jetified-firebase-crashlytics-18.4.0/AndroidManifest.xml:19:17-82
+368            <meta-data
+368-->[com.google.firebase:firebase-sessions:1.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/c07abf89b923bb8a946a5ea3b3ca5588/transformed/jetified-firebase-sessions-1.0.0/AndroidManifest.xml:27:13-29:85
+369                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+369-->[com.google.firebase:firebase-sessions:1.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/c07abf89b923bb8a946a5ea3b3ca5588/transformed/jetified-firebase-sessions-1.0.0/AndroidManifest.xml:28:17-117
+370                android:value="com.google.firebase.components.ComponentRegistrar" />
+370-->[com.google.firebase:firebase-sessions:1.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/c07abf89b923bb8a946a5ea3b3ca5588/transformed/jetified-firebase-sessions-1.0.0/AndroidManifest.xml:29:17-82
+371            <meta-data
+371-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/7f443f67bccf34170a95a557cc6558fe/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:14:13-16:85
+372                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+372-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/7f443f67bccf34170a95a557cc6558fe/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:15:17-113
+373                android:value="com.google.firebase.components.ComponentRegistrar" />
+373-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/7f443f67bccf34170a95a557cc6558fe/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:16:17-82
+374            <meta-data
+374-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
+375                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+375-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+376                android:value="com.google.firebase.components.ComponentRegistrar" />
+376-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+377            <meta-data
+377-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/54d9ac624bdb9c55d52e97218f82f6bc/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+378                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+378-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/54d9ac624bdb9c55d52e97218f82f6bc/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+379                android:value="com.google.firebase.components.ComponentRegistrar" />
+379-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/54d9ac624bdb9c55d52e97218f82f6bc/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+380            <meta-data
+380-->[com.google.firebase:firebase-installations:17.1.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/3bf43319bec9a20101fe0dd5eba3ef56/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+381                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+381-->[com.google.firebase:firebase-installations:17.1.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/3bf43319bec9a20101fe0dd5eba3ef56/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+382                android:value="com.google.firebase.components.ComponentRegistrar" />
+382-->[com.google.firebase:firebase-installations:17.1.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/3bf43319bec9a20101fe0dd5eba3ef56/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+383            <meta-data
+383-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1eec6392004f347d767dba46d8d44fc4/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+384                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+384-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1eec6392004f347d767dba46d8d44fc4/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+385                android:value="com.google.firebase.components.ComponentRegistrar" />
+385-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1eec6392004f347d767dba46d8d44fc4/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+386        </service>
+387
+388        <activity
+388-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:21:9-25:51
+389            android:name="com.naver.maps.map.app.LegendActivity"
+389-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:22:13-65
+390            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+390-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:23:13-91
+391            android:label="@string/navermap_legend"
+391-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:24:13-52
+392            android:theme="@style/navermap_app" />
+392-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:25:13-48
+393        <activity
+393-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:26:9-30:51
+394            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+394-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:27:13-70
+395            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+395-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:28:13-91
+396            android:label="@string/navermap_legal_notice"
+396-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:29:13-58
+397            android:theme="@style/navermap_app" />
+397-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:30:13-48
+398        <activity
+398-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:31:9-35:51
+399            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+399-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:32:13-76
+400            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+400-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:33:13-91
+401            android:label="@string/navermap_open_source_license"
+401-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:34:13-65
+402            android:theme="@style/navermap_app" />
+402-->[com.naver.maps:map-sdk:3.16.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e4b1e617ee803b28e9a4e4936a05212a/transformed/jetified-map-sdk-3.16.0/AndroidManifest.xml:35:13-48
+403        <activity
+403-->[pub.devrel:easypermissions:3.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/2bf715a1b9fd003346117bc5a1ddbddb/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+404            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+404-->[pub.devrel:easypermissions:3.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/2bf715a1b9fd003346117bc5a1ddbddb/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+405            android:exported="false"
+405-->[pub.devrel:easypermissions:3.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/2bf715a1b9fd003346117bc5a1ddbddb/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+406            android:label=""
+406-->[pub.devrel:easypermissions:3.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/2bf715a1b9fd003346117bc5a1ddbddb/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+407            android:theme="@style/EasyPermissions.Transparent" />
+407-->[pub.devrel:easypermissions:3.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/2bf715a1b9fd003346117bc5a1ddbddb/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+408
+409        <receiver
+409-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
+410            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+410-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
+411            android:exported="true"
+411-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
+412            android:permission="com.google.android.c2dm.permission.SEND" >
+412-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
+413            <intent-filter>
+413-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:35:13-37:29
+414                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+414-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:36:17-81
+414-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:36:25-78
+415            </intent-filter>
+416        </receiver>
+417        <!--
+418             FirebaseMessagingService performs security checks at runtime,
+419             but set to not exported to explicitly avoid allowing another app to call it.
+420        -->
+421        <service
+421-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:44:9-51:19
+422            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+422-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:45:13-82
+423            android:directBootAware="true"
+423-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
+424            android:exported="false" >
+424-->[com.google.firebase:firebase-messaging:23.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/56ac28fb81434a3353461a6d25c1e0b2/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:47:13-37
+425            <intent-filter android:priority="-500" >
+425-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:288:13-290:29
+426                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+426-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:289:17-78
+426-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:289:25-75
+427            </intent-filter>
+428        </service>
+429
+430        <provider
+430-->[com.google.firebase:firebase-common:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/9182a2df0aaf751dddcbc016f1ed5e3a/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+431            android:name="com.google.firebase.provider.FirebaseInitProvider"
+431-->[com.google.firebase:firebase-common:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/9182a2df0aaf751dddcbc016f1ed5e3a/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+432            android:authorities="com.tnmeta.torymeta.firebaseinitprovider"
+432-->[com.google.firebase:firebase-common:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/9182a2df0aaf751dddcbc016f1ed5e3a/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+433            android:directBootAware="true"
+433-->[com.google.firebase:firebase-common:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/9182a2df0aaf751dddcbc016f1ed5e3a/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+434            android:exported="false"
+434-->[com.google.firebase:firebase-common:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/9182a2df0aaf751dddcbc016f1ed5e3a/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+435            android:initOrder="100" />
+435-->[com.google.firebase:firebase-common:20.3.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/9182a2df0aaf751dddcbc016f1ed5e3a/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+436
+437        <activity
+437-->[com.google.android.gms:play-services-base:18.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/469e514e3fcdb3504814642044909d72/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+438            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+438-->[com.google.android.gms:play-services-base:18.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/469e514e3fcdb3504814642044909d72/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+439            android:exported="false"
+439-->[com.google.android.gms:play-services-base:18.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/469e514e3fcdb3504814642044909d72/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+440            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+440-->[com.google.android.gms:play-services-base:18.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/469e514e3fcdb3504814642044909d72/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+441
+442        <receiver
+442-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+443            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+443-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+444            android:enabled="true"
+444-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+445            android:exported="false" >
+445-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+446        </receiver>
+447
+448        <service
+448-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+449            android:name="com.google.android.gms.measurement.AppMeasurementService"
+449-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+450            android:enabled="true"
+450-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+451            android:exported="false" />
+451-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+452        <service
+452-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+453            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+453-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+454            android:enabled="true"
+454-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+455            android:exported="false"
+455-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+456            android:permission="android.permission.BIND_JOB_SERVICE" />
+456-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cb35fae94a080b39c05b9e18fb3f31c9/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+457
+458        <uses-library
+458-->[androidx.window:window:1.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/94f18cedf187ec6f6e5ce00f2ccca912/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+459            android:name="androidx.window.extensions"
+459-->[androidx.window:window:1.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/94f18cedf187ec6f6e5ce00f2ccca912/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+460            android:required="false" />
+460-->[androidx.window:window:1.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/94f18cedf187ec6f6e5ce00f2ccca912/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+461        <uses-library
+461-->[androidx.window:window:1.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/94f18cedf187ec6f6e5ce00f2ccca912/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+462            android:name="androidx.window.sidecar"
+462-->[androidx.window:window:1.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/94f18cedf187ec6f6e5ce00f2ccca912/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+463            android:required="false" />
+463-->[androidx.window:window:1.0.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/94f18cedf187ec6f6e5ce00f2ccca912/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+464
+465        <provider
+465-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+466            android:name="androidx.startup.InitializationProvider"
+466-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+467            android:authorities="com.tnmeta.torymeta.androidx-startup"
+467-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+468            android:exported="false" >
+468-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+469            <meta-data
+469-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+470                android:name="androidx.work.WorkManagerInitializer"
+470-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+471                android:value="androidx.startup" />
+471-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+472            <meta-data
+472-->[net.danlew:android.joda:2.12.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/62f58ab7499f597d2227b7baa6620292/transformed/jetified-android.joda-2.12.1/AndroidManifest.xml:16:13-18:52
+473                android:name="net.danlew.android.joda.JodaTimeInitializer"
+473-->[net.danlew:android.joda:2.12.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/62f58ab7499f597d2227b7baa6620292/transformed/jetified-android.joda-2.12.1/AndroidManifest.xml:17:17-75
+474                android:value="androidx.startup" />
+474-->[net.danlew:android.joda:2.12.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/62f58ab7499f597d2227b7baa6620292/transformed/jetified-android.joda-2.12.1/AndroidManifest.xml:18:17-49
+475            <meta-data
+475-->[androidx.emoji2:emoji2:1.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/b82b7a8ed4de26e387a5a8bf2ce6dbb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+476                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+476-->[androidx.emoji2:emoji2:1.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/b82b7a8ed4de26e387a5a8bf2ce6dbb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+477                android:value="androidx.startup" />
+477-->[androidx.emoji2:emoji2:1.2.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/b82b7a8ed4de26e387a5a8bf2ce6dbb8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+478            <meta-data
+478-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/562f8db9d98fd76ae91155276dd6425a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+479                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+479-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/562f8db9d98fd76ae91155276dd6425a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+480                android:value="androidx.startup" />
+480-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/562f8db9d98fd76ae91155276dd6425a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+481            <meta-data
+481-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:31:13-33:52
+482                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+482-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:32:17-85
+483                android:value="androidx.startup" />
+483-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:33:17-49
+484        </provider>
+485
+486        <service
+486-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+487            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+487-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+488            android:directBootAware="false"
+488-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+489            android:enabled="@bool/enable_system_alarm_service_default"
+489-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+490            android:exported="false" />
+490-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+491        <service
+491-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+492            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+492-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+493            android:directBootAware="false"
+493-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+494            android:enabled="@bool/enable_system_job_service_default"
+494-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+495            android:exported="true"
+495-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+496            android:permission="android.permission.BIND_JOB_SERVICE" />
+496-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+497        <service
+497-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+498            android:name="androidx.work.impl.foreground.SystemForegroundService"
+498-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+499            android:directBootAware="false"
+499-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+500            android:enabled="@bool/enable_system_foreground_service_default"
+500-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+501            android:exported="false" />
+501-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+502
+503        <receiver
+503-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+504            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+504-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+505            android:directBootAware="false"
+505-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+506            android:enabled="true"
+506-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+507            android:exported="false" />
+507-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+508        <receiver
+508-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+509            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+509-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+510            android:directBootAware="false"
+510-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+511            android:enabled="false"
+511-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+512            android:exported="false" >
+512-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+513            <intent-filter>
+513-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+514                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+514-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+514-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+515                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+515-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+515-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+516            </intent-filter>
+517        </receiver>
+518        <receiver
+518-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+519            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+519-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+520            android:directBootAware="false"
+520-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+521            android:enabled="false"
+521-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+522            android:exported="false" >
+522-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+523            <intent-filter>
+523-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+524                <action android:name="android.intent.action.BATTERY_OKAY" />
+524-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+524-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+525                <action android:name="android.intent.action.BATTERY_LOW" />
+525-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+525-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+526            </intent-filter>
+527        </receiver>
+528        <receiver
+528-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+529            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+529-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+530            android:directBootAware="false"
+530-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+531            android:enabled="false"
+531-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+532            android:exported="false" >
+532-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+533            <intent-filter>
+533-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+534                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+534-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+534-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+535                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+535-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+535-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+536            </intent-filter>
+537        </receiver>
+538        <receiver
+538-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+539            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+539-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+540            android:directBootAware="false"
+540-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+541            android:enabled="false"
+541-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+542            android:exported="false" >
+542-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+543            <intent-filter>
+543-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+544                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+544-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+544-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+545            </intent-filter>
+546        </receiver>
+547        <receiver
+547-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+548            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+548-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+549            android:directBootAware="false"
+549-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+550            android:enabled="false"
+550-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+551            android:exported="false" >
+551-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+552            <intent-filter>
+552-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+553                <action android:name="android.intent.action.BOOT_COMPLETED" />
+553-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:280:17-79
+553-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:280:25-76
+554                <action android:name="android.intent.action.TIME_SET" />
+554-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+554-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+555                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+555-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+555-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+556            </intent-filter>
+557        </receiver>
+558        <receiver
+558-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+559            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+559-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+560            android:directBootAware="false"
+560-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+561            android:enabled="@bool/enable_system_alarm_service_default"
+561-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+562            android:exported="false" >
+562-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+563            <intent-filter>
+563-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+564                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+564-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+564-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+565            </intent-filter>
+566        </receiver>
+567        <receiver
+567-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+568            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+568-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+569            android:directBootAware="false"
+569-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+570            android:enabled="true"
+570-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+571            android:exported="true"
+571-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+572            android:permission="android.permission.DUMP" >
+572-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+573            <intent-filter>
+573-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+574                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+574-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+574-->[androidx.work:work-runtime:2.7.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/fed6c5af7e7cae2b9280857fbb487487/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+575            </intent-filter>
+576        </receiver>
+577
+578        <service
+578-->[androidx.room:room-runtime:2.5.2] /Users/tnmeta_yjk/.gradle/caches/transforms-3/42adad425b84fd9257927c00e1273762/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+579            android:name="androidx.room.MultiInstanceInvalidationService"
+579-->[androidx.room:room-runtime:2.5.2] /Users/tnmeta_yjk/.gradle/caches/transforms-3/42adad425b84fd9257927c00e1273762/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+580            android:directBootAware="true"
+580-->[androidx.room:room-runtime:2.5.2] /Users/tnmeta_yjk/.gradle/caches/transforms-3/42adad425b84fd9257927c00e1273762/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+581            android:exported="false" />
+581-->[androidx.room:room-runtime:2.5.2] /Users/tnmeta_yjk/.gradle/caches/transforms-3/42adad425b84fd9257927c00e1273762/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+582        <service
+582-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/b334aea96ca4a03ed53668dc493c78c2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+583            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+583-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/b334aea96ca4a03ed53668dc493c78c2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+584            android:exported="false" >
+584-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/b334aea96ca4a03ed53668dc493c78c2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+585            <meta-data
+585-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/b334aea96ca4a03ed53668dc493c78c2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+586                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+586-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/b334aea96ca4a03ed53668dc493c78c2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+587                android:value="cct" />
+587-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/b334aea96ca4a03ed53668dc493c78c2/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+588        </service>
+589
+590        <activity
+590-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:9-62:20
+591            android:name="com.unity3d.player.UnityPlayerActivity"
+591-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-66
+592            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+592-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-194
+593            android:exported="true"
+593-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-36
+594            android:hardwareAccelerated="false"
+594-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-48
+595            android:launchMode="singleTask"
+595-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-44
+596            android:resizeableActivity="false"
+596-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-47
+597            android:screenOrientation="fullUser"
+597-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-49
+598            android:theme="@style/UnityThemeSelector" >
+598-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-54
+599            <intent-filter>
+599-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-47:29
+600                <action android:name="android.intent.action.MAIN" />
+600-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:60:17-69
+600-->/Users/tnmeta_yjk/Desktop/android/android-native-tory/app/src/main/AndroidManifest.xml:60:25-66
+601            </intent-filter>
+602
+603            <meta-data
+603-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-51:40
+604                android:name="unityplayer.UnityActivity"
+604-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:17-57
+605                android:value="true" />
+605-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:17-37
+606
+607            <layout
+607-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-57:44
+608                android:defaultHeight="1080px"
+608-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:54:17-47
+609                android:defaultWidth="1920px"
+609-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:55:17-46
+610                android:minHeight="300px"
+610-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:56:17-42
+611                android:minWidth="400px" />
+611-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:57:17-41
+612
+613            <meta-data
+613-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:59:13-61:40
+614                android:name="android.notch_support"
+614-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:60:17-53
+615                android:value="true" />
+615-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:61:17-37
+616        </activity>
+617
+618        <meta-data
+618-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:64:9-66:33
+619            android:name="unity.splash-mode"
+619-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:65:13-45
+620            android:value="0" />
+620-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:66:13-30
+621        <meta-data
+621-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:67:9-69:36
+622            android:name="unity.splash-enable"
+622-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:68:13-47
+623            android:value="True" />
+623-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:69:13-33
+624        <meta-data
+624-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:70:9-72:37
+625            android:name="unity.launch-fullscreen"
+625-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:71:13-51
+626            android:value="False" />
+626-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:72:13-34
+627        <meta-data
+627-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:73:9-75:37
+628            android:name="unity.allow-resizable-window"
+628-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:74:13-56
+629            android:value="False" />
+629-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:75:13-34
+630        <meta-data
+630-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:76:9-78:50
+631            android:name="notch.config"
+631-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:77:13-40
+632            android:value="portrait|landscape" />
+632-->[:unityLibrary] /Users/tnmeta_yjk/Desktop/android/android-native-tory/UnityProject/androidBuild/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:78:13-47
+633        <meta-data
+633-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:23:9-25:37
+634            android:name="com.google.android.play.billingclient.version"
+634-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:24:13-73
+635            android:value="5.1.0" />
+635-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:25:13-34
+636
+637        <activity
+637-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:27:9-31:75
+638            android:name="com.android.billingclient.api.ProxyBillingActivity"
+638-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:28:13-78
+639            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+639-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:29:13-96
+640            android:exported="false"
+640-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:30:13-37
+641            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+641-->[com.android.billingclient:billing:5.1.0] /Users/tnmeta_yjk/.gradle/caches/transforms-3/cc8b6da239fb0887e30f16320423bfa7/transformed/jetified-billing-5.1.0/AndroidManifest.xml:31:13-72
+642
+643        <service
+643-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/611512c46e87c529771ea9fbda8b2392/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+644            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+644-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/611512c46e87c529771ea9fbda8b2392/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+645            android:exported="false"
+645-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/611512c46e87c529771ea9fbda8b2392/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+646            android:permission="android.permission.BIND_JOB_SERVICE" >
+646-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/611512c46e87c529771ea9fbda8b2392/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+647        </service>
+648
+649        <receiver
+649-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/611512c46e87c529771ea9fbda8b2392/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+650            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+650-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/611512c46e87c529771ea9fbda8b2392/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+651            android:exported="false" />
+651-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/tnmeta_yjk/.gradle/caches/transforms-3/611512c46e87c529771ea9fbda8b2392/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+652        <receiver
+652-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:36:9-45:20
+653            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+653-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:37:13-76
+654            android:directBootAware="false"
+654-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:38:13-44
+655            android:enabled="true"
+655-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:39:13-35
+656            android:exported="true"
+656-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:40:13-36
+657            android:permission="android.permission.DUMP" >
+657-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:41:13-57
+658            <intent-filter>
+658-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:42:13-44:29
+659                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+659-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:43:17-91
+659-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/tnmeta_yjk/.gradle/caches/transforms-3/ed0ed39eb2bfb2483e377b18ae56dab0/transformed/jetified-profileinstaller-1.0.1/AndroidManifest.xml:43:25-88
+660            </intent-filter>
+661        </receiver>
+662
+663        <activity
+663-->[:AgoraScreenShareExtension:] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1b7b4e4e4c4de85e389f244f3b798739/transformed/jetified-AgoraScreenShareExtension/AndroidManifest.xml:10:9-13:63
+664            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity"
+664-->[:AgoraScreenShareExtension:] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1b7b4e4e4c4de85e389f244f3b798739/transformed/jetified-AgoraScreenShareExtension/AndroidManifest.xml:10:19-89
+665            android:configChanges="screenSize|orientation"
+665-->[:AgoraScreenShareExtension:] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1b7b4e4e4c4de85e389f244f3b798739/transformed/jetified-AgoraScreenShareExtension/AndroidManifest.xml:11:13-59
+666            android:screenOrientation="fullUser"
+666-->[:AgoraScreenShareExtension:] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1b7b4e4e4c4de85e389f244f3b798739/transformed/jetified-AgoraScreenShareExtension/AndroidManifest.xml:12:13-49
+667            android:theme="@android:style/Theme.Translucent" />
+667-->[:AgoraScreenShareExtension:] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1b7b4e4e4c4de85e389f244f3b798739/transformed/jetified-AgoraScreenShareExtension/AndroidManifest.xml:13:13-61
+668
+669        <service
+669-->[:AgoraScreenShareExtension:] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1b7b4e4e4c4de85e389f244f3b798739/transformed/jetified-AgoraScreenShareExtension/AndroidManifest.xml:15:9-18:19
+670            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService"
+670-->[:AgoraScreenShareExtension:] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1b7b4e4e4c4de85e389f244f3b798739/transformed/jetified-AgoraScreenShareExtension/AndroidManifest.xml:16:13-73
+671            android:foregroundServiceType="mediaProjection" >
+671-->[:AgoraScreenShareExtension:] /Users/tnmeta_yjk/.gradle/caches/transforms-3/1b7b4e4e4c4de85e389f244f3b798739/transformed/jetified-AgoraScreenShareExtension/AndroidManifest.xml:17:13-60
+672        </service> <!-- The activities will be merged into the manifest of the hosting app. -->
+673        <activity
+673-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:18:9-24:45
+674            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+674-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:19:13-100
+675            android:enabled="false"
+675-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:20:13-36
+676            android:exported="false"
+676-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:21:13-37
+677            android:launchMode="singleInstance"
+677-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:22:13-48
+678            android:process=":playcore_missing_splits_activity"
+678-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:23:13-64
+679            android:stateNotNeeded="true" />
+679-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:24:13-42
+680        <activity
+680-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:25:9-29:65
+681            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+681-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:26:13-93
+682            android:exported="false"
+682-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:27:13-37
+683            android:stateNotNeeded="true"
+683-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:28:13-42
+684            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+684-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:29:13-62
+685        <service
+685-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:32:9-39:19
+686            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+686-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:33:13-94
+687            android:enabled="false"
+687-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:34:13-36
+688            android:exported="true" >
+688-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:35:13-36
+689            <meta-data
+689-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:36:13-38:41
+690                android:name="com.google.android.play.core.assetpacks.versionCode"
+690-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:37:17-83
+691                android:value="11003" />
+691-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:38:17-38
+692        </service>
+693        <service
+693-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:40:9-43:40
+694            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+694-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:41:13-95
+695            android:enabled="false"
+695-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:42:13-36
+696            android:exported="false" />
+696-->[com.google.android.play:core:1.10.3] /Users/tnmeta_yjk/.gradle/caches/transforms-3/e00c5041ace436943c5313c9f778ce3b/transformed/jetified-core-1.10.3/AndroidManifest.xml:43:13-37
+697    </application>
+698
+699</manifest>

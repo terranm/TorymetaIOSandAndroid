@@ -1,0 +1,665 @@
+/* Network */
+
+// MessangerSocketIo
+"messangerSocketTemopraryError1" = "A temporary error has occurred. Please try again. [0001]";
+"messangerSocketTemopraryError2" = "A temporary error has occurred. Please try again. [0002]";
+"messangerSocketTemopraryError3" = "A temporary error has occurred. Please try again. [0003]";
+"messangerSocketTemopraryError4" = "A temporary error has occurred. Please try again. [0004]";
+// WDCommonAPI
+"commonAPIAuthError" = "User is not authorized to access this resource with an explicit deny";
+"commonAPITemporaryError" = "A temporary error has occurred. We apologize for the inconvenience. [%@]";
+"commonAPIDisconnected" = "Unable to connect. please check your network connection.";
+"commonAPINotice" = "Notification";
+"commonAPIConfirm" = "Confirm";
+"commonAPIRetry" = "Restart";
+
+/* Utils */
+
+// LoungeManager
+"loungeManagerSelectAvatar" = "Select an Avatar";
+"loungeManagerConfirm" = "Confirm";
+// SeminarManager
+"seminarManagerEntrance" = "Would you like to enter the seminar room you selected?";
+"seminarManagerIgnore" = "No";
+"seminarManagerConfirm" = "Yes";
+"seminarManagerReady" = "Before Starting";
+"seminarManagerInProgress" = "In Progress";
+"seminarManagerFinish" = "Ended";
+"seminarManagerConfirmed" = "Approved";
+"seminarManagerDenied" = "Rejected";
+"seminarManagerPending" = "Awaiting Approval";
+"seminarManagerJoin" = "Participate";
+"seminarManagerRequest" = "Apply";
+"seminarManagerEnter" = "Enter";
+"seminarManagerEnterDeniedNotOpen" = "You can enter from the start time of the lecture.";
+"seminarManagerEnterDeniedClosed" = "The seminar has ended, and entrance is not possible.";
+"seminarManagerNotApplied" = "Private seminars are accessible only to pre-registered participants.";
+"seminarManagerApplyDeniedClosed" = "Registration is not available as the seminar has ended.";
+"seminarManagerApplySucceedPrivate" = "The application to open a private seminar is complete.";
+"seminarManagerApplySucceedPrivateDesc" = "※ The password will be revealed 10 minutes before the seminar starts. You can check it on the [Seminar Schedule] > [Participation] page";
+"seminarManagerApplySucceed" = "Seminar application is complete.";
+"seminarManagerApplySucceedDesc" = "※ Notifications will be sent 10 minutes before the seminar starts.";
+"seminarManagerApplyFailed" = "An error occurred during the application process.";
+// DateManager
+"dateManagerAM" = "AM %s:%s";
+"dateManagerAMOclock" = "AM 00:%s";
+"dateManagerPM" = "PM %d:%s";
+"dateManagerPMOclock" = "PM 12:%s";
+"dateManagerDaysAgo" = "%d days ago";
+"dateManagerMonthsAgo" = "%d months ago";
+"dateManagerYearsAgo" = "%d years ago";
+// WilldBackgroundView
+"backgroundViewConnect" = "Internet Connection";
+"backgroundViewOffline" = "You are offline. Please check your internet connection.";
+"backgroundViewRetry" = "Tap to retry";
+// WDBottomModal
+"bottomModalCancel" = "Cancel";
+
+/* Permission */
+
+"permissionTitle" = "App settings";
+"permissionContractInfo" = "Permission to access contacts is required to load the friend list.\n\nPlease allow access to / contacts / Settings] > [Torimeta].";
+"permissionOkButtonText" = "Confirm";
+"permissionSettingButtonText" = "Settings";
+
+/* UI/UnityProvide */
+
+// ChattingLoungePassword
+"chattingLoungePasswordPassword" = "Password";
+"chattingLoungePasswordPasswordInput" = "Please enter the password.";
+"chattingLoungePasswordPasswordCheck" = "Please confirm the password.";
+"chattingLoungePasswordEntrance" = "Enter";
+// ChattingLoungeInviteListViewController
+"chattingLoungeInviteListInviteSend" = "The invitation has been sent.";
+"chattingLoungeInviteListTitle" = "Tory Talk friend";
+"chattingLoungeInviteListEmptyMessage" = "There is no friend list.";
+// ChattingLoungeParticipantsList
+"chattingLoungeParticipantsTitle" = "Participants";
+"chattingLoungeParticipantsOwnerDecoText" = "(The room host)";
+"chattingLoungeParticipantsInvite" = "Invitation";
+// ChattingLoungeUserInteractionList
+"chattingLoungeUserInteractionListRequestFriendModalMessage" = "Would you like to send a friend request to the selected user?";
+"chattingLoungeUserInteractionRequestFriendCancleModalButtonText" = "Cancel";
+"chattingLoungeUserInteractionRequestFriendOkModalButtonText" = "Confirm";
+"chattingLoungeUserInteractionRequestFriendOkMessage" = "Friend request sent successfully.";
+"chattingLoungeUserInteractionRequestFriendFailMessage" = "Friend request failed.";
+"chattingLoungeUserInteractionDropOut" = "Eject";
+"chattingLoungeUserInteractionDelegateHost" = "Transfer Host";
+"chattingLoungeUserInteractionSilent" = "Mute";
+"chattingLoungeUserInteractionRequestFriend" = "Friend Request";
+"chattingLoungeUserInteractionReport" = "Report";
+"chattingLoungeUserInteractionWarn" = "Warn";
+// ChattingLoungeChattingList
+"chattingLoungeChattingListTitle" = "List of open chat rooms";
+"chattingLoungeChattingListEmptyMessage" = "There are no open chat rooms.";
+"chattingLoungeChattingListEntrance" = "Enter";
+"chattingLoungeChattingListSelectOptionAll" = "All";
+"chattingLoungeChattingListSelectOptionParticipate" = "Available to attend";
+"chattingLoungeChattingListSelectOptionOpen" = "Open";
+"chattingLoungeChattingListSelectOptionSecret" = "Private";
+// ChattingLoungeChattingEntrance
+"chattingLoungeChattingEntranceTitle" = "Open a Chat Room";
+"chattingLoungeChattingEntranceCreateButtonText" = "Make a room";
+"chattingLoungeChattingEntranceTitleTitle" = "Title";
+"chattingLoungeChattingEntranceTitleTitleCreateInputMessage" = "Please enter the tilte of the chat room.";
+"chattingLoungeChattingEntrancePublicOptionOpen" = "Open";
+"chattingLoungeChattingEntrancePublicOptionSecret" = "Private";
+"chattingLoungeChattingEntrancePublicOptionDisclosure" = "Open Status";
+"chattingLoungeChattingEntrancePublicOptionPasswordNotMachMessage" = "※ Passwords do not match..";
+"chattingLoungeChattingEntrancePasswordInputPassword" = "Password";
+"chattingLoungeChattingEntrancePasswordInputPasswordPlacholder" = "Within 6 digits";
+"chattingLoungeChattingEntrancePasswordInputPasswordConfirm" = "Password Confirmation";
+"chattingLoungeChattingEntrancePasswordInputPasswordConfirmPlaceholder" = "Password Confirmation";
+// ChattingLoungeReport
+"chattingLoungeReportReportCompleteMessage" = "The report has been submitted.";
+"chattingLoungeReportTitle" = "Report";
+"chattingLoungeReportDescription" = "Would you like to report the current chat room?\nThe report will be automatically sent to the administrator.";
+"chattingLoungeReportOptionInfo" = "Please choose a brief reason for reporting.";
+"chattingLoungeReportReportButtontText" = "Report";
+"chattingLoungeReportHarass" = "Harassment";
+"chattingLoungeReportLie" = "Fraud / Impersonation";
+"chattingLoungeReportHate" = "Hatred / Discrimination";
+"chattingLoungeReportImproper" = "Inappropriate Content";
+
+/* UI/Common */
+
+// ReqPermission
+"requestPermissionTitle" = "App access permission guide";
+"requestPermissionDescription" = "To use ToriMeta services, the following permissions are required:";
+"requestPermissionCompleteButtonText" = "Confirm";
+"requestPermissionLocationTitle" = "Location";
+"requestPermissionLocationDescription" = "Confirm service (university) area entry and check my location";
+"requestPermissionMicrophoneTitle" = "Microphone";
+"requestPermissionMicrophoneDescription" = "Access for recording and uploading videos";
+"requestPermissionHealthTitle" = "Physical Activity";
+"requestPermissionHealthDescription" = "Measure the user's movement";
+"requestPermissionCameraTitle" = "Camera";
+"requestPermissionCameraDescription" = "Upload photos and videos";
+"requestPermissionAddressTitle" = "Address Book";
+"requestPermissionAddressDescription" = "Access to retrieve ToryTalk's friend list";
+"requestPermissionAlarmTitle" = "Notification";
+"requestPermissionAlarmDescription" = "Permission for notifications such as announcements and chat features";
+"requestPermissionSelect" = "(Optional)";
+"requestPermissionEssential" = "(Required)";
+"requestPermissionFooter" = "· App usage is possible even if you do not allow permissions, but some services may be restricted. You can change each permission in [Settings > ToryMeta].";
+// CampusSelect
+"campusSelectNavigationTitle" = "Choose your school";
+"campusSelectTitle" = "Please select a university.";
+"campusSelectSelectInfo" = "Select University";
+"campusSelectCampusName" = "Select School";
+"campusSelectCompleteButtonText" = "Next";
+// ChattingLoadingViewController
+"chattingLoadingWaitConfirm" = "Waiting for approval";
+"chattingLoadingOut" = "Exit";
+
+// MyState
+"myStateLocationOpenMessage" = "I shared my location.";
+"myStateLocationSecretMessage" = "I have stopped sharing my location.";
+// FriendState
+"friendStateNFTListTitle" = "Recent registered NFT list";
+"friendStateNFTListEmptyMessage" = "No NFT collection list.";
+"friendStateCallButtonText" = "Call";
+"friendStateLocationOpenMessage" = "I shared my location.";
+"friendStateLocationSecretMessage" = "I have stopped sharing my location.";
+// BoardSelct
+"boardSelectTitle" = "Our party";
+"boardSelectToryMarket" = "Tory Market";
+"boardSelectWe" = "Let's gather";
+"boardSelectTalk" = "Chat world";
+"boardSelectHelp" = "Help";
+// CampusPlayModal
+"campusPlayTitle" = "Select your school";
+// StepUpBanner
+"stepUpBannerCloseButtonText" = "Close";
+// MypageIntroduceBanner
+"mypageIntroduceBannerDontWatchAgain" = "Do not show again";
+
+/* UI/Splash */
+
+// SplashViewController
+"splashErrorTitle" = "App Error";
+"splashErrorMessage" = "A temporary error has occurred. We apologize for the inconvenience. [FCM_TOKEN]";
+"splashRestartMessage" = "Restart";
+"splashNotifyTitle" = "Notification";
+"recommendUpdateMessage" = "Do you wish to update the app?";
+"recommendUpdateIgnore" = "No";
+"recommendUpdateConfirm" = "Yes";
+"forcedUpdateMessage" = "The app needs to be updated.";
+"forcedUpdateConfirm" = "Update";
+
+/* UI/OnBoarding */
+
+"onBoardingStartButtonText" = "Get Started";
+"onBoardingIntro1BordTitle" = "Avatar with unique personality";
+"onBoardingIntro1Title" = "Various avatars that express personality";
+"onBoardingIntro2BordTitle" = "Tory Lounge in Meta Campus";
+"onBoardingIntro2Title" = "Diverse content in Meta Campus";
+"onBoardingIntro2Description" = "Endless New Stories\n";
+"onBoardingIntro3BordTitle" = "Open communication space";
+"onBoardingIntro3Title" = "Chat Lounge";
+"onBoardingIntro3Description" = "Chatting together joyfully with friends in the metaverse";
+
+/* UI/Main */
+
+// Common
+"entrance" = "Enter";
+// NewMainViewController
+"appSettings" = "App Settings";
+"locationGrant" = "Allowing access to your campus location necessary for verifying entry to the service area (university) and for checking your current location. \n Please grant location permission.";
+"appSettingNagativeButtonText" = "OK";
+"openSetting" = "Open Settings";
+"noOpenedSeminar" = "There are no ongoing seminars at the moment.";
+"selectAvatar" = "Choose an avatar.";
+"confirm" = "Confirm";
+"stepUpTitle" = "Campus Traveler";
+"liveSeminar" = "Live Seminar";
+"recommendMeta" = "Recommended Meta";
+"event" = "Event";
+"twoDimensionCampusNFT" = "2D Campus & NFT";
+"chattingLoungeEmptyMessage" = "There are no open chat rooms.";
+"chattingLoungeSectionHeaderTitle" = "Chat Lounge";
+// NewMainViewModel
+"locateGrantDesc" = "Enjoy location-based campus with friends";
+"visit" = "Visit";
+"visitDesc" = "Sell and buy my works";
+// NewMainNameChangeViewController
+"modifyProfileName" = "Change Profile Name";
+"nameWarnMessage" = "Please enter a profile name with Korean, numbers, and English within 8 characters.";
+"modify" = "Change";
+"insertNameAgain" = "Please enter the profile name again.";
+"sucessModifyName" = "Profile name has been changed successfully.";
+"failureModifyName" = "Failed to change profile name. Please try again.";
+// NewMainBannerCollectionViewCell
+"welcomeToryMetaMessage" = "Welcome to Tory Meta.";
+"makeAvatoryMessage" = "Create your own avatar by tapping the + icon below.";
+// LiveSeminarCollectionViewCell
+"seminarInProgress" = "In Progress";
+"joinSeminar" = "Participate";
+// ChattingLoungeCollectionViewCell
+"chattingLoungeEntrance" = "Enter";
+// EventCollectionViewCell
+"createSeminar" = "Open a Seminar";
+"seminarDesc" = "Build knowledge through various seminars!";
+"openSeminar" = "Open";
+// TTCCurriculumListTableViewCell
+"ttcLectureDesc" = "Online classrooms \n School-specific courses are also available in Torymeta.";
+"ttcLectureEntrance" = "Enter";
+
+/* UI/Seminar */
+
+// SeminarSearchViewController
+"seminarSearchTitle" = "Search";
+"seminarSearchDesc" = "Please search for the seminar.";
+"seminarSearchNoResult" = "No search results found.";
+// SeminarSearchTableViewCell
+"seminarSearchInsertKeyword" = "Please enter a search term.";
+// SeminarSearchTitleTableView
+"seminarSearchResultTitle" = "Search Results";
+"seminarSearchResultCount" = "View %d results";
+// SeminarSearchItemTableViewCell
+"seminarSearchJoin" = "Participate";
+// CreateSeminarRoomViewController
+"createSeminarRoom" = "Seminar Room Opening";
+"createSeminarSuccess" = "The application to open a seminar is complete.";
+"createSeminarSuccessDesc" = "※The opening of the seminar will be decided after reviewing the materials.\n※ You can check the application status in the [Seminar Room Opening] section.";
+"createSeminarConfirm" = "Confirm";
+"createSeminarUpdateSuccess" = "Modification\n is complete.";
+"createSeminarAlertTitle" = "Notification";
+"createSeminarError" = "A temporary error has occurred. \n Please try again.";
+"createSeminarModifyAlertTitle" = "Would you like to modify the information?";
+"createSeminarModifyConfirm" = "Yes";
+"createSeminarRequiredAlert" = "Please fill in the required information.";
+"createSeminarCancel" = "Cancel the seminar opening application?";
+"createSeminarIgnore" = "No";
+"createSeminarOutDesc" = "If you leave the page now, the changes will not be saved. Do you wish to leave?";
+"createSeminarClose" = "Close";
+"createSeminarModify" = "Modify";
+"createSeminarTitle" = "Seminar Title";
+"createSeminarInsertTitle" = "Please enter the seminar title.";
+"createSeminarDesc" = "Seminar Introduction";
+"createSeminarInsertDesc" = "Please enter the seminar introduction.";
+"createSeminarOption" = " (Optional)";
+"createSeminarSelectSeminar" = "Please choose the seminar room.";
+"createSeminarInvalidConformMessage" = "OK";
+"createSeminarTodayInvalidMessage" = "Please set it to today's date or a later date.";
+"createSeminarStartTimeInvalidMessage" = "Please set it before the end time.";
+"createSeminarEndTimeInvalidMessage" = "Please set it after the start time.";
+// CreateSeminarRoomViewModel
+"createSeminarOpen" = "Create";
+// CreateRoomSelectSeminarRoomSelectTableViewCell
+"seminarRoomSelect" = "Select Seminar Room";
+"seminarRoomSelectRequired" = " (Required)";
+"seminarRoomSelectAll" = "All";
+"seminarRoomSmall" = "Small";
+"seminarRoomAdmit18" = "(18 people)";
+"seminarRoomMiddle" = "Medium";
+"seminarRoomAdmit32" = "(32 people)";
+"seminarRoomLarge" = "Large";
+"seminarRoomAdmit50" = "(50 people)";
+"seminarRoomCount" = "The number of seminar rooms";
+"seminarRoomAvailableAdmitDesc" = "Number of people allowed to enter each seminar room.";
+"seminarRoomAvailableTotalAdmit" = "Total number of participants";
+"seminarRoomAvailableTotalAdmitDesc" = "Maximum number of participants: 200 people. If you need to modify seminar information, please edit it individually in [MY Seminars] > [Seminar Creation Room].";
+// CreateRoomInputTableViewCell
+"createRoomInputInsertTitle" = "Please enter the seminar title.";
+// CreateRoomScheduleTableViewCell
+"createRoomScheduleOtherSettings" = "Other Settings";
+"createRoomScheduleStartSeminar" = "Start Seminar";
+"createRoomScheduleEndSeminar" = "End Seminar";
+"createRoomSchedule1daySetting" = "※ Set for 1 Day";
+// CreateRoomURLPathTableViewCell
+"createRoomURLMovieURL" = "Video URL";
+"createRoomURLOptional" = " (Optional)";
+"createRoomURLInsertURL" = "Please enter the URL path.";
+"createRoomURLInsertURLDesc" = "※ Only URLs converted from mp4 files can be registered.";
+// CreateRoomOtherSettingTableViewCell
+"createRoomOtherOnOff" = "Seminar Public On/Off";
+// CreateRoomFixTableViewCell
+"createRoomFixTeacherName" = "Instructor Name";
+// SeminarScheduleDetailViewController
+"seminarScheduleDetailEntrance" = "Enter Seminar";
+// SeminarScheduleDetailViewModel
+"seminarScheduleDetailSeminarName" = "Seminar Name";
+"seminarScheduleDetailSeminarDesc" = "Seminar Description";
+"seminarScheduleDetailTeacherName" = "Instructor Name";
+"seminarScheduleDetailSeminarPlan" = "Seminar Schedule";
+"seminarScheduleDetailApply" = "Applicants";
+"seminarScheduleDetailAdmitDesc" = "Participants / Available Seats";
+// SeminarPwModal
+"seminarPasswordInsertPasswordTitle" = "[Private Seminar] Enter the Password";
+"seminarPasswordInsertPassword" = "Password";
+"seminarPasswordInsertPasswordDesc" = "Please enter the password.";
+"seminarPasswordCheck" = "Password Confirmation";
+"seminarPasswordInsertAgain" = "Re-enter the password.";
+"seminarPasswordConfirm" = "Confirm";
+"seminarPasswordAlert" = "Notification";
+"seminarPasswordWrongMessage" = "The password is incorrect. Please check again.";
+// SeminarPagerViewController
+"seminarPagerTitle" = "MY SEMINAR";
+// ApplySeminarViewController
+"seminarPagerNotExist" = "There are no seminars that you have applied for.";
+"seminarPagerPasswordCopied" = "The password has been copied.";
+"seminarPagerApplySeminar" = "Apply Seminar";
+// ApplySeminarItemTableViewCell
+"applySeminarItemPasswordDesc" = "After applying, the password will be immediately visible.";
+"applySeminarItemShowDetail" = "View Details";
+"applySeminarItemEntrance" = "Enter Seminar";
+"applySeminarItemEntranceDesc" = "After applying, the password will be immediately visible.";
+// CreateSeminarViewController
+"createSeminarViewDesc" = "No related seminars exist. Please try creating a seminar yourself.";
+"createSeminarViewDelete" = "Do you wish to delete this seminar?";
+"seminarSearchInsertConfirm" = "Yes";
+"seminarSearchInsertIgnore" = "No";
+"seminarSearchClosed" = "The seminar has ended, and entrance is not possible.";
+"seminarSearchConfirm" = "Confirm";
+"seminarSearchEntranceDesc" = "Would you like to enter the selected seminar room?";
+"seminarSearchSelectAvatar" = "Choose an avatar.";
+"seminarSearchOpenSeminar" = "Create Seminar room";
+// CreateSeminarItemTableViewCell
+"createSeminarItemModifyInfo" = "Modify information";
+"createSeminarItemEntrance" = "Enter";
+// SeminarCountTableViewCell
+"seminarCountAll" = "All";
+// ParticipateSeminarViewModel
+"participateSeminarName" = "Seminar Name";
+"participateSeminarDesc" = "Seminar Description";
+"participateSeminarTeacher" = "Instructor Name";
+"participateSeminarPlan" = "Seminar Schedule";
+"participateSeminarAudience" = "Applicants";
+"participateSeminarAdmit" = "Applicants / Number of Participants";
+// ParticipateSeminarHeaderTableViewCell
+"participateSeminarJoinApply" = "Would you like to apply for this seminar?";
+"participateSeminarApply" = "Apply";
+"participateSeminarJoin" = "Would you like to participate in this seminar?";
+"participateSeminarApplyIt" = "Would you like to apply for this seminar?";
+"participateSeminarEntrance" = "Would you like to enter the seminar you created?";
+// SigleCalendarViewController
+"sigleCalendarTitle" = "Schedule";
+"sigleCalendarNoPlan" = "There is no seminar schedule.";
+"sigleCalendarToday" = "Today";
+"sigleCalendarFinish" = "End";
+"sigleCalendarPlan" = "Upcoming";
+// SeminarMainVerticalViewController
+"seminarMainTitle" = "Seminar Center";
+"seminarMainNoPlanToday" = "There are no seminars for today.";
+// TagRoomCollectionViewCell
+"tagRoomJoin" = "Participate";
+// SeminarMainFilterView
+"seminarMainFilterAll" = "All";
+"seminarMainFilterInProgress" = "In Progress";
+"seminarMainFilterBeforeProgress" = "Before Starting";
+"seminarMainFilterFinish" = "Ended";
+
+/* ChattingLounge */
+
+// ChattingLoungeDetailTableViewCell
+"chattingLoungeDetailEntrance" = "Enter";
+// ChattingLoungeDetailOptionView
+"chattingLoungeDetailOptionAll" = "All";
+"chattingLoungeDetailOptionPubic" = "Open";
+"chattingLoungeDetailOptionPrivate" = "Private";
+// ChattingLoungeDetailViewController
+"chattingLoungeDetailList" = "List of chat rooms";
+"chattingLoungeNoChatRoom" = "There are no open chat rooms.";
+
+/* UI/Metaverse */
+
+// NewMainCollectionViewSectionHeader
+"mainCollectionMore" = "See more";
+// SeminarCollectionViewCell
+"seminarCollectionJoin" = "Participate";
+// SeminarVoiceViewController
+"seminarVoiceMessage" = "Listening to sound.";
+// SeminarSearchCollectionViewCell
+"seminarSearchInsertKeyword" = "Please enter a search term.";
+
+/* UI/AvatarDeco */
+
+// AvatarDecoViewModel
+"decoHair" = "Hair";
+"decoCoordi" = "Decorate";
+"decoTop" = "Top";
+"decoBottom" = "Bottom";
+"decoShoes" = "Shoes";
+"decoSortDefault" = "Default sorting";
+"decoSortPopular" = "Popularity";
+"decoSortHigherPrice" = "Descending price";
+"decoSortLowerPrice" = "Ascending price";
+// DecoControllerView
+"decoPurchase" = "Would you like to purchase the currently worn items?";
+"decoPurchaseMileageFailure" = "Failed to purchase items.";
+"decoPurchaseInsufficient" = "The payment amount has exceeded.";
+"decoPurchaseExtra" = "Would you like to proceed with the purchase after additional payment?";
+"decoPurchaseFailure" = "Coin payment failed.";
+"decoSave" = "Your avatar will be changed with the currently worn items. Would you like to save the avatar outfit?";
+"decoSettingCancel" = "Would you like to cancel the avatar settings?";
+"decoCancel" = "Cancel";
+"decoConfirm" = "Confirm";
+// DecoSortingListViewController
+"decoSortingTitle" = "Sort";
+
+/* UI/Campus */
+
+// CampusViewController
+"campusEnableShareLocation" = "I shared my location.";
+"campusDisableShareLocation" = "I have stopped sharing my location.";
+"campusOut" = "Do you want to leave the campus?";
+"campusOutYes" = "Yes";
+"campusOutNo" = "No";
+// CampusTopIndicatorView
+"campusToryTalk" = "Tory Talk";
+"campusOurParty" = "Our party";
+"campusTodayLunch" = "Today's cafeteria menu";
+"campusInnerEvent" = "School Event";
+"campusOuterEvent" = "Event";
+"campusTraveler" = "Traveler";
+"campusSelectSchool" = "Select School";
+// NewBoardSelectModal
+"newBoardToryMarket" = "Tory Market";
+"newBoardTalkWorld" = "Chat World";
+"newBoardParty" = "Let's gather";
+"newBoardHelp" = "Help";
+
+/* UI/StepUp */
+
+// StepUpViewController
+"stepUpNavTitle" = "Campus Traveler";
+"stepUpAppSettings" = "App settings";
+"stepUpConfirmDesc" = "Campus Traveler service utilizes user's step count information. To use Campus Traveler, [Settings] > [ToryMeta] > [Motion and Fitness] must be allowed.";
+"stepUpAlertOptConfirm" = "Confirm";
+"stepUpAlertOptSetting" = "Settings";
+"stepUpConfirmFitness" = "You must grant permission to use Campus Traveler. Allow permssion from [Settings] > [ToryMeta] > [Motion and Fitness].";
+"stepUpIncompleteSteps" = "Incomplete step count";
+"stepUpServeMileageDesc" = "You have earned %dM as a step count reward.";
+"stepUpServeMileage" = "Mileage payment";
+// StepPayTableViewCell
+"stepPaySteps" = " Steps";
+"stepPayRecieved" = "Received M";
+"stepPayRecieving" = "Receive M";
+// StepHeaderTableViewCell
+"stepHeaderInsideCampus" = "Inside campus";
+"stepHeaderOutsideCampus" = "Outside campus";
+"stepHeaderCurrentSteps" = "Current step count";
+
+/* UI/ToryTalk */
+
+// FriendPagerViewController
+"friendPagerNavTitle" = "ToryTalk";
+// FriendContext
+"friendContextNew" = "New friend";
+"friendContextRequest" = "Friend request list";
+"friendContextIntCampus" = "Friends on campus";
+"friendContextUnknownLoc" = "Friends with unknown locations";
+"friendContextBlocked" = "Blocked Friends";
+"friendContextNoNew" = "There is no list of new friends.";
+"friendContextNoReqeust" = "There is no list of friend requests.";
+"friendContextNoInCampu" = "There is no list of friends in the campus.";
+"friendContextNoInUknowLoc" = "There is no list of friends with unknown locations.";
+"friendContextNoInBlock" = "There is no list of blocked friends.";
+// FriendInfoTableViewCell
+"friendInfoUnblock" = "Unblock";
+"friendInfoUnblockDesc" = "If you unblock%s, you will be moved to the friend list. Are you sure you want to unblock?";
+"friendInfoUnlockConfirm" = "Unblock";
+"friendInfoRequest" = "Friend request";
+"friendInfoRequestDone" = "Request completed";
+"friendInfoRequestConfirm" = "Accept";
+"friendInfoRequestInvite" = "Friend invitation";
+"friendInfoRequestRemove" = "Delete";
+"friendInfoRequestRemoveFriend" = "Delete Conversation Partner";
+"friendInfoRequestRemoveFriendDesc" = "If you delete %s as a friend, your information will also be deleted from the friend list.";
+"friendInfoRequestBlock" = "Block";
+"friendInfoRequestBlockFriend" = "Block Conversation Partner";
+"friendInfoRequestBlockFriendDesc" = "Blocking “%s” as a friend will prevent message transmission and sharing of your location. Would you like to block them?";
+// ChatListViewController
+"friendPagerUnknownCommunicator" = "Unknown user";
+"friendPagerChatOut" = "Exit chat room";
+"friendPagerChatOutDesc" = "Exiting will delete all chat content and remove it from the chat list.";
+"friendPagerChatOutCancel" = "Cancel";
+"friendPagerChatOutConfirm" = "Exit";
+"friendPagerChatList" = "Chat list";
+// ChattingViewController2
+"chattingViewInsertMessage" = "Please enter a message.";
+"chattingViewInviteFriend" = "Friend invitation";
+"chattingViewReport" = "Report";
+"chattingViewOut" = "Exit chat room";
+"chattingViewOutDesc" = "Exiting will delete all chat content and remove it from the chat list.";
+"chattingViewOutCancel" = "Cancel";
+"chattingViewOutConfirm" = "Exit";
+// ChattingViewModel2
+"chattingViewInvited" = " has been invited.";
+"chattingViewParticipantOut" = " has left.";
+"chattingViewInvite" = " invited you.";
+// FriendSearchViewController
+"friendSearchTitle" = "Search Friend";
+"friendSearchDesc" = "Find your friends.";
+"friendSearchNoResult" = "No search results found.";
+// ChatInviteFriendViewController
+"chatInviteConfirm" = "Confirm";
+// ChatChannelMemberViewController
+"chatInviteFriend" = "Friend invitation";
+"chatChannelGourpMemberCount" = "Group chat (%d people)";
+// FriendInfoInputView
+"friendInfoInputDesc" = "Enter friend profile name or phone number";
+"friendInfoInputNewFriend" = "New Friends";
+"friendInfoInputRequestList" = "Friend Requests";
+"friendInfoInputInCampus" = "Campus Friends";
+"friendInfoInputUnknownLocate" = "Friends with Unknown Location";
+"friendInfoInputBlocked" = "Blocked Friends";
+
+/* UI/MyPage */
+
+// MypageViewController
+"myPageUnivUnauthorized" = "Unverified university";
+"myPageSelectUniv" = "Select a school";
+"myPageTransactionHistory" = "Transaction history";
+"myPageChargeHistory" = "Charge history";
+"myPageUpdateProfile" = "Change profile";
+"myPageWhatIsTory" = "What is Tory?";
+"myPageWhatIsToryDesc" = "This is a pre-deposited cash amount that can be used for purchasing products in Tory Meta. (Valid for 5 years from the date of recharge.)";
+"myPageWhatIsMileage" = "What is mileage?";
+"myPageWhatIsMileageDesc" = "This is the amount given for participating in events and missions on Tory Meta. (non-refundable/ valid for 1 year from the date of issuance.)";
+"myPageNavTitle" = "My page";
+// TransactionHistoryTableViewCell
+"transactionHistoryInduct" = "Accumulation %d";
+"transactionHistoryDeduct" = "Deduction %d";
+"transactionHistoryExpDate" = "Valid period %s";
+// ToryPointPagerViewController
+"toryPointChargeHistory" = "Tory History";
+"toryPointBalance" = "Tory balance";
+"toryPointCharge" = "Charge Tory";
+// ToryChargingHistoryViewController
+"toryPointNoChargeHistory" = "There is no Tory Point recharge history.";
+// ToryChargingHistoryViewModel
+"toryChargingHistoryOneWeek" = "1 week";
+"toryChargingHistoryOneMonth" = "1 month";
+"toryChargingHistorySixMonths" = "6 months";
+"toryChargingHistoryOneYear" = "1 year";
+"toryChargingHistoryAll" = "All";
+// ToryTransactionHistoryViewController
+"toryTransactionNoHistory" = "There is no Tory Point transaction history.";
+"toryTransactionHistory" = "Mileage History";
+// MileageTransactionHistoryViewController
+"mileageBalance" = "Mileage balance";
+"mileageTransactionHistory" = "Transaction history";
+"mileageNoTransactionHistory" = "There is no mileage transaction history.";
+"mileageWhatIs" = "What is mileage?";
+"mileageWhatIsDesc" = "This is the amount given for participating in events and missions on ToryMeta. (non-refundable/ valid for 1 year from the date of issuance.)";
+// PointChargeViewModel
+"tory" = "Tory";
+// PointChargeHeaderView
+"pointChargeToryBalance" = "Tory balance";
+"pointChargeCash" = "Charge cash";
+"pointChargePayPrice" = "Payment amount";
+// PointChargeFooterViewCell
+"pointChargeGuide" = "User guide";
+"pointChargeGiudeDesc" = "· Tory is valid for 5 years after charging. Tory charged on the APP can be refunded through APPLE Customer Center. For refunds aftter using Tory, please contact ToryMeta Customer Center.";
+// ProfileChangeViewController
+"profileChangeTitle" = " Profile change";
+"profileChangeCamera" = " Camera";
+"profileChangeAppSettings" = "App settings";
+"profileChangeAppSettingsDesc" = "Permission for camera access is required for video chatting and uploading profile, NFT photos, and posting within the chat room. Please allow camera access in [Settings]>[Torimeta]>[Camera].";
+"profileChangeSettings" = "Settings";
+"profileChangeConfirm" = "Confirm";
+"profileChangeAlbumn" = "Photos from the album";
+"profileChangeNFTPic" = "NFT collection photos";
+"profileChangeDefaultProfile" = "Default profile";
+"profileChangeCancel" = "Cancel";
+// WilldImagePickerViewController
+"imagePickerNoPic" = "There are no pictures to choose from.";
+"imagePickerNFTPic" = "NFT collection photos";
+"imagePickerDefaultProfile" = "Default profile";
+// LoginAlarmSettingViewController
+"loginAlarmLoginSettings" = "Login settings";
+"loginAlarmAutoLogin" = "Auto-login";
+"loginAlarmEventNoti" = "Event and benefit notification settings";
+"loginAlarmPushSetting" = "APP PUSH";
+"loginAlarmEmailMMS" = "E-mail / Text";
+"loginAlarmActiveAutoLogin" = "Auto-login has been set.";
+"loginAlarmDeactiveAutoLogin" = "Auto-login has been disabled.";
+"loginAlarmActiveDesc" = "Agreement for receiving promotional push notifications has been processed.";
+"loginAlarmDeactiveDesc" = "Refusal for receiving promotional push notifications has been processed.";
+"loginAlarmAgreeDesc" = "Agreement for receiving promotional emails / texts has been processed.";
+"loginAlarmDisagreeDesc" = "Agreement for receiving promotional emails / texts has been processed.";
+// PointInfoView
+"pointInfoHistory" = "Check history";
+"pointInfoTotalTory" = "Total amount of Tory";
+"pointInfoTotalMileage" = "Total mount of mileage";
+// MyWriteViewController
+"myWriteNoPost" = "No posts yet";
+"myWriteMine" = "My post";
+// MyCommentViewController
+"myCommentMyReply" = "My comments";
+// MyCommentTableViewCell
+"myWriteOutParty" = "Our party";
+"myWriteToryMark" = "Tory Market";
+"myWriteParty" = "Let's Gather";
+"myWriteHelp" = "Help";
+"myWriteTalkWorld" = "Chat world";
+
+/* UI/WebView */
+
+// CommonWebViewController
+"commonWebNetworkError" = "Please check your network connection";
+"commonWebNotifySetting" = "Notifications / Settings";
+"commonWebAuthorize" = "Self-verification";
+
+/* UI/TTCLecture */
+
+// TTCLoginViewController
+"ttcLoginTitle" = "Sign in to campus language course";
+"ttcLoginSubmit" = "Authentication";
+"ttcLoginDesc" = "※ You will need to verify your identity for the first time and use your on-campus language course account.";
+// TTCUniversityAuthInfoView
+"ttcLoginPasswordPlaceholder" = " 8 or more english, digits, special characters";
+"ttcLoginID" = "ID";
+"ttcLoginPassword" = "password";
+// TTCCurriculumListViewController
+"curriculumTitle" = "My classroom";
+// TTCLectureViewController
+"lectureListTitle" = "Lesson List";
+"lectureSubject" = "Lesson name";
+// TTCLecturePlayerView
+"lectureListDesc" = "※ The above video is prohibited from unauthorized capture, recording, and distribution under copyright law, and violations may result in legal sanctions.";
+// TTCLectureProgressView
+"lectureAttendance" = "Progress rate";
+"lectureProgress" = "attendance rate";

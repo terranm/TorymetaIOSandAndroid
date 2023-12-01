@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/img_layout"
+        android:layout_width="@dimen/custom_marker_image_width"
+        android:layout_height="@dimen/custom_marker_image_height"
+        android:gravity="center"
+        android:background="@drawable/my_position_marker_background">
+
+        <ImageView
+            android:id="@+id/img_marker"
+            android:padding="4dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_yellow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_layout"
+        />
+
+</LinearLayout>

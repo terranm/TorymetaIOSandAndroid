@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@id/exo_controls_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/color_80000000" />
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="15dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/back_button"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/arrow_back_24"
+            tools:ignore="ContentDescription" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/fit_screen_btn"
+            android:visibility="invisible"
+            android:layout_toLeftOf="@id/exo_settings"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/crop_free"
+            tools:ignore="ContentDescription" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@id/exo_settings"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/img_player_setting"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@id/exo_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:layoutDirection="ltr">
+
+        <LinearLayout
+            android:id="@+id/videoTimeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="bottom">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/exo_position"
+                android:layout_gravity="center"
+                android:layout_marginBottom="2dp"
+                style="@style/ExoStyledControls.TimeText.Position"
+                android:textSize="@dimen/common_text_font_10"
+                android:fontFamily="@font/noto_sans_regular"
+                android:layout_marginStart="10dp" />
+
+            <androidx.media3.ui.DefaultTimeBar
+                android:id="@id/exo_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                app:bar_height="2dp"
+                app:buffered_color="@color/tory_white"
+                app:played_color="@color/tory_purple"
+                app:scrubber_color="@color/tory_purple"
+                app:scrubber_enabled_size="10dp"
+                app:unplayed_color="@color/tory_white" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@id/exo_duration"
+                android:layout_gravity="center"
+                android:fontFamily="@font/noto_sans_regular"
+                android:textSize="@dimen/common_text_font_10"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                style="@style/ExoStyledControls.TimeText.Duration" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/img_sound"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/img_sound_on"
+                tools:ignore="ContentDescription" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/screen_rotate_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/screen_rotation_24"
+                tools:ignore="ContentDescription"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@id/exo_center_controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/backward_10"
+            android:src="@drawable/replay_10_24"
+            android:layout_marginHorizontal="50dp"
+            tools:ignore="ContentDescription"
+            android:layout_height="35dp"
+            android:layout_width="35dp"
+            android:scaleType="fitXY"
+            android:background="@null"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@id/exo_play_pause"
+            style="@style/ExoStyledControls.Button.Center.PlayPause"
+            android:layout_marginHorizontal="10dp"
+            tools:ignore="ContentDescription" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/forward_10"
+            android:src="@drawable/forward_10_24"
+            android:layout_marginHorizontal="50dp"
+            tools:ignore="ContentDescription"
+            android:layout_height="35dp"
+            android:layout_width="35dp"
+            android:scaleType="fitXY"
+            android:background="@null" />
+
+    </LinearLayout>
+
+</merge>

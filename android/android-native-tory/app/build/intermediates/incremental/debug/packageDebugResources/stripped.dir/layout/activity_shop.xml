@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/common_top_bar_bottom"
+        android:paddingBottom="@dimen/shop_scroll_padding_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            >
+            <ImageView
+                android:id="@+id/myPointBg"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/shop_point_bg"
+                app:layout_constraintWidth_percent="0.658"
+                app:layout_constraintDimensionRatio="1:0.5"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/shop_my_point_bg_margin_top"
+                />
+
+            <!-- 보유 토리 타이틀 -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/myPointTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shop_my_point_title"
+                android:textSize="@dimen/shop_my_point_title_font_size"
+                android:textColor="@color/tory_gray_01"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="@id/myPointView"
+                app:layout_constraintBottom_toTopOf="@id/myPointView"
+                />
+
+            <!-- 보유 토리 -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/myPointView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000"
+                android:textSize="@dimen/shop_my_point_font_size"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_semi_bold"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/myPointBg"
+                android:layout_marginLeft="@dimen/shop_my_point_margin_left"
+                />
+
+            <!-- 아이템 리스트 -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/itemListLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/myPointBg"
+                >
+                <!-- 충전 캐시 / 결제 금액 타이틀 -->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/itemListTitleLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/shop_item_list_title_height"
+                    android:background="@color/tory_gray_01"
+                    android:paddingHorizontal="@dimen/shop_item_list_title_padding_horizontal"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    >
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shop_item_name_title"
+                        android:textSize="@dimen/shop_item_list_title_font_size"
+                        android:textColor="@color/tory_white"
+                        android:fontFamily="@font/noto_sans_regular"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shop_item_price_title"
+                        android:textSize="@dimen/shop_item_list_title_font_size"
+                        android:textColor="@color/tory_white"
+                        android:fontFamily="@font/noto_sans_regular"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginRight="@dimen/shop_item_list_title_price_margin_right"
+                        />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <!-- 리스트 -->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/itemListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/itemListTitleLayout"
+                    android:layout_marginTop="@dimen/shop_item_list_margin_top"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/infoLine"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_line_border"
+                android:background="@color/tory_gray_03"
+                app:layout_constraintTop_toBottomOf="@id/itemListLayout"
+                android:layout_marginTop="@dimen/shop_info_title_margin_top"
+                />
+
+            <!-- 이용 안내 타이틀 -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/infoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shop_point_info_title"
+                android:textSize="@dimen/shop_info_title_font_size"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_semi_bold"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/infoLine"
+                android:layout_marginLeft="@dimen/shop_my_point_margin_left"
+                android:layout_marginTop="@dimen/shop_info_title_margin_top"
+                />
+            <!-- 이용 안내 설명  -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shop_point_info_desc"
+                android:textSize="@dimen/shop_info_desc_font_size"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="@id/infoTitle"
+                app:layout_constraintTop_toBottomOf="@id/infoTitle"
+                android:layout_marginTop="@dimen/shop_info_desc_margin_top"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+    <!--
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_top_bar_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <include
+            layout="@layout/common_top_bar"
+            />
+
+
+        <ImageView
+            android:id="@+id/pointInfoBtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/common_top_bar_height"
+            android:background="@drawable/common_top_bar_btn_question_mark"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_top_bar_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/topBar"
+            layout="@layout/common_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/pointInfoBtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/common_top_bar_height"
+            android:background="@drawable/common_top_bar_btn_question_mark"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingHorizontal="@dimen/common_padding_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_bottom_btn_list_sheet_item_height">
+
+    <ImageView
+        android:id="@+id/imgSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_unselect_item"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImg"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/common_top_bar_height"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imgSelect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:civ_border_color="@color/tory_white"
+        app:civ_border_width="1dp"
+        tools:src="@drawable/default_profile"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/tory_black"
+        android:fontFamily="@font/noto_sans_regular"
+        android:textSize="@dimen/seminar_popup_desc_01_font_size"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/profileImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="흔들린 우동"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

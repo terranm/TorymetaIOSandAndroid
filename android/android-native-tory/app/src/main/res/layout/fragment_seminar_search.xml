@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tory_white"
+    android:paddingHorizontal="@dimen/common_padding_horizontal"
+    tools:context=".seminar.SeminarSearchFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/search_title"
+            android:textSize="@dimen/common_text_font_20"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/close"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/search_edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tory_talk_friend_list_cell_height"
+        android:background="@drawable/search_corner_circle_stroke_purple"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topLayout">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:fontFamily="@font/noto_sans_regular"
+            android:gravity="left|center_vertical"
+            android:hint="@string/search_input_hint"
+            android:includeFontPadding="false"
+            android:paddingLeft="@dimen/friend_search_edit_box_margin_left"
+            android:textColor="@color/tory_black"
+            android:textColorHint="@color/sub_purple_2"
+            android:textSize="@dimen/common_text_font_16"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/editBoxDeleteBtn"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/editBoxDeleteBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/icon_search"
+            android:layout_marginRight="11dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintLeft_toRightOf="@id/editSearch"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/search_result_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_edit_layout"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_result"
+            android:textSize="14sp"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/search_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/common_text_font_12"
+            android:textColor="@color/color_9e9e9e"
+            android:fontFamily="@font/noto_sans_regular"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="조회  0건"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.tnmeta.torymeta.ui.NestedScrollableHost
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintTop_toBottomOf="@id/search_result_layout"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/resultRecycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/seminar_search_list_item" />
+    </com.tnmeta.torymeta.ui.NestedScrollableHost>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/emptyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seminar_search_seminar_empty"
+        android:textSize="@dimen/common_text_font_16"
+        android:textColor="@color/tory_gray_02"
+        android:fontFamily="@font/noto_sans_regular"
+        android:gravity="center"
+        android:layout_marginTop="51dp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_result_layout"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/actionUpMove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:visibility="invisible"
+        app:backgroundTint="@color/tory_gray_04"
+        app:srcCompat="@drawable/icon_list_up_move"
+        app:maxImageSize="29dp"
+        app:fabCustomSize="52dp"
+        app:elevation="4dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

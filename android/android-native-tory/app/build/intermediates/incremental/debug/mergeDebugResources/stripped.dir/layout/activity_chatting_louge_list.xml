@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    tools:context=".chattinglounge.ChattingLougeListActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chatting_setting_bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chatting_open_list"
+                android:textSize="@dimen/common_text_font_20"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_semi_bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/close"
+                android:onClick="onClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/close"
+                android:layout_marginRight="16dp"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sort_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:paddingHorizontal="@dimen/common_padding_horizontal"
+            app:layout_constraintTop_toBottomOf="@id/title_layout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/chatting_close"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:checked="true"
+                    android:id="@+id/radio_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_selector_button"
+                    android:textColor="@color/tory_black"
+                    android:button="@null"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtTotal"
+                    android:text="@string/chatting_total"
+                    android:textSize="@dimen/common_text_font_14"
+                    android:textColor="@color/tory_purple"
+                    android:gravity="center"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <RadioButton
+                    android:checked="false"
+                    android:id="@+id/radio_available"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/radio_selector_button"
+                    android:textColor="@color/tory_black"
+                    android:button="@null"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:text="@string/chatting_available"
+                    android:id="@+id/txtAvailable"
+                    android:textSize="@dimen/common_text_font_14"
+                    android:gravity="center"
+                    android:textColor="@color/tory_gray_04"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <RadioButton
+                    android:checked="false"
+                    android:id="@+id/radio_lock"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/radio_selector_button"
+                    android:button="@null"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtlock"
+                    android:visibility="gone"
+                    android:textSize="@dimen/common_text_font_14"
+                    android:gravity="center"
+                    android:textColor="@color/tory_gray_04"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <RadioButton
+                    android:checked="false"
+                    android:id="@+id/radio_open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/radio_selector_button"
+                    android:button="@null"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtOpen"
+                    android:text="@string/chatting_open"
+                    android:textSize="@dimen/common_text_font_14"
+                    android:gravity="center"
+                    android:textColor="@color/tory_gray_04"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                <RadioButton
+                    android:checked="false"
+                    android:id="@+id/radio_private"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_selector_button"
+                    android:button="@null"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtPrivate"
+                    android:text="@string/chatting_private"
+                    android:textSize="@dimen/common_text_font_14"
+                    android:gravity="center"
+                    android:textColor="@color/tory_gray_04"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+            </RadioGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/chatting_layout"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="180dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sort_layout">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/chatting_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:listitem="@layout/opened_chatting_lounge_list_item"
+                />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/emptyView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chatting_room_empty_message"
+                android:textSize="@dimen/common_text_font_14"
+                android:textColor="@color/tory_gray_02"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:layout_marginTop="20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

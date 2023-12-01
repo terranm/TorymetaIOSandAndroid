@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/my_page_bottom_sheet_padding_vertical"
+    android:background="@drawable/my_page_bottom_sheet_bg"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
+    <!-- 타이틀 -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_page_tory_point_info_title"
+        android:textSize="@dimen/my_page_bottom_sheet_title_font_size"
+        android:textColor="@color/tory_white"
+        android:fontFamily="@font/noto_sans_semi_bold"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="@dimen/my_page_bottom_sheet_text_padding_horizontal"
+        />
+
+    <!-- 설명 -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_page_tory_point_info_desc"
+        android:textSize="@dimen/my_page_bottom_sheet_desc_font_size"
+        android:textColor="@color/tory_white"
+        android:fontFamily="@font/noto_sans_regular"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:layout_marginLeft="@dimen/my_page_bottom_sheet_text_padding_horizontal"
+        android:layout_marginTop="@dimen/my_page_bottom_sheet_desc_margin_top"
+        />
+
+    <!-- 라인 -->
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/tory_gray_03"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="@dimen/my_page_bottom_sheet_line_padding_horizontal"
+        android:layout_marginRight="@dimen/my_page_bottom_sheet_line_padding_horizontal"
+        android:layout_marginTop="@dimen/my_page_bottom_sheet_line_margin_top"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

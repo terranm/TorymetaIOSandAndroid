@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <solid android:color="@color/tory_white"
+        />
+    <stroke
+        android:color="@color/tory_purple"
+        android:width="@dimen/notification_setting_switch_thumb_border"
+        />
+    <corners
+        android:radius="8dp"
+        />
+</shape>

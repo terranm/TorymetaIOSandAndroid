@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <!--
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_top_bar_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <include
+            layout="@layout/common_top_bar"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    -->
+
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/common_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_top_bar_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 로그인 설정 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/common_padding_horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        android:layout_marginTop="@dimen/notification_setting_login_layout_margin_top"
+        >
+        <!-- 타이틀 -->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/loginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_setting_login_title"
+            android:textSize="@dimen/common_font_size_medium"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <!-- 자동 로그인 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/loginTitle"
+            android:layout_marginTop="@dimen/notification_setting_layout_title_margin_bottom"
+            >
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/notification_setting_auto_login"
+                android:textSize="@dimen/common_font_size_medium"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+            <Switch
+                android:id="@+id/autoLoginSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="@dimen/notification_setting_switch_btn_width"
+                android:track="@drawable/setting_switch_track"
+                android:thumb="@drawable/setting_switch_thumb"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Divider -->
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_line_border"
+        android:background="@color/tory_gray_04"
+        app:layout_constraintTop_toBottomOf="@id/loginLayout"
+        android:layout_marginTop="@dimen/notification_setting_divider_margin_top"
+        />
+
+    <!-- 알림 설정 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/notiLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/common_padding_horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        android:layout_marginTop="@dimen/notification_setting_noti_layout_margin_top"
+        >
+        <!-- 타이틀 -->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/notiTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_setting_noti_title"
+            android:textSize="@dimen/common_font_size_medium"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <!-- APP PUSH -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pushLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/notiTitle"
+            android:layout_marginTop="@dimen/notification_setting_layout_title_margin_bottom"
+            >
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/notification_setting_event_push"
+                android:textSize="@dimen/common_font_size_medium"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+            <Switch
+                android:id="@+id/pushSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="@dimen/notification_setting_switch_btn_width"
+                android:track="@drawable/setting_switch_track"
+                android:thumb="@drawable/setting_switch_thumb"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- E-mail -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/emailLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pushLayout"
+            android:layout_marginTop="@dimen/notification_setting_switch_btn_padding_vertical"
+            >
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/notification_setting_event_email"
+                android:textSize="@dimen/common_font_size_medium"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+            <Switch
+                android:id="@+id/emailSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="@dimen/notification_setting_switch_btn_width"
+                android:track="@drawable/setting_switch_track"
+                android:thumb="@drawable/setting_switch_thumb"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

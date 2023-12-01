@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".my_page.mileage.MileagePointTransactionHistoryActivity">
+
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/common_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_top_bar_margin_top"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingHorizontal="@dimen/common_padding_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/topBar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mileageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my_page_tory_point_height"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="@dimen/mileage_layout_top_margin">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/mileage_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mileage_my_point"
+                android:textSize="@dimen/my_page_tory_point_font_size"
+                android:textColor="@color/tory_black"
+                android:fontFamily="@font/noto_sans_semi_bold"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <ImageView
+                android:id="@+id/mileageInfoBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:onClick="onClick"
+                android:background="@drawable/common_btn_question_mark_purple"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toRightOf="@id/mileage_title"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/charge_point_bg"
+                app:layout_constraintLeft_toRightOf="@id/mileageInfoBtn"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/mileageTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 M"
+                    android:textSize="@dimen/my_page_tory_point_font_size"
+                    android:textColor="@color/tory_purple"
+                    android:fontFamily="@font/noto_sans_regular"
+                    android:gravity="right|center_vertical"
+                    android:includeFontPadding="false"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginRight="@dimen/my_page_tory_point_text_margin_right"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/desc_transaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_history"
+            android:textSize="@dimen/my_page_tory_point_font_size"
+            android:textColor="@color/tory_purple"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:layout_marginTop="@dimen/mileage_layout_top_margin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mileageLayout"
+            />
+
+        <ImageView
+            android:id="@+id/centerDivider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/tory_purple"
+            app:layout_constraintTop_toBottomOf="@id/desc_transaction"
+            android:layout_marginTop="@dimen/my_page_center_divider_margin_top"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/topListView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/campus_top_list_height"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/centerDivider"
+            android:layout_marginTop="@dimen/mileage_layout_top_margin"
+            tools:listitem="@layout/period_list_item"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/mileage_layout_top_margin"
+            app:layout_constraintTop_toBottomOf="@id/topListView"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/tory_white"
+                tools:listitem="@layout/point_list_item" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/emptyView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mileage_point_transaction_empty"
+                android:textSize="@dimen/my_page_write_item_font_size"
+                android:textColor="@color/tory_gray_03"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="center"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                app:lottie_rawRes="@raw/common_loading_anim"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:layout_constraintWidth_percent="0.2"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

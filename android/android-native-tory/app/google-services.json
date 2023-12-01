@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "913142324444",
+    "project_id": "torymeta",
+    "storage_bucket": "torymeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913142324444:android:411ce44a47f32e102be819",
+        "android_client_info": {
+          "package_name": "com.tnmeta.torymeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913142324444-nd86dfmu29g52i1svfn5bbi51ibqteag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tnmeta.torymeta",
+            "certificate_hash": "7ec1df14f50f6d7193af61b2ba838182ffc43a07"
+          }
+        },
+        {
+          "client_id": "913142324444-phe6fgjnsuv382j8r3rl6pp5e50kc1da.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tnmeta.torymeta",
+            "certificate_hash": "36a654a719aaf97e0b4bb0e6b74419965b7c5ff7"
+          }
+        },
+        {
+          "client_id": "913142324444-4kkpk3nf2jrt77t0v7dnhgapktunnuo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC49TJ_ihjD03w3_-Re3ag8hLvp8dwFe6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913142324444-4kkpk3nf2jrt77t0v7dnhgapktunnuo1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "913142324444-eks3202gsa7u3c8dtkfi9jd7306n0vpm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tnmeta.torymeta-ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

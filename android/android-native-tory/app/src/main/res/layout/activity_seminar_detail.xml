@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seminar.activity.SeminarDetailActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/seminar_create_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:text="@string/seminar_create_message"
+        android:textSize="22sp"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/tory_purple"
+        android:fontFamily="@font/noto_sans_semi_bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="142dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/img_detail_top"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/profile_change_btn_height"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="@dimen/common_padding_horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/seminar_create_title">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_purple_cancel"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/guideline">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="취소"
+                android:textSize="@dimen/profile_change_btn_font_size"
+                android:textColor="@color/tory_purple"
+                android:fontFamily="@font/noto_sans_semi_bold"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/apply"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/profile_change_btn_height"
+            android:background="@drawable/round_apply"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/guideline">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="신청하기"
+                android:textSize="@dimen/profile_change_btn_font_size"
+                android:textColor="@color/tory_white"
+                android:fontFamily="@font/noto_sans_semi_bold"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="@dimen/common_padding_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/button_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/seminar_title_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/icon_seminar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_seminar_title"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_seminar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="세미나 명"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    app:layout_constraintTop_toTopOf="@id/icon_seminar"
+                    app:layout_constraintBottom_toBottomOf="@id/icon_seminar"
+                    app:layout_constraintLeft_toRightOf="@id/icon_seminar"
+                    />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/seminar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text=""
+                    android:fontFamily="@font/noto_sans_regular"
+                    app:layout_constraintStart_toStartOf="@id/txt_seminar_title"
+                    app:layout_constraintTop_toBottomOf="@id/txt_seminar_title"
+                    tools:text="대학의 평생교육체 제지원사업 (LiFE)"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/seminar_desc_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/seminar_title_layout">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/icon_explanation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_explanation"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_seminar_explanation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="세미나 설명"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    app:layout_constraintTop_toTopOf="@id/icon_explanation"
+                    app:layout_constraintBottom_toBottomOf="@id/icon_explanation"
+                    app:layout_constraintLeft_toRightOf="@id/icon_explanation"
+                    />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/seminar_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="30dp"
+                    android:text=""
+                    android:fontFamily="@font/noto_sans_regular"
+                    app:layout_constraintStart_toStartOf="@id/txt_seminar_explanation"
+                    app:layout_constraintTop_toBottomOf="@id/txt_seminar_explanation"
+                    app:layout_constraintRight_toRightOf="parent"
+                    tools:text="대학의 평생교육체제 지원사업(LiFE)은, 대학이 성인 전담의 평생교육체제를구축 및 운영하도록 지원함으로써, 고등학교 졸업 후 사회에 진출한성인학습자들이 원하는 시기에 대학에 입학하여 일과 학업을 병행하며학위 취득 및 지속적인 경력개발을 할 수 있도록 지원합니다."
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/seminar_teacher_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/seminar_desc_layout">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/icon_teacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_teacher"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_seminar_teacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="세미나 강사"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    app:layout_constraintTop_toTopOf="@id/icon_teacher"
+                    app:layout_constraintBottom_toBottomOf="@id/icon_teacher"
+                    app:layout_constraintLeft_toRightOf="@id/icon_teacher"
+                    />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/seminar_teacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text=""
+                    android:fontFamily="@font/noto_sans_regular"
+                    app:layout_constraintStart_toStartOf="@id/txt_seminar_teacher"
+                    app:layout_constraintTop_toBottomOf="@id/txt_seminar_teacher"
+                    tools:text="토리"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/seminar_date_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/seminar_teacher_layout">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/icon_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_date"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_seminar_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="세미나 일정"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    app:layout_constraintTop_toTopOf="@id/icon_date"
+                    app:layout_constraintBottom_toBottomOf="@id/icon_date"
+                    app:layout_constraintLeft_toRightOf="@id/icon_date"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/seminar_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text=""
+                    android:fontFamily="@font/noto_sans_regular"
+                    app:layout_constraintStart_toStartOf="@id/txt_seminar_date"
+                    app:layout_constraintTop_toBottomOf="@id/txt_seminar_date"
+                    tools:text="2023.05.16"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/seminar_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text=""
+                    android:fontFamily="@font/noto_sans_regular"
+                    app:layout_constraintStart_toStartOf="@id/txt_seminar_date"
+                    app:layout_constraintTop_toBottomOf="@id/seminar_day"
+                    tools:text="오전 11:00 - 오후 01.30"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/seminar_personnel_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/seminar_date_layout">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/icon_personnel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon_personnel"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_seminar_personnel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="수강 신청자"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/noto_sans_semi_bold"
+                    app:layout_constraintTop_toTopOf="@id/icon_personnel"
+                    app:layout_constraintBottom_toBottomOf="@id/icon_personnel"
+                    app:layout_constraintLeft_toRightOf="@id/icon_personnel"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="2dp"
+                    android:text="(참여자 / 참여 가능 인원)"
+                    android:fontFamily="@font/noto_sans_regular"
+                    app:layout_constraintTop_toTopOf="@id/txt_seminar_personnel"
+                    app:layout_constraintBottom_toBottomOf="@id/txt_seminar_personnel"
+                    app:layout_constraintLeft_toRightOf="@id/txt_seminar_personnel"
+                    />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/seminar_personnel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text=""
+                    android:fontFamily="@font/noto_sans_regular"
+                    app:layout_constraintStart_toStartOf="@id/txt_seminar_personnel"
+                    app:layout_constraintTop_toBottomOf="@id/txt_seminar_personnel"
+                    tools:text="50 / 100"
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

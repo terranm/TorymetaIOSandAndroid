@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
+    <!-- content -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/common_alert_dialog_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_alert_dialog_bg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <!-- 타이틀 -->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="타이틀"
+            android:textSize="@dimen/common_alert_dialog_title_font_size"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_semi_bold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/common_alert_dialog_padding_vertical"
+            />
+        <!-- 메시지 -->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="메시지"
+            android:textSize="@dimen/common_alert_dialog_message_font_size"
+            android:textColor="@color/tory_black"
+            android:fontFamily="@font/noto_sans_regular"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:layout_marginTop="@dimen/common_alert_dialog_padding_vertical"
+            />
+
+        <!-- 버튼 영역 -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_alert_dialog_button_height"
+            android:layout_marginTop="16dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/message">
+
+            <!-- Top Line -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_line_border"
+                android:background="@color/tory_gray_03"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Button Divider -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/divider"
+                android:layout_width="@dimen/common_line_border"
+                android:layout_height="match_parent"
+                android:background="@color/tory_gray_03"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- 취소 버튼 -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/negativeBtn"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="취소"
+                android:textColor="@color/tory_black"
+                android:textSize="@dimen/common_alert_dialog_button_font_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- 확인 버튼 -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/positiveBtn"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="@font/noto_sans_regular"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="확인"
+                android:textColor="@color/tory_purple"
+                android:textSize="@dimen/common_alert_dialog_button_font_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout><!--content-->
+</androidx.constraintlayout.widget.ConstraintLayout>

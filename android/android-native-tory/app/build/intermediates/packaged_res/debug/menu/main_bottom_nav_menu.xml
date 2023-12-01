@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab_nft"
+        android:enabled="true"
+        android:icon="@drawable/main_nft"
+        android:title="@string/main_tab_nft"/>
+
+    <!--
+    <item
+        android:visible="true"
+        android:id="@+id/tab_campus"
+        android:enabled="true"
+        android:icon="@drawable/main_campus"
+        android:title="@string/main_tab_campus"/>
+    -->
+
+    <item
+        android:id="@+id/placeholder"
+        android:title=""
+        app:showAsAction="never"/>
+
+    <item
+        android:visible="true"
+        android:id="@+id/tab_mymenu"
+        android:enabled="true"
+        android:icon="@drawable/main_mymenu"
+        android:title="@string/main_tab_mymenu"/>
+
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tory_white_alpha_60">#99FFFFFF</color>
+    <color name="tory_white_alpha_90">#E6FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tory_black">#000000</color>
+    <color name="tory_black_20">#33000000</color>
+    <color name="tory_black_30">#AD000000</color>
+    <color name="tory_black_50">#80000000</color>
+    <color name="tory_white">#ffffff</color>
+    <color name="tory_gray_01">#666666</color>
+    <color name="tory_gray_02">#9E9E9E</color>
+    <color name="tory_gray_03">#E6E6E6</color>
+    <color name="tory_gray_04">#D9D9D9</color>
+    <color name="tory_purple">#6C5CE7</color>
+    <color name="tory_purple_30">#AD6C5CE7</color>
+    <color name="main_purple">#6C5CE7</color>
+    <color name="tory_purple_01">#C7C0FC</color>
+    <color name="tory_red">#D44B4B</color>
+    <color name="tory_yellow">#FDCB6E</color>
+    <color name="tory_yellow_ffd053">#FFD053</color>
+    <color name="tory_yellow_fff300">#FFF300</color>
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#808080</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="color_d9d9d9d">#D9D9D9</color>
+    <color name="color_fdcb6e">#FDCB6E</color>
+    <color name="color_e6e6e6">#E6E6E6</color>
+
+    <!-- white -->
+    <color name="color_80ffffff">#80FFFFFF</color>
+    <color name="color_9e9e9e">#9E9E9E</color>
+    <color name="color_b3000000">#B3000000</color>
+    <color name="color_33000000">#33000000</color>
+    <color name="color_80000000">#88000000</color>
+
+    <color name="color_red_ff">#FF0000</color>
+    <color name="color_blue_71">#0071EE</color>
+
+    <color name="line5">#666666</color>
+
+    <color name="gray1">#111111</color>
+    <color name="gray2">#222222</color>
+    <color name="gray3">#333333</color>
+    <color name="gray4">#444444</color>
+    <color name="gray5">#555555</color>
+    <color name="gray6">#666666</color>
+    <color name="gray6_40">#66666666</color>
+    <color name="gray7">#777777</color>
+    <color name="gray8">#888888</color>
+    <color name="gray_de">#dedede</color>
+    <color name="gray9">#bebebe</color>
+    <color name="gray240">#f0f2f5</color>
+    <color name="gray72">#d8d8d8</color>
+
+    <color name="rb_default_fill_color">#2196F3</color>
+    <color name="rb_default_disabled_color">#d8d8d8</color>
+    <color name="rb_darken_color">#10000000</color>
+
+    <color name="sub_purple_1">#9490B4</color>
+    <color name="sub_purple_2">#C7C0FC</color>
+
+    <color name="sub_yellow_1">#FDCB6E</color>
+    <color name="sub_indigo_1">#37424D</color>
+
+    <color name="sub_red_1">#FF0000</color>
+    <color name="sub_red_2">#FD6E6E</color>
+    <color name="sub_red_3">#FF7373</color>
+
+    <color name="color_0066ff">#0066FF</color>
+
+    <color name="color_f8f8fa">#F8F8FA</color>
+
+    <color name="color_4C56EA">#4C56EA</color>
+    <color name="color_3CB6D8">#3CB6D8</color>
+    <color name="color_103771">#103771</color>
+
+    <color name="color_fae7d6">#614c39</color>
+    <color name="color_e79447">#E79447</color>
+    <color name="color_4b555f">#4B555F</color>
+
+    <color name="color_acb9ff">#acb9ff</color>
+    <color name="color_ffe3ac">#ffe3ac</color>
+    <color name="color_ffb6ac">#ffb6ac</color>
+    <color name="color_ace1ff">#ace1ff</color>
+    <color name="color_3c3c3c">#3c3c3c</color>
+
+    <color name="white_50">#80FFFFFF</color>
+    <color name="live_red">#FF3144</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="color_eef1ff">#EEF1FF</color>
+    <color name="color_003477">#003477</color>
+
+    <color name="color_C55B5B">#C55B5B</color>
+    <color name="color_3115a7">#3115a7</color>
+    <color name="color_e75c5c">#E75c5c</color>
+
+
+</resources>

@@ -1,0 +1,578 @@
+[
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/event_ad_page_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_ad_page_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/profile_edit_alert_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/profile_edit_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_friend_invite.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_friend_invite.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_tory_meta_world.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_tory_meta_world.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/network_error_fragment_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/network_error_fragment_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/common_top_bar.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_top_bar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_my_sub_scription.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_my_sub_scription.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/friend_list_friend_cell.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/friend_list_friend_cell.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/onboarding_page_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/onboarding_page_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/bbs_notice_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/bbs_notice_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/common_loading_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_loading_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_chatting_louge_list.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_louge_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_seminar_search.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_search.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_profile.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/seminar_create_select_item_list.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_create_select_item_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/avatar_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/avatar_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/participantsmenu_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/participantsmenu_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/game_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/game_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/my_page_write_page.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_page_write_page.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/tutorial_dialog_info_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tutorial_dialog_info_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_chatting_louge_create.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_louge_create.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/seminar_room_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_room_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_seminar_room_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_seminar_room_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/custom_unity_container.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/custom_unity_container.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/common_buy_alert_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_buy_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_seminar_info_detail.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_info_detail.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_seminar_apply.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_apply.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_modify_seminar.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_modify_seminar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/invite_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/invite_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/tory_talk_friend_list_search_cell.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tory_talk_friend_list_search_cell.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/tory_talk_page.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tory_talk_page.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_notification_setting.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_notification_setting.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/marker_detail_building_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/marker_detail_building_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_campus.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_campus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_create_seminar.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_create_seminar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_friend_search.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_friend_search.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/invite_friends_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/invite_friends_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/my_custom_marker.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_custom_marker.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/my_page_comment_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_page_comment_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/buy_items_bottom_dialog_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/buy_items_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/common_bottom_button_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_bottom_button_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_shop.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_shop.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/event_ad_bottom_dialog_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_ad_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/common_bottom_sheet.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_tory_lounge.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_tory_lounge.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/custom_button_layout.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/custom_button_layout.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_image_collection.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_image_collection.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/my_page_bottom_sheet.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_page_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/participantmenudialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/participantmenudialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/my_open_seminar_item_list.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_open_seminar_item_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/color_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/color_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/seminar_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_tory_transaction_history_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_transaction_history_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/together_dialgo_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/together_dialgo_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/lecture_video_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/lecture_video_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_chatting.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/participants_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/participants_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/university_select_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/university_select_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_tory_charge_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_charge_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/game_bottom_dialog_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/game_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/main_live_seminar_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/main_live_seminar_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/today_serminar_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/today_serminar_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/campus_visit_select_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_visit_select_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_web.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_web.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/my_page_write_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_page_write_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_my_seminar.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_my_seminar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/mileage_point_alert_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/mileage_point_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/friend_list_title_cell.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/friend_list_title_cell.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_push_info.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_push_info.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_splash.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/chatting_lounge_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_lounge_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/shop_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/shop_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_friend_list.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_friend_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/friend_detail_nft_cell.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/friend_detail_nft_cell.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/seminar_alert_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_tory_charge.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_charge.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_unity_character.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_unity_character.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_seminar_detail.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_seminar_detail.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_splash.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_seminar_schedule.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_schedule.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/charge_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/charge_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/campus_board_select_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_board_select_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_my_opened.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_my_opened.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/my_lecture_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_lecture_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/chatting_password_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_password_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_my_lecture_room.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_my_lecture_room.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_mileage_point_transaction_history.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_mileage_point_transaction_history.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/event_ad_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_ad_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/event_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/sort_filter_bottom_dialog_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/sort_filter_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/event_page_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_page_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/event_bottom_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/event_bottom_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/campus_top_menu_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_top_menu_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/wait_message_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/wait_message_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/layout_parent.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/layout_parent.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/common_alert_dialog.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_alert_dialog.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/opened_chatting_lounge_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/opened_chatting_lounge_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_tory_web_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_web_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_participants_list.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_participants_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/point_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/point_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_base.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_base.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_my_page.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_my_page.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/tory_lounge_button.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tory_lounge_button.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/tutorial_dialog_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/tutorial_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_main_base.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_main_base.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_seminar_main.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_seminar_main.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/campus_board_select_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_board_select_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_web.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_web.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/meta_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/meta_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_permission_info.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_permission_info.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/friend_detail_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/friend_detail_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/exoplayer_controller.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/exoplayer_controller.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/seminar_popup.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_popup.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_lecture_login.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_lecture_login.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_university_select.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_university_select.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_onboarding.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_chatting_invite.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_invite.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/marker_detail_person_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/marker_detail_person_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/chatting_lounge_room_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_lounge_room_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_tory_avatar.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_avatar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/roominfo_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/roominfo_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_avatar.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_avatar.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/my_friend_custom_marker.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_friend_custom_marker.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_chatting_lounge_report.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_lounge_report.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_tory_talk.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_tory_talk.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_chatting_lounge.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_chatting_lounge.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/period_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/period_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_campus.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_campus.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/image_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/image_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/seminar_password_bottom_dialog_fragment.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_password_bottom_dialog_fragment.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/chatting_people_board_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_people_board_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/chatting_channel_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/chatting_channel_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_tory_avatar_profile.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_tory_avatar_profile.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_chatting_password.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_chatting_password.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/fragment_main.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_seminar_schedule.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_seminar_schedule.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/campus_visit_select_view.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/campus_visit_select_view.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_video_player.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_video_player.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/seminar_search_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/seminar_search_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/my_subscript_item_list.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/my_subscript_item_list.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/buy_list_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/buy_list_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/university_select_item.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/university_select_item.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/activity_campus_step.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/activity_campus_step.xml"
+    },
+    {
+        "merged": "com.tnmeta.torymeta.app-mergeDebugResources-103:/layout/common_bottom_button_list_sheet.xml",
+        "source": "com.tnmeta.torymeta.app-main-106:/layout/common_bottom_button_list_sheet.xml"
+    }
+]

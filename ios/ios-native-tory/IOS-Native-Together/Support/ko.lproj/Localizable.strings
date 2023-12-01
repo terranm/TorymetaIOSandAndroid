@@ -1,0 +1,665 @@
+/* Network */
+
+// MessangerSocketIo
+"messangerSocketTemopraryError1" = "현재 일시적인 오류가 발생하였습니다. 다시 시도해주세요.[0001]";
+"messangerSocketTemopraryError2" = "현재 일시적인 오류가 발생하였습니다. 다시 시도해주세요.[0002]";
+"messangerSocketTemopraryError3" = "현재 일시적인 오류가 발생하였습니다. 다시 시도해주세요.[0003]";
+"messangerSocketTemopraryError4" = "현재 일시적인 오류가 발생하였습니다. 다시 시도해주세요.[0004]";
+// WDCommonAPI
+"commonAPIAuthError" = "User is not authorized to access this resource with an explicit deny";
+"commonAPITemporaryError" = "현재 일시적인 오류가 발생하였습니다. 이용에 불편을 드려 죄송합니다.[%@]";
+"commonAPIDisconnected" = "현재 기기의 접속 상태가 원활하지 않습니다. 네트워트 연결 상태를 확인바랍니다.";
+"commonAPINotice" = "알림";
+"commonAPIConfirm" = "확인";
+"commonAPIRetry" = "다시 시작하기";
+
+/* Utils */
+
+// LoungeManager
+"loungeManagerSelectAvatar" = "아바타를 선택해주세요.";
+"loungeManagerConfirm" = "확인";
+// SeminarManager
+"seminarManagerEntrance" = "선택하신 세미나실로\n입장 하시겠습니까?";
+"seminarManagerIgnore" = "아니오";
+"seminarManagerConfirm" = "예";
+"seminarManagerReady" = "진행전";
+"seminarManagerInProgress" = "진행중";
+"seminarManagerFinish" = "종료";
+"seminarManagerConfirmed" = "승인완료";
+"seminarManagerDenied" = "반려";
+"seminarManagerPending" = "승인대기";
+"seminarManagerJoin" = "참여하기";
+"seminarManagerRequest" = "신청하기";
+"seminarManagerEnter" = "입장하기";
+"seminarManagerEnterDeniedNotOpen" = "강의 시작 시간부터\n입장 가능합니다.";
+"seminarManagerEnterDeniedClosed" = "세미나가 종료되어\n입장이 불가능합니다.";
+"seminarManagerNotApplied" = "비공개 세미나는\n사전 신청자만 입장 가능합니다.";
+"seminarManagerApplyDeniedClosed" = "세미나가 종료되어\n신청이 불가합니다.";
+"seminarManagerApplySucceedPrivate" = "비공개 세미나 참여\n신청이 완료되었습니다.";
+"seminarManagerApplySucceedPrivateDesc" = "※ [MY세미나] > [신청세미나]\n페이지에서 확인이 가능합니다.";
+"seminarManagerApplySucceed" = "세미나 참여 신청이\n완료되었습니다.";
+"seminarManagerApplySucceedDesc" = "※ 세미나시작 10분 전에 알림을 통해 공지 됩니다.";
+"seminarManagerApplyFailed" = "신청하기 오류가\n발생했습니다.";
+// DateManager
+"dateManagerAM" = "오전 %s:%s";
+"dateManagerAMOclock" = "오전 00:%s";
+"dateManagerPM" = "오후 %d:%s";
+"dateManagerPMOclock" = "오후 12:%s";
+"dateManagerDaysAgo" = "%d일전";
+"dateManagerMonthsAgo" = "%d개월전";
+"dateManagerYearsAgo" = "%d년전";
+// WilldBackgroundView
+"backgroundViewConnect" = "인터넷 연결";
+"backgroundViewOffline" = "오프라인 상태입니다.\n인터넷 연결을 확인하세요.";
+"backgroundViewRetry" = "탭하여 다시 시도";
+// WDBottomModal
+"bottomModalCancel" = "취소";
+
+/* Permission */
+
+"permissionTitle" = "앱 설정";
+"permissionContractInfo" = "친구 목록을 불러오기 위한\n주소록 접근 권한 허용이 필요합니다.\n\n[설정]>토리메타>주소록을\n허용해주세요.";
+"permissionOkButtonText" = "확인";
+"permissionSettingButtonText" = "설정";
+
+/* UI/UnityProvide */
+
+// ChattingLoungePassword
+"chattingLoungePasswordPassword" = "비밀번호";
+"chattingLoungePasswordPasswordInput" = "비밀번호를 입력해주세요.";
+"chattingLoungePasswordPasswordCheck" = "비밀번호를 확인해주세요.";
+"chattingLoungePasswordEntrance" = "입장";
+// ChattingLoungeInviteListViewController
+"chattingLoungeInviteListInviteSend" = "초대하기를 전송하였습니다.";
+"chattingLoungeInviteListTitle" = "토리톡 친구";
+"chattingLoungeInviteListEmptyMessage" = "친구리스트가 없습니다.";
+// ChattingLoungeParticipantsList
+"chattingLoungeParticipantsTitle" = "참여자";
+"chattingLoungeParticipantsOwnerDecoText" = "(방장)";
+"chattingLoungeParticipantsInvite" = "초대하기";
+// ChattingLoungeUserInteractionList
+"chattingLoungeUserInteractionListRequestFriendModalMessage" = "선택한 사용자에게\n친구 요청을 하시겠습니까?";
+"chattingLoungeUserInteractionRequestFriendCancleModalButtonText" = "취소";
+"chattingLoungeUserInteractionRequestFriendOkModalButtonText" = "확인";
+"chattingLoungeUserInteractionRequestFriendOkMessage" = "친구신청이 완료되었습니다.";
+"chattingLoungeUserInteractionRequestFriendFailMessage" = "친구신청이 실패하였습니다.";
+"chattingLoungeUserInteractionDropOut" = "강퇴하기";
+"chattingLoungeUserInteractionDelegateHost" = "방장위임";
+"chattingLoungeUserInteractionSilent" = "침묵";
+"chattingLoungeUserInteractionRequestFriend" = "친구신청";
+"chattingLoungeUserInteractionReport" = "신고하기";
+"chattingLoungeUserInteractionWarn" = "경고";
+// ChattingLoungeChattingList
+"chattingLoungeChattingListTitle" = "개설 채팅방 목록";
+"chattingLoungeChattingListEmptyMessage" = "개설된 채팅방이 없습니다.";
+"chattingLoungeChattingListEntrance" = "입장";
+"chattingLoungeChattingListSelectOptionAll" = "전체";
+"chattingLoungeChattingListSelectOptionParticipate" = "참석가능";
+"chattingLoungeChattingListSelectOptionOpen" = "공개";
+"chattingLoungeChattingListSelectOptionSecret" = "비공개";
+// ChattingLoungeChattingEntrance
+"chattingLoungeChattingEntranceTitle" = "채팅방 개설";
+"chattingLoungeChattingEntranceCreateButtonText" = "방 만들기";
+"chattingLoungeChattingEntranceTitleTitle" = "제       목";
+"chattingLoungeChattingEntranceTitleTitleCreateInputMessage" = "채팅방 개설 제목을 입력해 주세요.";
+"chattingLoungeChattingEntrancePublicOptionOpen" = "공개";
+"chattingLoungeChattingEntrancePublicOptionSecret" = "비공개";
+"chattingLoungeChattingEntrancePublicOptionDisclosure" = "공개여부";
+"chattingLoungeChattingEntrancePublicOptionPasswordNotMachMessage" = "※ 비밀번호가 일치하지 않습니다.";
+"chattingLoungeChattingEntrancePasswordInputPassword" = "비밀번호";
+"chattingLoungeChattingEntrancePasswordInputPasswordPlacholder" = "숫자 6자리 이내";
+"chattingLoungeChattingEntrancePasswordInputPasswordConfirm" = "비밀번호 확인";
+"chattingLoungeChattingEntrancePasswordInputPasswordConfirmPlaceholder" = "비밀번호 확인";
+// ChattingLoungeReport
+"chattingLoungeReportReportCompleteMessage" = "신고가 완료되었습니다.";
+"chattingLoungeReportTitle" = "신고하기";
+"chattingLoungeReportDescription" = "현재 채팅방을 신고하시겠습니까?\n자동으로 관리자에게 전송됩니다.";
+"chattingLoungeReportOptionInfo" = "간단한 신고 사유를 선택해 주세요.";
+"chattingLoungeReportReportButtontText" = "신고하기";
+"chattingLoungeReportHarass" = "괴롭힘";
+"chattingLoungeReportLie" = "사기 / 사칭";
+"chattingLoungeReportHate" = "혐오 / 차별";
+"chattingLoungeReportImproper" = "부적절 콘텐츠";
+
+/* UI/Common */
+
+// ReqPermission
+"requestPermissionTitle" = "앱 접근 권한 안내";
+"requestPermissionDescription" = "토리메타 서비스 사용을 위해 다음 권한의 허용이\n필요합니다.";
+"requestPermissionCompleteButtonText" = "확인";
+"requestPermissionLocationTitle" = "위치";
+"requestPermissionLocationDescription" = "서비스(대학교) 지역 진입 확인 및 내 위치 확인";
+"requestPermissionMicrophoneTitle" = "마이크";
+"requestPermissionMicrophoneDescription" = "동영상 촬영 및 업로드시 접근";
+"requestPermissionHealthTitle" = "신체활동";
+"requestPermissionHealthDescription" = "사용자의 움직임을 측정";
+"requestPermissionCameraTitle" = "카메라";
+"requestPermissionCameraDescription" = "사진 및 동영상 업로드";
+"requestPermissionAddressTitle" = "주소록";
+"requestPermissionAddressDescription" = "토리톡의 친구목록을 불러오기 위한 접근";
+"requestPermissionAlarmTitle" = "알림";
+"requestPermissionAlarmDescription" = "공지사항, 채팅기능 등의 알림을 위한 권한";
+"requestPermissionSelect" = "(선택)";
+"requestPermissionEssential" = "(필수)";
+"requestPermissionFooter" = "· 허용하지 않으셔도 앱 이용은 가능하나, 일부 서비스 이용에 제한이 있을 수 있습니다.\n\n· ‘설정 > 토리메타’에서 각 권한 별 변경이 가능합니다.";
+// CampusSelect
+"campusSelectNavigationTitle" = "학교 선택";
+"campusSelectTitle" = "대학교를\n선택해주세요.";
+"campusSelectSelectInfo" = "대학교 선택";
+"campusSelectCampusName" = "학교선택";
+"campusSelectCompleteButtonText" = "다음";
+// ChattingLoadingViewController
+"chattingLoadingWaitConfirm" = "승인 대기 중 입니다.";
+"chattingLoadingOut" = "나가기";
+
+// MyState
+"myStateLocationOpenMessage" = "내 위치를 공유하였습니다.";
+"myStateLocationSecretMessage" = "내 위치 공유를 해제 하였습니다.";
+// FriendState
+"friendStateNFTListTitle" = "최근 등록된 NFT 리스트";
+"friendStateNFTListEmptyMessage" = "NFT 컬랙션 리스트가 없습니다.";
+"friendStateCallButtonText" = "전화하기";
+"friendStateLocationOpenMessage" = "내 위치를 공유하였습니다.";
+"friendStateLocationSecretMessage" = "내 위치 공유를 해제 하였습니다.";
+// BoardSelct
+"boardSelectTitle" = "우리끼리";
+"boardSelectToryMarket" = "토리마켓";
+"boardSelectWe" = "모임해요";
+"boardSelectTalk" = "수다세상";
+"boardSelectHelp" = "도와주세요";
+// CampusPlayModal
+"campusPlayTitle" = "학교를 선택하세요";
+// StepUpBanner
+"stepUpBannerCloseButtonText" = "닫기";
+// MypageIntroduceBanner
+"mypageIntroduceBannerDontWatchAgain" = "다시 보지 않기";
+
+/* UI/Splash */
+
+// SplashViewController
+"splashErrorTitle" = "앱 오류";
+"splashErrorMessage" = "현재 일시적인 오류가 발생하였습니다. 이용에 불편을 드려 죄송합니다.[FCM_TOKEN]";
+"splashRestartMessage" = "다시 시작하기";
+"splashNotifyTitle" = "알림";
+"recommendUpdateMessage" = "앱을 업데이트 하겠습니까?";
+"recommendUpdateIgnore" = "아니요";
+"recommendUpdateConfirm" = "네";
+"forcedUpdateMessage" = "앱을 업데이트 해야 됩니다.";
+"forcedUpdateConfirm" = "업데이트";
+
+/* UI/OnBoarding */
+
+"onBoardingStartButtonText" = "시작하기";
+"onBoardingIntro1BordTitle" = "개성을 담은 아바타";
+"onBoardingIntro1Title" = "개성을 표현하는 다양한 아바타";
+"onBoardingIntro2BordTitle" = "메타캠퍼스 토리 라운지";
+"onBoardingIntro2Title" = "다양한 콘텐츠 메타캠퍼스";
+"onBoardingIntro2Description" = "끝없이 이어지는 새로운 이야기\n";
+"onBoardingIntro3BordTitle" = "자유로운 소통 공간";
+"onBoardingIntro3Title" = "채팅라운지";
+"onBoardingIntro3Description" = "친구들과 즐겁게 메타버스에서 함께하는 채팅\n";
+
+/* UI/Main */
+
+// Common
+"entrance" = "입장하기";
+// NewMainViewController
+"appSettings" = "앱 설정";
+"locationGrant" = "캠퍼스내의 위치를 허용하시면,\n서비스(대학교)지역 진입확인\n및 내 위치 확인 시 필요한 정보입니다.\n위치 권한을 활성화 해주세요.";
+"appSettingNagativeButtonText" = "확인";
+"openSetting" = "설정열기";
+"noOpenedSeminar" = "현재 진행 중인 세미나가 없습니다.";
+"selectAvatar" = "아바타를 선택해주세요.";
+"confirm" = "확인";
+"stepUpTitle" = "캠퍼스 뚜벅이";
+"liveSeminar" = "LIVE 세미나";
+"recommendMeta" = "추천메타";
+"event" = "이벤트";
+"twoDimensionCampusNFT" = "2D 캠퍼스 & NFT";
+"chattingLoungeEmptyMessage" = "개설된 채팅방이 없습니다.";
+"chattingLoungeSectionHeaderTitle" = "채팅 라운지";
+// NewMainViewModel
+"locateGrantDesc" = "위치기반 캠퍼스에서\n친구들과 함께 즐겨보세요";
+"visit" = "방문하기";
+"visitDesc" = "나의 작품을 판매하고\n작품을 구매해보세요";
+// NewMainNameChangeViewController
+"modifyProfileName" = "프로필명 변경";
+"nameWarnMessage" = "한글, 숫자, 영문 포함 8자 이내로 입력해주세요.";
+"modify" = "변경";
+"insertNameAgain" = "프로필명을 다시 입력해 주세요.";
+"sucessModifyName" = "프로필명 변경이 완료되었습니다.";
+"failureModifyName" = "프로필명 변경을 실패하였습니다.\n다시 시도해 주세요.";
+// NewMainBannerCollectionViewCell
+"welcomeToryMetaMessage" = "토리메타의 방문을\n진심으로 환영합니다.";
+"makeAvatoryMessage" = "아래의 + 아이콘을 터치해서 나만의 아바토리를 만들어보세요.";
+// LiveSeminarCollectionViewCell
+"seminarInProgress" = "진행중";
+"joinSeminar" = "참여하기";
+// ChattingLoungeCollectionViewCell
+"chattingLoungeEntrance" = "입장";
+// EventCollectionViewCell
+"createSeminar" = "세미나 개설하기";
+"seminarDesc" = "다양한 세미나를 통해 지식 쌓기!";
+"openSeminar" = "개설하기";
+// TTCCurriculumListTableViewCell
+"ttcLectureDesc" = "온라인 강의실\n학교별 강의도 토리메타에서";
+"ttcLectureEntrance" = "입장하기";
+
+/* UI/Seminar */
+
+// SeminarSearchViewController
+"seminarSearchTitle" = "검색";
+"seminarSearchDesc" = "세미나를 검색해 주세요.";
+"seminarSearchNoResult" = "검색 결과가 없습니다.";
+// SeminarSearchTableViewCell
+"seminarSearchInsertKeyword" = "검색어를 입력하세요.";
+// SeminarSearchTitleTableView
+"seminarSearchResultTitle" = "검색결과";
+"seminarSearchResultCount" = "조회 %d건";
+// SeminarSearchItemTableViewCell
+"seminarSearchJoin" = "참여하기";
+// CreateSeminarRoomViewController
+"createSeminarRoom" = "세미나실 개설";
+"createSeminarSuccess" = "세미나 개설 신청이\n완료되었습니다.";
+"createSeminarSuccessDesc" = "※자료 검토 후 개설 여부가 결정됩니다.\n※개설 접수 정보는 [세미나 개설방]에서\n확인이 가능합니다.";
+"createSeminarConfirm" = "확인";
+"createSeminarUpdateSuccess" = "수정이\n완료 되었습니다.";
+"createSeminarAlertTitle" = "알림";
+"createSeminarError" = "일시적인 오류가 발생했습니다.\n다시 시도해주세요.";
+"createSeminarModifyAlertTitle" = "정보를 수정\n하시겠습니까?";
+"createSeminarModifyConfirm" = "예";
+"createSeminarRequiredAlert" = "필수 입력 값을 채워주세요.";
+"createSeminarCancel" = "세미나 개설 신청을\n취소 하시겠습니까?";
+"createSeminarIgnore" = "아니오";
+"createSeminarOutDesc" = "지금 페이지를 나가시면 수정한\n내용은 저장되지 않습니다.";
+"createSeminarClose" = "닫기";
+"createSeminarModify" = "수정하기";
+"createSeminarTitle" = "세미나 제목";
+"createSeminarInsertTitle" = "세미나 제목을 입력하세요.";
+"createSeminarDesc" = "세미나 소개글";
+"createSeminarInsertDesc" = "세미나 소개글을 입력하세요.";
+"createSeminarOption" = " (선택)";
+"createSeminarSelectSeminar" = "세미나실을 선택해 주세요.";
+"createSeminarInvalidConformMessage" = "확인";
+"createSeminarTodayInvalidMessage" = "오늘 날짜 또는 이후 날짜로\n설정해 주시기 바랍니다.";
+"createSeminarStartTimeInvalidMessage" = "종료시간 이전으로 설정해 주시기 바랍니다.";
+"createSeminarEndTimeInvalidMessage" = "시작 시간 이후로 설정해 주시기 바랍니다.";
+// CreateSeminarRoomViewModel
+"createSeminarOpen" = "개설하기";
+// CreateRoomSelectSeminarRoomSelectTableViewCell
+"seminarRoomSelect" = "세미나실 선택";
+"seminarRoomSelectRequired" = " (필수)";
+"seminarRoomSelectAll" = "전체";
+"seminarRoomSmall" = "소형";
+"seminarRoomAdmit18" = " (18인)";
+"seminarRoomMiddle" = "중형";
+"seminarRoomAdmit32" = " (32인)";
+"seminarRoomLarge" = "대형";
+"seminarRoomAdmit50" = " (50인)";
+"seminarRoomCount" = "세미나실 수";
+"seminarRoomAvailableAdmitDesc" = "1개 세미나실 입장 가능 인원";
+"seminarRoomAvailableTotalAdmit" = "총 참여 가능 인원";
+"seminarRoomAvailableTotalAdmitDesc" = "*최대 참여 가능 인원: 200명\n*세미나 정보 수정이 필요한 경우, [MY 세미나] > [세미나 개설방]에서\n 개별 수정해 주세요.";
+// CreateRoomInputTableViewCell
+"createRoomInputInsertTitle" = "세미나 제목을 입력하세요.";
+// CreateRoomScheduleTableViewCell
+"createRoomScheduleOtherSettings" = "기타 설정";
+"createRoomScheduleStartSeminar" = "세미나 시작";
+"createRoomScheduleEndSeminar" = "세미나 종료";
+"createRoomSchedule1daySetting" = "※ 1Day 설정";
+// CreateRoomURLPathTableViewCell
+"createRoomURLMovieURL" = "동영상 URL";
+"createRoomURLOptional" = " (선택)";
+"createRoomURLInsertURL" = "URL 경로를 입력해주세요.";
+"createRoomURLInsertURLDesc" = "※ mp4 파일을 변환한 URL만 등록가능합니다.";
+// CreateRoomOtherSettingTableViewCell
+"createRoomOtherOnOff" = "세미나 공개 On/Off";
+// CreateRoomFixTableViewCell
+"createRoomFixTeacherName" = "강사 이름";
+// SeminarScheduleDetailViewController
+"seminarScheduleDetailEntrance" = "세미나 입장";
+// SeminarScheduleDetailViewModel
+"seminarScheduleDetailSeminarName" = "세미나 명";
+"seminarScheduleDetailSeminarDesc" = "세미나 설명";
+"seminarScheduleDetailTeacherName" = "강사명";
+"seminarScheduleDetailSeminarPlan" = "세미나 일정";
+"seminarScheduleDetailApply" = "수강 신청자";
+"seminarScheduleDetailAdmitDesc" = "신청자 / 참여 가능 인원";
+// SeminarPwModal
+"seminarPasswordInsertPasswordTitle" = "[비공개 세미나] 비밀번호 입력";
+"seminarPasswordInsertPassword" = "비밀번호";
+"seminarPasswordInsertPasswordDesc" = "비밀번호를 입력해주세요";
+"seminarPasswordCheck" = "비밀번호 확인";
+"seminarPasswordInsertAgain" = "비밀번호 재입력";
+"seminarPasswordConfirm" = "확인";
+"seminarPasswordAlert" = "알림";
+"seminarPasswordWrongMessage" = "비밀번호가 틀렸습니다. 다시 확인해 주세요.";
+// SeminarPagerViewController
+"seminarPagerTitle" = "MY 세미나";
+// ApplySeminarViewController
+"seminarPagerNotExist" = "신청한 세미나 일정이 없습니다.";
+"seminarPagerPasswordCopied" = "비밀번호가 복사되었습니다.";
+"seminarPagerApplySeminar" = "신청 세미나";
+// ApplySeminarItemTableViewCell
+"applySeminarItemPasswordDesc" = "신청후 비밀번호는 바로 노출 되는 곳입니다.";
+"applySeminarItemShowDetail" = "상세정보 보기";
+"applySeminarItemEntrance" = "세미나 입장";
+"applySeminarItemEntranceDesc" = "신청후 비밀번호는 바로 노출 되는 곳입니다.";
+// CreateSeminarViewController
+"createSeminarViewDesc" = "관련 세미나가 존재하지 않습니다.\n직접 세미나를 개설해 보세요.";
+"createSeminarViewDelete" = "개설된 세미나를\n삭제 하시겠습니까?";
+"seminarSearchInsertConfirm" = "예";
+"seminarSearchInsertIgnore" = "아니오";
+"seminarSearchClosed" = "세미나가 종료되어\n입장이 불가능합니다.";
+"seminarSearchConfirm" = "확인";
+"seminarSearchEntranceDesc" = "선택하신 세미나실로\n입장 하시겠습니까?";
+"seminarSearchSelectAvatar" = "아바타를 선택해주세요.";
+"seminarSearchOpenSeminar" = "세미나 개설방";
+// CreateSeminarItemTableViewCell
+"createSeminarItemModifyInfo" = "정보 수정";
+"createSeminarItemEntrance" = "입장하기";
+// SeminarCountTableViewCell
+"seminarCountAll" = "전체";
+// ParticipateSeminarViewModel
+"participateSeminarName" = "세미나 명";
+"participateSeminarDesc" = "세미나 설명";
+"participateSeminarTeacher" = "강사명";
+"participateSeminarPlan" = "세미나 일정";
+"participateSeminarAudience" = "수강 신청자";
+"participateSeminarAdmit" = "신청자 / 참여 가능 인원";
+// ParticipateSeminarHeaderTableViewCell
+"participateSeminarJoinApply" = "해당 세미나에\n참여신청 하시겠습니까?";
+"participateSeminarApply" = "신청하기";
+"participateSeminarJoin" = "해당 세미나에\n참여하시겠습니까?";
+"participateSeminarApplyIt" = "해당 세미나에\n신청하시겠습니까?";
+"participateSeminarEntrance" = "내가 개설한 세미나에\n입장하시겠습니까?";
+// SigleCalendarViewController
+"sigleCalendarTitle" = "일정";
+"sigleCalendarNoPlan" = "세미나 일정이 없습니다.";
+"sigleCalendarToday" = "오늘";
+"sigleCalendarFinish" = "종료";
+"sigleCalendarPlan" = "예정";
+// SeminarMainVerticalViewController
+"seminarMainTitle" = "세미나 센터";
+"seminarMainNoPlanToday" = "오늘은 세미나 일정이 없습니다.";
+// TagRoomCollectionViewCell
+"tagRoomJoin" = "참여하기";
+// SeminarMainFilterView
+"seminarMainFilterAll" = "전체";
+"seminarMainFilterInProgress" = "진행중";
+"seminarMainFilterBeforeProgress" = "진행전";
+"seminarMainFilterFinish" = "종료";
+
+/* ChattingLounge */
+
+// ChattingLoungeDetailTableViewCell
+"chattingLoungeDetailEntrance" = "입장";
+// ChattingLoungeDetailOptionView
+"chattingLoungeDetailOptionAll" = "전체";
+"chattingLoungeDetailOptionPubic" = "공개";
+"chattingLoungeDetailOptionPrivate" = "비공개";
+// ChattingLoungeDetailViewController
+"chattingLoungeDetailList" = "채팅방 목록";
+"chattingLoungeNoChatRoom" = "개설된 채팅방이 없습니다.";
+
+/* UI/Metaverse */
+
+// NewMainCollectionViewSectionHeader
+"mainCollectionMore" = "더보기";
+// SeminarCollectionViewCell
+"seminarCollectionJoin" = "참여하기";
+// SeminarVoiceViewController
+"seminarVoiceMessage" = "소리를 듣고 있어요.";
+// SeminarSearchCollectionViewCell
+"seminarSearchInsertKeyword" = "검색어를 입력하세요.";
+
+/* UI/AvatarDeco */
+
+// AvatarDecoViewModel
+"decoHair" = "헤어";
+"decoCoordi" = "꾸미기";
+"decoTop" = "상의";
+"decoBottom" = "하의";
+"decoShoes" = "신발";
+"decoSortDefault" = "기본정렬";
+"decoSortPopular" = "인기순";
+"decoSortHigherPrice" = "높은가격순";
+"decoSortLowerPrice" = "낮은가격순";
+// DecoControllerView
+"decoPurchase" = "현재 착용한 아이템을\n구매하시겠습니까?\n\n";
+"decoPurchaseMileageFailure" = "아이템 구매 실패";
+"decoPurchaseInsufficient" = "결제 비용이 초과 되었습니다.\n";
+"decoPurchaseExtra" = "\n추가 결제 후 구매하시겠습니까?";
+"decoPurchaseFailure" = "코인 결재 실패";
+"decoSave" = "현재 착용한 아이템으로\n아바타가 변경됩니다.\n\n아바타 의상을 저장하시겠습니까?";
+"decoSettingCancel" = "아바타 설정을 취소하시겠습니까?";
+"decoCancel" = "취소";
+"decoConfirm" = "확인";
+// DecoSortingListViewController
+"decoSortingTitle" = "정렬";
+
+/* UI/Campus */
+
+// CampusViewController
+"campusEnableShareLocation" = "내 위치를 공유하였습니다";
+"campusDisableShareLocation" = "내 위치 공유를 해제 하였습니다.";
+"campusOut" = "캠퍼스를 나가시겠습니까?";
+"campusOutYes" = "예";
+"campusOutNo" = "아니오";
+// CampusTopIndicatorView
+"campusToryTalk" = "토리톡";
+"campusOurParty" = "우리끼리";
+"campusTodayLunch" = "오늘의 학식";
+"campusInnerEvent" = "교내행사";
+"campusOuterEvent" = "이벤트";
+"campusTraveler" = "뚜벅이";
+"campusSelectSchool" = "학교선택";
+// NewBoardSelectModal
+"newBoardToryMarket" = "토리마켓";
+"newBoardTalkWorld" = "수다세상";
+"newBoardParty" = "모임해요";
+"newBoardHelp" = "도와주세요";
+
+/* UI/StepUp */
+
+// StepUpViewController
+"stepUpNavTitle" = "캠퍼스 뚜벅이";
+"stepUpAppSettings" = "앱 설정";
+"stepUpConfirmDesc" = "캠퍼스 뚜벅이 서비스에서 사용자의 걸음 수 정보를\n제공하기 위해 활용합니다.\n캠퍼스뚜벅이 사용하려면\n권한을 허용해야 합니다.\n\n[설정]>토리메타>동작 및\n피트니스를 허용해주세요.";
+"stepUpAlertOptConfirm" = "확인";
+"stepUpAlertOptSetting" = "설정";
+"stepUpConfirmFitness" = "캠퍼스뚜벅이 사용하려면\n동작 및 위치 권한을 허용해야 합니다.\n\n[설정]>토리메타>동작 및\n피트니스, 위치를 허용해주세요.";
+"stepUpIncompleteSteps" = "아직 걸음 수를\n채우지 못했습니다.";
+"stepUpServeMileageDesc" = "걸음 수 보상으로\n%dM를 획득하였습니다.";
+"stepUpServeMileage" = "마일리지 지급";
+// StepPayTableViewCell
+"stepPaySteps" = " 걸음";
+"stepPayRecieved" = "M 받음";
+"stepPayRecieving" = "M 받기";
+// StepHeaderTableViewCell
+"stepHeaderInsideCampus" = "캠퍼스 내부";
+"stepHeaderOutsideCampus" = "캠퍼스 외부";
+"stepHeaderCurrentSteps" = "현재 걸음 수";
+
+/* UI/ToryTalk */
+
+// FriendPagerViewController
+"friendPagerNavTitle" = "토리톡";
+// FriendContext
+"friendContextNew" = "새로운 친구";
+"friendContextRequest" = "친구 요청 목록";
+"friendContextIntCampus" = "캠퍼스에 있는 친구들";
+"friendContextUnknownLoc" = "위치를 알 수 없는 친구들";
+"friendContextBlocked" = "차단한 친구들";
+"friendContextNoNew" = "새로운 친구 목록이 없습니다.";
+"friendContextNoReqeust" = "친구 요청 목록이 없습니다.";
+"friendContextNoInCampu" = "캠퍼스에 친구 목록이 없습니다.";
+"friendContextNoInUknowLoc" = "위치를 알 수 없는 친구 목록이 없습니다.";
+"friendContextNoInBlock" = "차단한 친구 목록이 없습니다.";
+// FriendInfoTableViewCell
+"friendInfoUnblock" = "차단 해제";
+"friendInfoUnblockDesc" = "“%s” 친구를 차단해제하면\n친구목록으로 이동합니다.\n해제하시겠습니까?";
+"friendInfoUnlockConfirm" = "해제";
+"friendInfoRequest" = "친구요청";
+"friendInfoRequestDone" = "요청완료";
+"friendInfoRequestConfirm" = "수락";
+"friendInfoRequestInvite" = "친구초대";
+"friendInfoRequestRemove" = "삭제";
+"friendInfoRequestRemoveFriend" = "대화상대 삭제";
+"friendInfoRequestRemoveFriendDesc" = "“%s” 친구를 삭제하면\n해당 친구 목록에서 내 정보도\n삭제됩니다.";
+"friendInfoRequestBlock" = "차단";
+"friendInfoRequestBlockFriend" = "대화상대 차단";
+"friendInfoRequestBlockFriendDesc" = "“%s” 친구를 차단하면\n메세지 전송 및 내 위치가 공유되지\n않습니다. 차단하시겠습니까?";
+// ChatListViewController
+"friendPagerUnknownCommunicator" = "알 수 없는 대화 상대";
+"friendPagerChatOut" = "채팅방 나가기";
+"friendPagerChatOutDesc" = "나가기를 하면 대화내용이 모두\n삭제되며, 채팅목록에서 삭제됩니다.";
+"friendPagerChatOutCancel" = "취소";
+"friendPagerChatOutConfirm" = "나가기";
+"friendPagerChatList" = "채팅목록";
+// ChattingViewController2
+"chattingViewInsertMessage" = "메세지를 입력해주세요.";
+"chattingViewInviteFriend" = "친구초대";
+"chattingViewReport" = "신고하기";
+"chattingViewOut" = "채팅방 나가기";
+"chattingViewOutDesc" = "나가기를 하면 대화내용이 모두\n삭제되며, 채팅목록에서 삭제됩니다.";
+"chattingViewOutCancel" = "취소";
+"chattingViewOutConfirm" = "나가기";
+// ChattingViewModel2
+"chattingViewInvited" = "님이 초대 되었습니다.";
+"chattingViewParticipantOut" = "이 나갔습니다.";
+"chattingViewInvite" = "을 초대했습니다.";
+// FriendSearchViewController
+"friendSearchTitle" = "친구 검색";
+"friendSearchDesc" = "친구를 검색해 보세요.";
+"friendSearchNoResult" = "검색 결과가 없습니다.";
+// ChatInviteFriendViewController
+"chatInviteConfirm" = "확인";
+// ChatChannelMemberViewController
+"chatInviteFriend" = "친구초대";
+"chatChannelGourpMemberCount" = "그룹채팅 (%d명)";
+// FriendInfoInputView
+"friendInfoInputDesc" = "친구 프로필명 또는 휴대폰번호를 입력하세요";
+"friendInfoInputNewFriend" = "새로운 친구";
+"friendInfoInputRequestList" = "친구 요청 목록";
+"friendInfoInputInCampus" = "캠퍼스에 있는 친구들";
+"friendInfoInputUnknownLocate" = "위치를 알 수 없는 친구들";
+"friendInfoInputBlocked" = "차단 친구들";
+
+/* UI/MyPage */
+
+// MypageViewController
+"myPageUnivUnauthorized" = "대학교 미인증";
+"myPageSelectUniv" = "학교 선택";
+"myPageTransactionHistory" = "거래내역";
+"myPageChargeHistory" = "충전내역";
+"myPageUpdateProfile" = "프로필 변경";
+"myPageWhatIsTory" = "토리란?";
+"myPageWhatIsToryDesc" = "토리메타에서 상품 구매에 이용할 수 있는\n미리 예치한 현금성 금액입니다.\n(유효기간: 충전 후 5년)";
+"myPageWhatIsMileage" = "마일리지란?";
+"myPageWhatIsMileageDesc" = "토리메타에 이벤트,미션을 수행하여 무료\n지급받은 금액입니다.\n(환불불가 / 유효기간: 지급일로부터 1년)";
+"myPageNavTitle" = "마이페이지";
+// TransactionHistoryTableViewCell
+"transactionHistoryInduct" = "적립 %d";
+"transactionHistoryDeduct" = "차감 %d";
+"transactionHistoryExpDate" = "유효기간 %s";
+// ToryPointPagerViewController
+"toryPointChargeHistory" = "토리 내역";
+"toryPointBalance" = "보유 토리";
+"toryPointCharge" = "토리 충전";
+// ToryChargingHistoryViewController
+"toryPointNoChargeHistory" = "토리포인트 충전내역이 없습니다.";
+// ToryChargingHistoryViewModel
+"toryChargingHistoryOneWeek" = "1주일";
+"toryChargingHistoryOneMonth" = "1개월";
+"toryChargingHistorySixMonths" = "6개월";
+"toryChargingHistoryOneYear" = "1년";
+"toryChargingHistoryAll" = "전체";
+// ToryTransactionHistoryViewController
+"toryTransactionNoHistory" = "토리포인트 거래내역이 없습니다.";
+"toryTransactionHistory" = "마일리지 내역";
+// MileageTransactionHistoryViewController
+"mileageBalance" = "보유 마일리지";
+"mileageTransactionHistory" = "거래내역";
+"mileageNoTransactionHistory" = "마일리지 거래내역이 없습니다.";
+"mileageWhatIs" = "마일리지란?";
+"mileageWhatIsDesc" = "토리메타에 이벤트,미션을 수행하여 무료\n지급받은 금액입니다.\n(환불불가 / 유효기간: 지급일로부터 1년)";
+// PointChargeViewModel
+"tory" = " 토리";
+// PointChargeHeaderView
+"pointChargeToryBalance" = "보유토리";
+"pointChargeCash" = "충전 캐시";
+"pointChargePayPrice" = "결제 금액";
+// PointChargeFooterViewCell
+"pointChargeGuide" = "이용안내";
+"pointChargeGiudeDesc" = "· 토리 유효기간은 충전 후 5년입니다.\n· APP에서 충전한 토리는 APPLE 고객센터에서환불 가능합니다.\n· 토리를 이용한 후, 환불시에는 토리메타 고객센터로 문의바랍니다.";
+// ProfileChangeViewController
+"profileChangeTitle" = "프로필 변경";
+"profileChangeCamera" = "카메라";
+"profileChangeAppSettings" = "앱 설정";
+"profileChangeAppSettingsDesc" = "채팅방 내 화상 채팅 기능 및 프로필, NFT 사진 및 게시글 등록시 카메라 접근 권한 허용이 필요합니다.\n\n[설정]>토리메타>카메라를허용해주세요.";
+"profileChangeSettings" = "설정";
+"profileChangeConfirm" = "확인";
+"profileChangeAlbumn" = "앨범에서 사진";
+"profileChangeNFTPic" = "NFT 컬렉션 사진";
+"profileChangeDefaultProfile" = "기본 프로필";
+"profileChangeCancel" = "취소";
+// WilldImagePickerViewController
+"imagePickerNoPic" = "선택할 사진이 없습니다.";
+"imagePickerNFTPic" = "NFT 컬렉션 사진";
+"imagePickerDefaultProfile" = "기본프로필";
+// LoginAlarmSettingViewController
+"loginAlarmLoginSettings" = "로그인 설정";
+"loginAlarmAutoLogin" = "자동로그인";
+"loginAlarmEventNoti" = "이벤트 및 혜택 수신 설정";
+"loginAlarmPushSetting" = "APP PUSH";
+"loginAlarmEmailMMS" = "E-mail / 문자";
+"loginAlarmActiveAutoLogin" = "자동로그인이 설정되었습니다.";
+"loginAlarmDeactiveAutoLogin" = "자동로그인이 해제되었습니다.";
+"loginAlarmActiveDesc" = "%s\n광고성 푸시알림 수신여부가\n동의 처리 되었습니다.";
+"loginAlarmDeactiveDesc" = "%s\n광고성 푸시알림 수신여부가\n거부 처리 되었습니다.";
+"loginAlarmAgreeDesc" = "%s\n광고성 이메일 / 문자 수신여부가\n동의 처리 되었습니다.";
+"loginAlarmDisagreeDesc" = "%s\n광고성 이메일 / 문자 수신여부가\n거부 처리 되었습니다.";
+// PointInfoView
+"pointInfoHistory" = "내역 확인";
+"pointInfoTotalTory" = "총 토리";
+"pointInfoTotalMileage" = "총 마일리지";
+// MyWriteViewController
+"myWriteNoPost" = "아직 작성한 글이 없습니다.";
+"myWriteMine" = "내가 쓴 글";
+// MyCommentViewController
+"myCommentMyReply" = "내가 쓴 댓글";
+// MyCommentTableViewCell
+"myWriteOutParty" = "우리끼리";
+"myWriteToryMark" = "토리마켓";
+"myWriteParty" = "모임해요";
+"myWriteHelp" = "도와주세요";
+"myWriteTalkWorld" = "수다세상";
+
+/* UI/WebView */
+
+// CommonWebViewController
+"commonWebNetworkError" = "네트워크 연결 상태를 확인해 주세요";
+"commonWebNotifySetting" = "알림 / 설정";
+"commonWebAuthorize" = "본인인증";
+
+/* UI/TTCLecture */
+
+// TTCLoginViewController
+"ttcLoginTitle" = "교내어학특강 계정 통합 인증";
+"ttcLoginSubmit" = "인증하기";
+"ttcLoginDesc" = "※ 최초 1회에 한하여 본인 인증이 필요하며 교내 어학 특강 계정을 사용하시기 바랍니다.";
+// TTCUniversityAuthInfoView
+"ttcLoginPasswordPlaceholder" = "영문, 숫자, 특수문자 조합 8자리 이상";
+"ttcLoginID" = "아이디";
+"ttcLoginPassword" = "비밀번호";
+// TTCCurriculumListViewController
+"curriculumTitle" = "나의 강의실";
+// TTCLectureViewController
+"lectureListTitle" = "강의 리스트";
+"lectureSubject" = "과목명:";
+// TTCLecturePlayerView
+"lectureListDesc" = "※ 위 영상은 저작권법에 의거하여 무단으로 캡쳐, 녹화, 배포를 금지하며 위반시 법적 제재를 받을 수 있습니다.";
+// TTCLectureProgressView
+"lectureAttendance" = "진도율";
+"lectureProgress" = "출석률";
